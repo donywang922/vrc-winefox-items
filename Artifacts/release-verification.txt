@@ -1,0 +1,5 @@
+PASS: 72 exported files exactly match installed assets.
+PASS: original expression parameter policy: Item Int + TriggerInput Bool, both synced/saved, 9 bits total and 0 extra bits; no extra debug parameters/layer.
+PASS: native cannon, hidden mesh, original menus, staff reset clips and required FX-mask build plugin are included.
+PASS: no source avatar, tester, raw source mesh, old world reference or experimental variants in release.
+Package SHA256: ce96b67914614f2fea1df288304638f504e0415583e0420487f7c70884a7414a

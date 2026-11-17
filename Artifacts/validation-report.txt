@@ -1,0 +1,13 @@
+PASS: prefab is independent of source avatar, standalone item FBX, tester and custom runtime scripts.
+PASS: item-layer transition durations match source, including mechanical arm 0.1 s and staff 0.25 s open/close blends.
+Animation bindings: 1262 checked; all paths, components and blendshapes resolve.
+PASS: saved menus match source order, names, control types, values and icon SHA-256 hashes (main/items/food = 2/7/5 controls).
+PASS: compiled tester menu preserves the original 物品 / 食品 entries, 11 item selections, toggle trigger and original icons.
+PASS: compiled item expression parameters exactly match source policy: Item Int (8 bits), TriggerInput Bool (1 bit), both saved/default 0/network-synced; total item cost=9 bits, extra cost=0. Fruit/Hit/Eating/Bonk remain animator-only; no debug parameters or extra Food input layer.
+PASS: NDMF/MA build on tester; humanoid RightHand attachment; merged menu and FX. Total tester expression cost=33 bits.
+Animation bindings: 1263 checked; all paths, components and blendshapes resolve.
+PASS: playable FX switches all 11 item selections on compiled tester.
+PASS: mechanical arm open/release transitions.
+PASS: physical staff open/release transitions.
+PASS: staged food consumption and cannon firing transition.
+PASS: Bone Proxy stores humanoid RightHand with no skeleton-name subpath.

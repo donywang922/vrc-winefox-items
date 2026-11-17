@@ -1,0 +1,5 @@
+Rebuilt zero-size basis for 29 selection regions, including 32 two-bone beam triangles; maximum fully-visible vertex error=2.328306E-10
+Retained one renderer, 7130 vertices, 4272 triangles and all 35 blendshape names/order. Inactive triangles are degenerate instead of 1% size.
+Reloaded serialized mesh: every hidden bind-space triangle has coincident vertices.
+Cannon ItemRoot: native VRCParentConstraint -> prefab-local CannonMuzzleAnchor, zero source offsets; FreezeToWorld animated for each shot.
+Removed original world-reference hierarchy and absolute scene offsets. Empty hand disables renderer; projectile scale is exactly zero outside flight/shatter.

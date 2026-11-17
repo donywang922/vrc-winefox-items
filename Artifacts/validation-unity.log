@@ -1,0 +1,1253 @@
+[Licensing::Module] Trying to connect to existing licensing client channel...
+[Licensing::IpcConnector] Successfully connected to the License Client on channel: "LicenseClient-donyw" at "2026-11-17T06:46:32.0046942Z"
+[Licensing::Client] Error: Code 10 while verifying Licensing Client signature (process Id: 14840, path: "C:/Program Files/WindowsApps/UnityTechnologies.UnityHub_4.0.1.65535_x64__2vrhnee42bhxm/app/UnityLicensingClient_V1/Unity.Licensing.Client.exe")
+[Licensing::Module] Error: LicensingClient has failed validation; ignoring
+[Licensing::Client] Handshaking with LicensingClient:
+  Version:                 1.19.0+4cc3dda
+  Session Id:              1f143e375c11485b95016d81c6e789d1
+  Correlation Id:          7f5746790b93777f3500afe5bb0e283a
+  External correlation Id: 7723442056420599467
+  Machine Id:              U5f9rJoGGTS0D/9HRmGcCM8CBBc=
+[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-donyw" (connect: 0.00s, validation: 0.01s, handshake: 0.06s)
+[Licensing::IpcConnector] Successfully connected to the License Notification on channel: "LicenseClient-donyw-notifications" at "2026-11-17T06:46:32.0743941Z"
+[Licensing::Module] Error: Access token is unavailable; failed to update
+[Licensing::Client] Successfully updated license
+Built from '2022.3/staging' branch; Version is '2022.3.22f1 (887be4894c44) revision 8944612'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.26200) 64bit Core' Language: 'zh' Physical Memory: 32548 MB
+[Licensing::Client] Successfully resolved entitlements
+[Licensing::Module] Serial number assigned to: "3573478467214-UnityPersXXXX"
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2022.3.22f1\Editor\Unity.exe
+-batchmode
+-nographics
+-projectPath
+D:\vrc-create-items
+-executeMethod
+WineFoxItems.Editor.ValidateWineFoxItems.Validate
+-quit
+-logFile
+D:\vrc-create-items\Artifacts\validation-unity.log
+Successfully changed project path to: D:\vrc-create-items
+D:/vrc-create-items
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Failed to start primary listening socket at (0.0.0.0:55504-55512).
+Player connection [30864] Host "[IP] 192.168.1.65 [Port] 55511 [Flags] 2 [Guid] 3302051024 [EditorId] 3302051024 [Version] 1048832 [Id] WindowsEditor(7,ywsy) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [30864] Host "[IP] 192.168.1.65 [Port] 55511 [Flags] 2 [Guid] 3302051024 [EditorId] 3302051024 [Version] 1048832 [Id] WindowsEditor(7,ywsy) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+[Physics::Module] Initialized MultithreadedJobDispatcher with 23 workers.
+[Package Manager] UpmClient::Connect -- Connected to IPC stream "Upm-19976" after 0.3 seconds.
+[Licensing::Client] Successfully resolved entitlements
+[Package Manager] Restoring resolved packages state from cache
+[Licensing::Client] Successfully resolved entitlement details
+[Package Manager] Registered 55 packages:
+  Packages from [https://packages.unity.com]:
+    com.unity.ide.rider@3.0.26 (location: D:\vrc-create-items\Library\PackageCache\com.unity.ide.rider@3.0.26)
+    com.unity.ide.visualstudio@2.0.22 (location: D:\vrc-create-items\Library\PackageCache\com.unity.ide.visualstudio@2.0.22)
+    com.unity.ide.vscode@1.2.5 (location: D:\vrc-create-items\Library\PackageCache\com.unity.ide.vscode@1.2.5)
+    com.unity.test-framework@1.1.29 (location: D:\vrc-create-items\Library\PackageCache\com.unity.test-framework@1.1.29)
+    com.unity.textmeshpro@2.1.6 (location: D:\vrc-create-items\Library\PackageCache\com.unity.textmeshpro@2.1.6)
+    com.unity.collections@2.1.4 (location: D:\vrc-create-items\Library\PackageCache\com.unity.collections@2.1.4)
+    com.unity.mathematics@1.2.6 (location: D:\vrc-create-items\Library\PackageCache\com.unity.mathematics@1.2.6)
+    com.unity.nuget.newtonsoft-json@3.2.1 (location: D:\vrc-create-items\Library\PackageCache\com.unity.nuget.newtonsoft-json@3.2.1)
+    com.unity.burst@1.8.12 (location: D:\vrc-create-items\Library\PackageCache\com.unity.burst@1.8.12)
+    com.unity.timeline@1.7.6 (location: D:\vrc-create-items\Library\PackageCache\com.unity.timeline@1.7.6)
+    com.unity.xr.management@4.4.0 (location: D:\vrc-create-items\Library\PackageCache\com.unity.xr.management@4.4.0)
+    com.unity.xr.oculus@4.2.0 (location: D:\vrc-create-items\Library\PackageCache\com.unity.xr.oculus@4.2.0)
+    com.unity.postprocessing@3.4.0 (location: D:\vrc-create-items\Library\PackageCache\com.unity.postprocessing@3.4.0)
+    com.unity.ext.nunit@1.0.6 (location: D:\vrc-create-items\Library\PackageCache\com.unity.ext.nunit@1.0.6)
+    com.unity.nuget.mono-cecil@1.11.4 (location: D:\vrc-create-items\Library\PackageCache\com.unity.nuget.mono-cecil@1.11.4)
+    com.unity.xr.legacyinputhelpers@2.1.10 (location: D:\vrc-create-items\Library\PackageCache\com.unity.xr.legacyinputhelpers@2.1.10)
+  Built-in packages:
+    com.unity.ugui@1.0.0 (location: D:\vrc-create-items\Library\PackageCache\com.unity.ugui@1.0.0)
+    com.unity.modules.ai@1.0.0 (location: D:\vrc-create-items\Library\PackageCache\com.unity.modules.ai@1.0.0)
+    com.unity.modules.androidjni@1.0.0 (location: D:\vrc-create-items\Library\PackageCache\com.unity.modules.androidjni@1.0.0)
+    com.unity.modules.animation@1.0.0 (location: D:\vrc-create-items\Library\PackageCache\com.unity.modules.animation@1.0.0)
+    com.unity.modules.assetbundle@1.0.0 (location: D:\vrc-create-items\Library\PackageCache\com.unity.modules.assetbundle@1.0.0)
+    com.unity.modules.audio@1.0.0 (location: D:\vrc-create-items\Library\PackageCache\com.unity.modules.audio@1.0.0)
+    com.unity.modules.cloth@1.0.0 (location: D:\vrc-create-items\Library\PackageCache\com.unity.modules.cloth@1.0.0)
+    com.unity.modules.director@1.0.0 (location: D:\vrc-create-items\Library\PackageCache\com.unity.modules.director@1.0.0)
+    com.unity.modules.imageconversion@1.0.0 (location: D:\vrc-create-items\Library\PackageCache\com.unity.modules.imageconversion@1.0.0)
+    com.unity.modules.imgui@1.0.0 (location: D:\vrc-create-items\Library\PackageCache\com.unity.modules.imgui@1.0.0)
+    com.unity.modules.jsonserialize@1.0.0 (location: D:\vrc-create-items\Library\PackageCache\com.unity.modules.jsonserialize@1.0.0)
+    com.unity.modules.particlesystem@1.0.0 (location: D:\vrc-create-items\Library\PackageCache\com.unity.modules.particlesystem@1.0.0)
+    com.unity.modules.physics@1.0.0 (location: D:\vrc-create-items\Library\PackageCache\com.unity.modules.physics@1.0.0)
+    com.unity.modules.physics2d@1.0.0 (location: D:\vrc-create-items\Library\PackageCache\com.unity.modules.physics2d@1.0.0)
+    com.unity.modules.screencapture@1.0.0 (location: D:\vrc-create-items\Library\PackageCache\com.unity.modules.screencapture@1.0.0)
+    com.unity.modules.terrain@1.0.0 (location: D:\vrc-create-items\Library\PackageCache\com.unity.modules.terrain@1.0.0)
+    com.unity.modules.terrainphysics@1.0.0 (location: D:\vrc-create-items\Library\PackageCache\com.unity.modules.terrainphysics@1.0.0)
+    com.unity.modules.tilemap@1.0.0 (location: D:\vrc-create-items\Library\PackageCache\com.unity.modules.tilemap@1.0.0)
+    com.unity.modules.ui@1.0.0 (location: D:\vrc-create-items\Library\PackageCache\com.unity.modules.ui@1.0.0)
+    com.unity.modules.uielements@1.0.0 (location: D:\vrc-create-items\Library\PackageCache\com.unity.modules.uielements@1.0.0)
+    com.unity.modules.umbra@1.0.0 (location: D:\vrc-create-items\Library\PackageCache\com.unity.modules.umbra@1.0.0)
+    com.unity.modules.unityanalytics@1.0.0 (location: D:\vrc-create-items\Library\PackageCache\com.unity.modules.unityanalytics@1.0.0)
+    com.unity.modules.unitywebrequest@1.0.0 (location: D:\vrc-create-items\Library\PackageCache\com.unity.modules.unitywebrequest@1.0.0)
+    com.unity.modules.unitywebrequestassetbundle@1.0.0 (location: D:\vrc-create-items\Library\PackageCache\com.unity.modules.unitywebrequestassetbundle@1.0.0)
+    com.unity.modules.unitywebrequestaudio@1.0.0 (location: D:\vrc-create-items\Library\PackageCache\com.unity.modules.unitywebrequestaudio@1.0.0)
+    com.unity.modules.unitywebrequesttexture@1.0.0 (location: D:\vrc-create-items\Library\PackageCache\com.unity.modules.unitywebrequesttexture@1.0.0)
+    com.unity.modules.unitywebrequestwww@1.0.0 (location: D:\vrc-create-items\Library\PackageCache\com.unity.modules.unitywebrequestwww@1.0.0)
+    com.unity.modules.vehicles@1.0.0 (location: D:\vrc-create-items\Library\PackageCache\com.unity.modules.vehicles@1.0.0)
+    com.unity.modules.video@1.0.0 (location: D:\vrc-create-items\Library\PackageCache\com.unity.modules.video@1.0.0)
+    com.unity.modules.vr@1.0.0 (location: D:\vrc-create-items\Library\PackageCache\com.unity.modules.vr@1.0.0)
+    com.unity.modules.wind@1.0.0 (location: D:\vrc-create-items\Library\PackageCache\com.unity.modules.wind@1.0.0)
+    com.unity.modules.xr@1.0.0 (location: D:\vrc-create-items\Library\PackageCache\com.unity.modules.xr@1.0.0)
+    com.unity.modules.subsystems@1.0.0 (location: D:\vrc-create-items\Library\PackageCache\com.unity.modules.subsystems@1.0.0)
+  Embedded packages:
+    com.vrchat.avatars@file:D:\vrc-create-items\Packages\com.vrchat.avatars (location: D:\vrc-create-items\Packages\com.vrchat.avatars)
+    com.vrchat.base@file:D:\vrc-create-items\Packages\com.vrchat.base (location: D:\vrc-create-items\Packages\com.vrchat.base)
+    com.vrchat.core.vpm-resolver@file:D:\vrc-create-items\Packages\com.vrchat.core.vpm-resolver (location: D:\vrc-create-items\Packages\com.vrchat.core.vpm-resolver)
+    nadena.dev.modular-avatar@file:D:\vrc-create-items\Packages\nadena.dev.modular-avatar (location: D:\vrc-create-items\Packages\nadena.dev.modular-avatar)
+    nadena.dev.ndmf@file:D:\vrc-create-items\Packages\nadena.dev.ndmf (location: D:\vrc-create-items\Packages\nadena.dev.ndmf)
+    vrchat.blackstartx.gesture-manager@file:D:\vrc-create-items\Packages\vrchat.blackstartx.gesture-manager (location: D:\vrc-create-items\Packages\vrchat.blackstartx.gesture-manager)
+[Subsystems] Looking for new subsystems at path D:\vrc-create-items\Library\PackageCache\com.unity.xr.oculus@4.2.0
+[Subsystems] Novel subsystem found at Library/PackageCache/com.unity.xr.oculus@4.2.0/Runtime/UnitySubsystemsManifest.json
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.22f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/vrc-create-items/Assets
+[Subsystems] Discovering subsystems at path D:\vrc-create-items\Library\PackageCache\com.unity.xr.oculus@4.2.0
+[Subsystems] No descriptors matched for  examples in Library/PackageCache/com.unity.xr.oculus@4.2.0/Runtime/UnitySubsystemsManifest.json.
+[Subsystems] 1 'inputs' descriptors matched in Library/PackageCache/com.unity.xr.oculus@4.2.0/Runtime/UnitySubsystemsManifest.json
+[Subsystems] 1 'displays' descriptors matched in Library/PackageCache/com.unity.xr.oculus@4.2.0/Runtime/UnitySubsystemsManifest.json
+[Subsystems] No descriptors matched for  meshings in Library/PackageCache/com.unity.xr.oculus@4.2.0/Runtime/UnitySubsystemsManifest.json.
+Package Manager log level set to [2]
+[Package Manager] Done registering packages in 0.08 seconds
+Refreshing native plugins compatible for Editor in 16.75 ms, found 4 plugins.
+Preloading 2 native plugins for Editor in 1.56 ms.
+Initialize engine version: 2022.3.22f1 (887be4894c44)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.22f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/vrc-create-items/Assets
+[Subsystems] Discovering subsystems at path D:\vrc-create-items\Library\PackageCache\com.unity.xr.oculus@4.2.0
+[Subsystems] No descriptors matched for  examples in Library/PackageCache/com.unity.xr.oculus@4.2.0/Runtime/UnitySubsystemsManifest.json.
+[Subsystems] 1 'inputs' descriptors matched in Library/PackageCache/com.unity.xr.oculus@4.2.0/Runtime/UnitySubsystemsManifest.json
+[Subsystems] 1 'displays' descriptors matched in Library/PackageCache/com.unity.xr.oculus@4.2.0/Runtime/UnitySubsystemsManifest.json
+[Subsystems] No descriptors matched for  meshings in Library/PackageCache/com.unity.xr.oculus@4.2.0/Runtime/UnitySubsystemsManifest.json.
+Forcing GfxDevice: Null
+GfxDevice: creating device client; threaded=0; jobified=0
+NullGfxDevice:
+    Version:  NULL 1.0 [1.0]
+    Renderer: Null Device
+    Vendor:   Unity Technologies
+[Licensing::Client] Successfully resolved entitlements
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.22f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.22f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.22f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56976
+Using cacheserver namespaces - metadata:defaultmetadata, artifacts:defaultartifacts
+Using cacheserver namespaces - metadata:defaultmetadata, artifacts:defaultartifacts
+ImportWorker Server TCP listen port: 0
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+[Licensing::Client] Successfully resolved entitlements
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.22f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+[Licensing::Client] Successfully resolved entitlements
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.22f1/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.22f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.052493 seconds.
+- Loaded All Assemblies, in  0.347 seconds
+Native extension for WindowsStandalone target not found
+[usbmuxd] Start listen thread
+[usbmuxd] Listen thread started
+Native extension for iOS target not found
+Native extension for Android target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.242 seconds
+Domain Reload Profiling: 584ms
+	BeginReloadAssembly (102ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (0ms)
+	RebuildCommonClasses (25ms)
+	RebuildNativeTypeToScriptingClass (6ms)
+	initialDomainReloadingComplete (103ms)
+	LoadAllAssembliesAndSetupDomain (107ms)
+		LoadAssemblies (99ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (103ms)
+			TypeCache.Refresh (102ms)
+				TypeCache.ScanAssembly (92ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (243ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (208ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (93ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (1ms)
+			ProcessInitializeOnLoadAttributes (82ms)
+			ProcessInitializeOnLoadMethodAttributes (28ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+[Licensing::Client] Successfully resolved entitlements
+Application.AssetDatabase Initial Refresh Start
+[ScriptCompilation] Requested script compilation because: Assetdatabase observed changes in script compilation related files
+info: Microsoft.Hosting.Lifetime[14]
+      Now listening on: http://localhost:80
+info: Microsoft.Hosting.Lifetime[0]
+      Application started. Press Ctrl+C to shut down.
+info: Microsoft.Hosting.Lifetime[0]
+      Hosting environment: Production
+info: Microsoft.Hosting.Lifetime[0]
+      Content root path: D:\vrc-create-items\
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/2 POST http://ilpp/UnityILPP.PostProcessing/Ping application/grpc -
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[0]
+      Executing endpoint 'gRPC - /UnityILPP.PostProcessing/Ping'
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[1]
+      Executed endpoint 'gRPC - /UnityILPP.PostProcessing/Ping'
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/2 POST http://ilpp/UnityILPP.PostProcessing/Ping application/grpc - - 200 - application/grpc 26.5247ms
+Starting: C:\Program Files\Unity\Hub\Editor\2022.3.22f1\Editor\Data\bee_backend.exe --dont-print-to-structured-log --ipc --defer-dag-verification --dagfile="Library/Bee/1900b0aE.dag" --continue-on-failure --profile="Library/Bee/backend1.traceevents" ScriptAssemblies
+WorkingDir: D:/vrc-create-items
+DisplayProgressbar: Compiling Scripts
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/2 POST http://ilpp/UnityILPP.PostProcessing/ConfigurePostProcessors application/grpc -
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[0]
+      Executing endpoint 'gRPC - /UnityILPP.PostProcessing/ConfigurePostProcessors'
+info: Unity.ILPP.Runner.PostProcessingAssemblyLoadContext[0]
+      Resolved Unity.Burst.Cecil, Version=0.11.4.0, Culture=neutral, PublicKeyToken=50cebf1cceb9d05e with Library\PackageCache\com.unity.burst@1.8.12\Unity.Burst.CodeGen\Unity.Burst.Cecil.dll
+info: Unity.ILPP.Runner.PostProcessingAssemblyLoadContext[0]
+      Resolved Mono.Cecil, Version=0.11.4.0, Culture=neutral, PublicKeyToken=50cebf1cceb9d05e with Library\PackageCache\com.unity.nuget.mono-cecil@1.11.4\Mono.Cecil.dll
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[1]
+      Executed endpoint 'gRPC - /UnityILPP.PostProcessing/ConfigurePostProcessors'
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/2 POST http://ilpp/UnityILPP.PostProcessing/ConfigurePostProcessors application/grpc - - 200 - application/grpc 37.7644ms
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/2 POST http://ilpp/UnityILPP.PostProcessing/PostProcessAssembly application/grpc -
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[0]
+      Executing endpoint 'gRPC - /UnityILPP.PostProcessing/PostProcessAssembly'
+info: Unity.ILPP.Runner.PostProcessingPipeline[0]
+      Processing assembly Library/Bee/artifacts/1900b0aE.dag/Assembly-CSharp-Editor.dll, with 119 defines and 305 references
+info: Unity.ILPP.Runner.PostProcessingPipeline[0]
+      processors: Unity.Jobs.CodeGen.JobsILPostProcessor, zzzUnity.Burst.CodeGen.BurstILPostProcessor
+info: Unity.ILPP.Runner.PostProcessingPipeline[0]
+      running Unity.Jobs.CodeGen.JobsILPostProcessor
+info: Unity.ILPP.Runner.PostProcessingAssemblyLoadContext[0]
+      Resolved Unity.Collections, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null with Library\Bee\artifacts\1900b0aE.dag\Unity.Collections.dll
+info: Unity.ILPP.Runner.PostProcessingAssemblyLoadContext[0]
+      Resolved UnityEditor.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null with C:\Program Files\Unity\Hub\Editor\2022.3.22f1\Editor\Data\Managed\UnityEngine\UnityEditor.CoreModule.dll
+info: Unity.ILPP.Runner.PostProcessingAssemblyLoadContext[0]
+      Resolved UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null with C:\Program Files\Unity\Hub\Editor\2022.3.22f1\Editor\Data\Managed\UnityEngine\UnityEngine.CoreModule.dll
+info: Unity.ILPP.Runner.PostProcessingPipeline[0]
+      running zzzUnity.Burst.CodeGen.BurstILPostProcessor
+info: Unity.ILPP.Runner.PostProcessingAssemblyLoadContext[0]
+      Resolved Unity.Burst.Cecil.Rocks, Version=0.11.4.0, Culture=neutral, PublicKeyToken=50cebf1cceb9d05e with Library\PackageCache\com.unity.burst@1.8.12\Unity.Burst.CodeGen\Unity.Burst.Cecil.Rocks.dll
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[1]
+      Executed endpoint 'gRPC - /UnityILPP.PostProcessing/PostProcessAssembly'
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/2 POST http://ilpp/UnityILPP.PostProcessing/PostProcessAssembly application/grpc - - 200 - application/grpc 257.5780ms
+ExitCode: 0 Duration: 0s713ms
+[527/676    0s] ILPP-Configuration Library/ilpp-configuration.nevergeneratedoutput
+[672/676    0s] Csc Library/Bee/artifacts/1900b0aE.dag/Assembly-CSharp-Editor.dll (+2 others)
+[673/676    0s] ILPostProcess Library/Bee/artifacts/1900b0aE.dag/post-processed/Assembly-CSharp-Editor.dll (+pdb)
+Processing assembly Library/Bee/artifacts/1900b0aE.dag/Assembly-CSharp-Editor.dll, with 119 defines and 305 references
+
+processors: Unity.Jobs.CodeGen.JobsILPostProcessor, zzzUnity.Burst.CodeGen.BurstILPostProcessor
+
+running Unity.Jobs.CodeGen.JobsILPostProcessor
+
+running zzzUnity.Burst.CodeGen.BurstILPostProcessor
+[674/676    0s] CopyFiles Library/ScriptAssemblies/Assembly-CSharp-Editor.pdb
+[675/676    0s] CopyFiles Library/ScriptAssemblies/Assembly-CSharp-Editor.dll
+*** Tundra build success (0.68 seconds), 5 items updated, 676 evaluated
+AssetDatabase: script compilation time: 1.113650s
+Begin MonoManager ReloadAssembly
+Total cache size 268375230
+Total cache size after purge 268375230
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  0.636 seconds
+Refreshing native plugins compatible for Editor in 7.19 ms, found 4 plugins.
+Preloading 2 native plugins for Editor in 0.08 ms.
+Start importing Assets/WineFoxItems/Editor/ValidateWineFoxItems.cs using Guid(efa2e54009327294e81da5be1cbdf4bb) Importer(-1,00000000000000000000000000000000)  -> (artifact id: '03527ff00175a4cc05541d7404907375') in 0.009973 seconds
+Refreshing native plugins compatible for Editor in 7.53 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+[XR] OculusXRPlugin: registering subsystems
+[Subsystems] OculusXRPlugin successfully registered Provider for oculus display
+[XR] Oculus Input lifecycle provider registered.
+[Subsystems] OculusXRPlugin successfully registered Provider for oculus input
+[Subsystems] OculusXRPlugin successfully registered Provider for oculus display
+[XR] OVRP version 1.92.0
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  3.740 seconds
+Domain Reload Profiling: 4368ms
+	BeginReloadAssembly (139ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (3ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (15ms)
+	RebuildCommonClasses (24ms)
+	RebuildNativeTypeToScriptingClass (6ms)
+	initialDomainReloadingComplete (43ms)
+	LoadAllAssembliesAndSetupDomain (416ms)
+		LoadAssemblies (363ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (145ms)
+			TypeCache.Refresh (128ms)
+				TypeCache.ScanAssembly (114ms)
+			ScanForSourceGeneratedMonoScriptInfo (11ms)
+			ResolveRequiredComponents (5ms)
+	FinalizeReload (3740ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (3634ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (38ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (52ms)
+			ProcessInitializeOnLoadAttributes (2147ms)
+			ProcessInitializeOnLoadMethodAttributes (1374ms)
+			AfterProcessingInitializeOnLoad (19ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (4ms)
+Refreshing native plugins compatible for Editor in 8.15 ms, found 4 plugins.
+Preloading 2 native plugins for Editor in 0.08 ms.
+Asset Pipeline Refresh (id=3d49171525435104a84f2dc13b90dba3): Total: 6.282 seconds - Initiated by InitialRefreshV2(ForceSynchronousImport)
+	Summary:
+		Imports: total=1 (actual=1, local cache=0, cache server=0)
+		Asset DB Process Time: managed=1 ms, native=588 ms
+		Asset DB Callback time: managed=77 ms, native=11 ms
+		Scripting: domain reloads=1, domain reload time=4453 ms, compile time=1114 ms, other=35 ms
+		Project Asset Count: scripts=3519, non-scripts=1340
+		Asset File Changes: new=0, changed=1, moved=0, deleted=0
+		Scan Filter Count: 0
+	InvokeBeforeRefreshCallbacks: 0.771ms
+	ApplyChangesToAssetFolders: 0.038ms
+	Scan: 36.106ms
+	OnSourceAssetsModified: 1.685ms
+	GetAllGuidsForCategorization: 0.456ms
+	CategorizeAssets: 49.300ms
+	ImportOutOfDateAssets: 3780.905ms (2643.283ms without children)
+		ImportManagerImport: 14.154ms (3.977ms without children)
+			ImportInProcess: 10.173ms
+			UpdateCategorizedAssets: 0.005ms
+		CompileScripts: 1113.728ms
+		ReloadNativeAssets: 0.012ms
+		UnloadImportedAssets: 8.527ms
+		ReloadImportedAssets: 0.000ms
+		EnsureUptoDateAssetsAreRegisteredWithGuidPM: 0.759ms
+		InitializingProgressBar: 0.006ms
+		PostProcessAllAssetNotificationsAddChangedAssets: 0.000ms
+		OnDemandSchedulerStart: 0.434ms
+	PostProcessAllAssets: 77.719ms
+	Hotreload: 8.635ms
+	GatherAllCurrentPrimaryArtifactRevisions: 0.002ms
+	UnloadStreamsBegin: 0.783ms
+	PersistCurrentRevisions: 0.164ms
+	UnloadStreamsEnd: 0.019ms
+	GenerateScriptTypeHashes: 0.545ms
+	Untracked: 2325.089ms
+Application.AssetDatabase Initial Refresh End
+Scanning for USB devices : 26.759ms
+Initializing Unity extensions:
+[Licensing::Client] Successfully resolved entitlements
+[MODES] ModeService[none].Initialize
+[MODES] ModeService[none].LoadModes
+[MODES] Loading mode Default (0) for mode-current-id-vrc-create-items
+Opening scene 'Packages/nadena.dev.ndmf/Runtime/___NDMF Preview___.unity additively'
+Loaded scene 'Packages/nadena.dev.ndmf/Runtime/___NDMF Preview___.unity'
+	Deserialize:            0.358 ms
+	Integration:            0.312 ms
+	Integration of assets:  0.001 ms
+	Thread Wait Time:       0.009 ms
+	Total Operation Time:   0.680 ms
+ProgressiveSceneManager::Cancel()
+Unloading 68 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 186 unused Assets / (16.6 MB). Loaded Objects now: 3323.
+Memory consumption went from 247.2 MB to 230.6 MB.
+Total: 5.277100 ms (FindLiveObjects: 0.123300 ms CreateObjectMapping: 0.045500 ms MarkObjects: 3.761000 ms  DeleteObjects: 1.345500 ms)
+
+Opening scene 'Assets/WineFoxItems/Examples/Tester-WineFoxItems.unity'
+Unloading 5 Unused Serialized files (Serialized files now loaded: 0)
+Opening scene 'Packages/nadena.dev.ndmf/Runtime/___NDMF Preview___.unity additively'
+Unloading 6 unused Assets / (39.4 MB). Loaded Objects now: 3903.
+Memory consumption went from 204.2 MB to 164.8 MB.
+Total: 5.623900 ms (FindLiveObjects: 0.138500 ms CreateObjectMapping: 0.046300 ms MarkObjects: 3.628600 ms  DeleteObjects: 1.810000 ms)
+
+Loaded scene 'Packages/nadena.dev.ndmf/Runtime/___NDMF Preview___.unity'
+	Deserialize:            0.808 ms
+	Integration:            0.174 ms
+	Integration of assets:  0.002 ms
+	Thread Wait Time:       10.250 ms
+	Total Operation Time:   11.233 ms
+Loaded scene 'Assets/WineFoxItems/Examples/Tester-WineFoxItems.unity'
+	Deserialize:            0.602 ms
+	Integration:            182.559 ms
+	Integration of assets:  0.001 ms
+	Thread Wait Time:       0.008 ms
+	Total Operation Time:   183.169 ms
+Starting processing for avatar: WineFoxItems Validation Clone
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+nadena.dev.ndmf.BuildContext:.ctor (UnityEngine.GameObject,string,nadena.dev.ndmf.platform.INDMFPlatformProvider,bool) (at ./Packages/nadena.dev.ndmf/Editor/API/BuildContext.cs:146)
+nadena.dev.ndmf.AvatarProcessor:ProcessAvatar (UnityEngine.GameObject,nadena.dev.ndmf.BuildPhase) (at ./Packages/nadena.dev.ndmf/Editor/AvatarProcessor.cs:231)
+nadena.dev.ndmf.AvatarProcessor:ProcessAvatar (UnityEngine.GameObject,nadena.dev.ndmf.platform.INDMFPlatformProvider) (at ./Packages/nadena.dev.ndmf/Editor/AvatarProcessor.cs:195)
+WineFoxItems.Editor.ValidateWineFoxItems:Validate () (at Assets/WineFoxItems/Editor/ValidateWineFoxItems.cs:54)
+
+(Filename: ./Packages/nadena.dev.ndmf/Editor/API/BuildContext.cs Line: 146)
+
+Refreshing native plugins compatible for Editor in 7.27 ms, found 4 plugins.
+Preloading 2 native plugins for Editor in 0.08 ms.
+Asset Pipeline Refresh (id=c9fb0792a65efe547b1d4f1dea6ca84b): Total: 0.032 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Start importing Assets/NDMFValidationOutput/WineFoxItems Validation Clone/WineFoxItems Validation Clone.asset using Guid(d0d8d77024ba47d4b93be574d153df95) Importer(-1,00000000000000000000000000000000)  -> (artifact id: '7b72a187de82d61bc5617e1b1475fb3f') in 0.001641 seconds
+Start importing Assets/NDMFValidationOutput/WineFoxItems Validation Clone/_assets/assets.asset using Guid(90fcf6ead416ea14cb1eef4665c61b59) Importer(-1,00000000000000000000000000000000)  -> (artifact id: '96bda9f83fea3727eca189b20f4c9431') in 0.001357 seconds
+Start importing Assets/NDMFValidationOutput/WineFoxItems Validation Clone using Guid(d51ff62438211c14f8d3c13ac69722bf) Importer(-1,00000000000000000000000000000000)  -> (artifact id: 'e4a09aa88cb11355a9871686714f8f6b') in 0.001447 seconds
+Start importing Assets/NDMFValidationOutput/WineFoxItems Validation Clone/_assets using Guid(44a1fda79bba6404e82f811f5bddbde0) Importer(-1,00000000000000000000000000000000)  -> (artifact id: 'a3377b237f93517e4174e83b13eadda6') in 0.001086 seconds
+Refreshing native plugins compatible for Editor in 8.76 ms, found 4 plugins.
+Preloading 2 native plugins for Editor in 0.09 ms.
+Asset Pipeline Refresh (id=501d16479fab1d64c8801dc83e252cfe): Total: 0.025 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+=== Processing phase FirstChance ===
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+nadena.dev.ndmf.AvatarProcessor:ProcessAvatar (nadena.dev.ndmf.BuildContext,nadena.dev.ndmf.BuildPhase,nadena.dev.ndmf.BuildPhase) (at ./Packages/nadena.dev.ndmf/Editor/AvatarProcessor.cs:257)
+nadena.dev.ndmf.AvatarProcessor:ProcessAvatar (UnityEngine.GameObject,nadena.dev.ndmf.BuildPhase) (at ./Packages/nadena.dev.ndmf/Editor/AvatarProcessor.cs:233)
+nadena.dev.ndmf.AvatarProcessor:ProcessAvatar (UnityEngine.GameObject,nadena.dev.ndmf.platform.INDMFPlatformProvider) (at ./Packages/nadena.dev.ndmf/Editor/AvatarProcessor.cs:195)
+WineFoxItems.Editor.ValidateWineFoxItems:Validate () (at Assets/WineFoxItems/Editor/ValidateWineFoxItems.cs:54)
+
+(Filename: ./Packages/nadena.dev.ndmf/Editor/AvatarProcessor.cs Line: 257)
+
+=== Processing phase Before platform initialization ===
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+nadena.dev.ndmf.AvatarProcessor:ProcessAvatar (nadena.dev.ndmf.BuildContext,nadena.dev.ndmf.BuildPhase,nadena.dev.ndmf.BuildPhase) (at ./Packages/nadena.dev.ndmf/Editor/AvatarProcessor.cs:257)
+nadena.dev.ndmf.AvatarProcessor:ProcessAvatar (UnityEngine.GameObject,nadena.dev.ndmf.BuildPhase) (at ./Packages/nadena.dev.ndmf/Editor/AvatarProcessor.cs:233)
+nadena.dev.ndmf.AvatarProcessor:ProcessAvatar (UnityEngine.GameObject,nadena.dev.ndmf.platform.INDMFPlatformProvider) (at ./Packages/nadena.dev.ndmf/Editor/AvatarProcessor.cs:195)
+WineFoxItems.Editor.ValidateWineFoxItems:Validate () (at Assets/WineFoxItems/Editor/ValidateWineFoxItems.cs:54)
+
+(Filename: ./Packages/nadena.dev.ndmf/Editor/AvatarProcessor.cs Line: 257)
+
+Processed pass SyncPlatformConfigPass in 5 ms
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+nadena.dev.ndmf.AvatarProcessor:ProcessAvatar (nadena.dev.ndmf.BuildContext,nadena.dev.ndmf.BuildPhase,nadena.dev.ndmf.BuildPhase) (at ./Packages/nadena.dev.ndmf/Editor/AvatarProcessor.cs:276)
+nadena.dev.ndmf.AvatarProcessor:ProcessAvatar (UnityEngine.GameObject,nadena.dev.ndmf.BuildPhase) (at ./Packages/nadena.dev.ndmf/Editor/AvatarProcessor.cs:233)
+nadena.dev.ndmf.AvatarProcessor:ProcessAvatar (UnityEngine.GameObject,nadena.dev.ndmf.platform.INDMFPlatformProvider) (at ./Packages/nadena.dev.ndmf/Editor/AvatarProcessor.cs:195)
+WineFoxItems.Editor.ValidateWineFoxItems:Validate () (at Assets/WineFoxItems/Editor/ValidateWineFoxItems.cs:54)
+
+(Filename: ./Packages/nadena.dev.ndmf/Editor/AvatarProcessor.cs Line: 276)
+
+=== Processing phase PlatformInit ===
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+nadena.dev.ndmf.AvatarProcessor:ProcessAvatar (nadena.dev.ndmf.BuildContext,nadena.dev.ndmf.BuildPhase,nadena.dev.ndmf.BuildPhase) (at ./Packages/nadena.dev.ndmf/Editor/AvatarProcessor.cs:257)
+nadena.dev.ndmf.AvatarProcessor:ProcessAvatar (UnityEngine.GameObject,nadena.dev.ndmf.BuildPhase) (at ./Packages/nadena.dev.ndmf/Editor/AvatarProcessor.cs:233)
+nadena.dev.ndmf.AvatarProcessor:ProcessAvatar (UnityEngine.GameObject,nadena.dev.ndmf.platform.INDMFPlatformProvider) (at ./Packages/nadena.dev.ndmf/Editor/AvatarProcessor.cs:195)
+WineFoxItems.Editor.ValidateWineFoxItems:Validate () (at Assets/WineFoxItems/Editor/ValidateWineFoxItems.cs:54)
+
+(Filename: ./Packages/nadena.dev.ndmf/Editor/AvatarProcessor.cs Line: 257)
+
+=== Processing phase Resolving ===
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+nadena.dev.ndmf.AvatarProcessor:ProcessAvatar (nadena.dev.ndmf.BuildContext,nadena.dev.ndmf.BuildPhase,nadena.dev.ndmf.BuildPhase) (at ./Packages/nadena.dev.ndmf/Editor/AvatarProcessor.cs:257)
+nadena.dev.ndmf.AvatarProcessor:ProcessAvatar (UnityEngine.GameObject,nadena.dev.ndmf.BuildPhase) (at ./Packages/nadena.dev.ndmf/Editor/AvatarProcessor.cs:233)
+nadena.dev.ndmf.AvatarProcessor:ProcessAvatar (UnityEngine.GameObject,nadena.dev.ndmf.platform.INDMFPlatformProvider) (at ./Packages/nadena.dev.ndmf/Editor/AvatarProcessor.cs:195)
+WineFoxItems.Editor.ValidateWineFoxItems:Validate () (at Assets/WineFoxItems/Editor/ValidateWineFoxItems.cs:54)
+
+(Filename: ./Packages/nadena.dev.ndmf/Editor/AvatarProcessor.cs Line: 257)
+
+Processed pass RemoveMissingScriptComponents in 0 ms
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+nadena.dev.ndmf.AvatarProcessor:ProcessAvatar (nadena.dev.ndmf.BuildContext,nadena.dev.ndmf.BuildPhase,nadena.dev.ndmf.BuildPhase) (at ./Packages/nadena.dev.ndmf/Editor/AvatarProcessor.cs:276)
+nadena.dev.ndmf.AvatarProcessor:ProcessAvatar (UnityEngine.GameObject,nadena.dev.ndmf.BuildPhase) (at ./Packages/nadena.dev.ndmf/Editor/AvatarProcessor.cs:233)
+nadena.dev.ndmf.AvatarProcessor:ProcessAvatar (UnityEngine.GameObject,nadena.dev.ndmf.platform.INDMFPlatformProvider) (at ./Packages/nadena.dev.ndmf/Editor/AvatarProcessor.cs:195)
+WineFoxItems.Editor.ValidateWineFoxItems:Validate () (at Assets/WineFoxItems/Editor/ValidateWineFoxItems.cs:54)
+
+(Filename: ./Packages/nadena.dev.ndmf/Editor/AvatarProcessor.cs Line: 276)
+
+Processed pass Remove EditorOnly Objects in 0 ms
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+nadena.dev.ndmf.AvatarProcessor:ProcessAvatar (nadena.dev.ndmf.BuildContext,nadena.dev.ndmf.BuildPhase,nadena.dev.ndmf.BuildPhase) (at ./Packages/nadena.dev.ndmf/Editor/AvatarProcessor.cs:276)
+nadena.dev.ndmf.AvatarProcessor:ProcessAvatar (UnityEngine.GameObject,nadena.dev.ndmf.BuildPhase) (at ./Packages/nadena.dev.ndmf/Editor/AvatarProcessor.cs:233)
+nadena.dev.ndmf.AvatarProcessor:ProcessAvatar (UnityEngine.GameObject,nadena.dev.ndmf.platform.INDMFPlatformProvider) (at ./Packages/nadena.dev.ndmf/Editor/AvatarProcessor.cs:195)
+WineFoxItems.Editor.ValidateWineFoxItems:Validate () (at Assets/WineFoxItems/Editor/ValidateWineFoxItems.cs:54)
+
+(Filename: ./Packages/nadena.dev.ndmf/Editor/AvatarProcessor.cs Line: 276)
+
+Processed pass Incompatible: TEST - Should not run (incompatible platform) in 0 ms
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+nadena.dev.ndmf.AvatarProcessor:ProcessAvatar (nadena.dev.ndmf.BuildContext,nadena.dev.ndmf.BuildPhase,nadena.dev.ndmf.BuildPhase) (at ./Packages/nadena.dev.ndmf/Editor/AvatarProcessor.cs:276)
+nadena.dev.ndmf.AvatarProcessor:ProcessAvatar (UnityEngine.GameObject,nadena.dev.ndmf.BuildPhase) (at ./Packages/nadena.dev.ndmf/Editor/AvatarProcessor.cs:233)
+nadena.dev.ndmf.AvatarProcessor:ProcessAvatar (UnityEngine.GameObject,nadena.dev.ndmf.platform.INDMFPlatformProvider) (at ./Packages/nadena.dev.ndmf/Editor/AvatarProcessor.cs:195)
+WineFoxItems.Editor.ValidateWineFoxItems:Validate () (at Assets/WineFoxItems/Editor/ValidateWineFoxItems.cs:54)
+
+(Filename: ./Packages/nadena.dev.ndmf/Editor/AvatarProcessor.cs Line: 276)
+
+Processed pass PlatformFilterPass in 1 ms
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+nadena.dev.ndmf.AvatarProcessor:ProcessAvatar (nadena.dev.ndmf.BuildContext,nadena.dev.ndmf.BuildPhase,nadena.dev.ndmf.BuildPhase) (at ./Packages/nadena.dev.ndmf/Editor/AvatarProcessor.cs:276)
+nadena.dev.ndmf.AvatarProcessor:ProcessAvatar (UnityEngine.GameObject,nadena.dev.ndmf.BuildPhase) (at ./Packages/nadena.dev.ndmf/Editor/AvatarProcessor.cs:233)
+nadena.dev.ndmf.AvatarProcessor:ProcessAvatar (UnityEngine.GameObject,nadena.dev.ndmf.platform.INDMFPlatformProvider) (at ./Packages/nadena.dev.ndmf/Editor/AvatarProcessor.cs:195)
+WineFoxItems.Editor.ValidateWineFoxItems:Validate () (at Assets/WineFoxItems/Editor/ValidateWineFoxItems.cs:54)
+
+(Filename: ./Packages/nadena.dev.ndmf/Editor/AvatarProcessor.cs Line: 276)
+
+Processed pass ResolveObjectReferences in 1 ms
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+nadena.dev.ndmf.AvatarProcessor:ProcessAvatar (nadena.dev.ndmf.BuildContext,nadena.dev.ndmf.BuildPhase,nadena.dev.ndmf.BuildPhase) (at ./Packages/nadena.dev.ndmf/Editor/AvatarProcessor.cs:276)
+nadena.dev.ndmf.AvatarProcessor:ProcessAvatar (UnityEngine.GameObject,nadena.dev.ndmf.BuildPhase) (at ./Packages/nadena.dev.ndmf/Editor/AvatarProcessor.cs:233)
+nadena.dev.ndmf.AvatarProcessor:ProcessAvatar (UnityEngine.GameObject,nadena.dev.ndmf.platform.INDMFPlatformProvider) (at ./Packages/nadena.dev.ndmf/Editor/AvatarProcessor.cs:195)
+WineFoxItems.Editor.ValidateWineFoxItems:Validate () (at Assets/WineFoxItems/Editor/ValidateWineFoxItems.cs:54)
+
+(Filename: ./Packages/nadena.dev.ndmf/Editor/AvatarProcessor.cs Line: 276)
+
+Processed pass Clone animators in 172 ms
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+nadena.dev.ndmf.AvatarProcessor:ProcessAvatar (nadena.dev.ndmf.BuildContext,nadena.dev.ndmf.BuildPhase,nadena.dev.ndmf.BuildPhase) (at ./Packages/nadena.dev.ndmf/Editor/AvatarProcessor.cs:276)
+nadena.dev.ndmf.AvatarProcessor:ProcessAvatar (UnityEngine.GameObject,nadena.dev.ndmf.BuildPhase) (at ./Packages/nadena.dev.ndmf/Editor/AvatarProcessor.cs:233)
+nadena.dev.ndmf.AvatarProcessor:ProcessAvatar (UnityEngine.GameObject,nadena.dev.ndmf.platform.INDMFPlatformProvider) (at ./Packages/nadena.dev.ndmf/Editor/AvatarProcessor.cs:195)
+WineFoxItems.Editor.ValidateWineFoxItems:Validate () (at Assets/WineFoxItems/Editor/ValidateWineFoxItems.cs:54)
+
+(Filename: ./Packages/nadena.dev.ndmf/Editor/AvatarProcessor.cs Line: 276)
+
+Start importing Assets/NDMFValidationOutput/WineFoxItems Validation Clone/_assets/assets 1.asset using Guid(a4bae3ea2fc1db049bb2dce3e14cadc7) Importer(-1,00000000000000000000000000000000)  -> (artifact id: 'e51a6ffc2360b76c4d4c675d6fcb5e97') in 0.001734 seconds
+Refreshing native plugins compatible for Editor in 7.38 ms, found 4 plugins.
+Preloading 2 native plugins for Editor in 0.08 ms.
+Asset Pipeline Refresh (id=22bc5df5745d7e441879f16604729ee4): Total: 0.015 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Processed pass Close extensions in 67 ms
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+nadena.dev.ndmf.AvatarProcessor:ProcessAvatar (nadena.dev.ndmf.BuildContext,nadena.dev.ndmf.BuildPhase,nadena.dev.ndmf.BuildPhase) (at ./Packages/nadena.dev.ndmf/Editor/AvatarProcessor.cs:276)
+nadena.dev.ndmf.AvatarProcessor:ProcessAvatar (UnityEngine.GameObject,nadena.dev.ndmf.BuildPhase) (at ./Packages/nadena.dev.ndmf/Editor/AvatarProcessor.cs:233)
+nadena.dev.ndmf.AvatarProcessor:ProcessAvatar (UnityEngine.GameObject,nadena.dev.ndmf.platform.INDMFPlatformProvider) (at ./Packages/nadena.dev.ndmf/Editor/AvatarProcessor.cs:195)
+WineFoxItems.Editor.ValidateWineFoxItems:Validate () (at Assets/WineFoxItems/Editor/ValidateWineFoxItems.cs:54)
+
+(Filename: ./Packages/nadena.dev.ndmf/Editor/AvatarProcessor.cs Line: 276)
+
+=== Processing phase Generating ===
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+nadena.dev.ndmf.AvatarProcessor:ProcessAvatar (nadena.dev.ndmf.BuildContext,nadena.dev.ndmf.BuildPhase,nadena.dev.ndmf.BuildPhase) (at ./Packages/nadena.dev.ndmf/Editor/AvatarProcessor.cs:257)
+nadena.dev.ndmf.AvatarProcessor:ProcessAvatar (UnityEngine.GameObject,nadena.dev.ndmf.BuildPhase) (at ./Packages/nadena.dev.ndmf/Editor/AvatarProcessor.cs:233)
+nadena.dev.ndmf.AvatarProcessor:ProcessAvatar (UnityEngine.GameObject,nadena.dev.ndmf.platform.INDMFPlatformProvider) (at ./Packages/nadena.dev.ndmf/Editor/AvatarProcessor.cs:195)
+WineFoxItems.Editor.ValidateWineFoxItems:Validate () (at Assets/WineFoxItems/Editor/ValidateWineFoxItems.cs:54)
+
+(Filename: ./Packages/nadena.dev.ndmf/Editor/AvatarProcessor.cs Line: 257)
+
+=== Processing phase Transforming ===
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+nadena.dev.ndmf.AvatarProcessor:ProcessAvatar (nadena.dev.ndmf.BuildContext,nadena.dev.ndmf.BuildPhase,nadena.dev.ndmf.BuildPhase) (at ./Packages/nadena.dev.ndmf/Editor/AvatarProcessor.cs:257)
+nadena.dev.ndmf.AvatarProcessor:ProcessAvatar (UnityEngine.GameObject,nadena.dev.ndmf.BuildPhase) (at ./Packages/nadena.dev.ndmf/Editor/AvatarProcessor.cs:233)
+nadena.dev.ndmf.AvatarProcessor:ProcessAvatar (UnityEngine.GameObject,nadena.dev.ndmf.platform.INDMFPlatformProvider) (at ./Packages/nadena.dev.ndmf/Editor/AvatarProcessor.cs:195)
+WineFoxItems.Editor.ValidateWineFoxItems:Validate () (at Assets/WineFoxItems/Editor/ValidateWineFoxItems.cs:54)
+
+(Filename: ./Packages/nadena.dev.ndmf/Editor/AvatarProcessor.cs Line: 257)
+
+Processed pass Validate configuration in 0 ms
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+nadena.dev.ndmf.AvatarProcessor:ProcessAvatar (nadena.dev.ndmf.BuildContext,nadena.dev.ndmf.BuildPhase,nadena.dev.ndmf.BuildPhase) (at ./Packages/nadena.dev.ndmf/Editor/AvatarProcessor.cs:276)
+nadena.dev.ndmf.AvatarProcessor:ProcessAvatar (UnityEngine.GameObject,nadena.dev.ndmf.BuildPhase) (at ./Packages/nadena.dev.ndmf/Editor/AvatarProcessor.cs:233)
+nadena.dev.ndmf.AvatarProcessor:ProcessAvatar (UnityEngine.GameObject,nadena.dev.ndmf.platform.INDMFPlatformProvider) (at ./Packages/nadena.dev.ndmf/Editor/AvatarProcessor.cs:195)
+WineFoxItems.Editor.ValidateWineFoxItems:Validate () (at Assets/WineFoxItems/Editor/ValidateWineFoxItems.cs:54)
+
+(Filename: ./Packages/nadena.dev.ndmf/Editor/AvatarProcessor.cs Line: 276)
+
+Processed pass ClearEditorOnlyTags in 0 ms
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+nadena.dev.ndmf.AvatarProcessor:ProcessAvatar (nadena.dev.ndmf.BuildContext,nadena.dev.ndmf.BuildPhase,nadena.dev.ndmf.BuildPhase) (at ./Packages/nadena.dev.ndmf/Editor/AvatarProcessor.cs:276)
+nadena.dev.ndmf.AvatarProcessor:ProcessAvatar (UnityEngine.GameObject,nadena.dev.ndmf.BuildPhase) (at ./Packages/nadena.dev.ndmf/Editor/AvatarProcessor.cs:233)
+nadena.dev.ndmf.AvatarProcessor:ProcessAvatar (UnityEngine.GameObject,nadena.dev.ndmf.platform.INDMFPlatformProvider) (at ./Packages/nadena.dev.ndmf/Editor/AvatarProcessor.cs:195)
+WineFoxItems.Editor.ValidateWineFoxItems:Validate () (at Assets/WineFoxItems/Editor/ValidateWineFoxItems.cs:54)
+
+(Filename: ./Packages/nadena.dev.ndmf/Editor/AvatarProcessor.cs Line: 276)
+
+Processed pass VRChatSettingsPass in 0 ms
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+nadena.dev.ndmf.AvatarProcessor:ProcessAvatar (nadena.dev.ndmf.BuildContext,nadena.dev.ndmf.BuildPhase,nadena.dev.ndmf.BuildPhase) (at ./Packages/nadena.dev.ndmf/Editor/AvatarProcessor.cs:276)
+nadena.dev.ndmf.AvatarProcessor:ProcessAvatar (UnityEngine.GameObject,nadena.dev.ndmf.BuildPhase) (at ./Packages/nadena.dev.ndmf/Editor/AvatarProcessor.cs:233)
+nadena.dev.ndmf.AvatarProcessor:ProcessAvatar (UnityEngine.GameObject,nadena.dev.ndmf.platform.INDMFPlatformProvider) (at ./Packages/nadena.dev.ndmf/Editor/AvatarProcessor.cs:195)
+WineFoxItems.Editor.ValidateWineFoxItems:Validate () (at Assets/WineFoxItems/Editor/ValidateWineFoxItems.cs:54)
+
+(Filename: ./Packages/nadena.dev.ndmf/Editor/AvatarProcessor.cs Line: 276)
+
+Processed pass MeshSettingsPluginPass in 0 ms
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+nadena.dev.ndmf.AvatarProcessor:ProcessAvatar (nadena.dev.ndmf.BuildContext,nadena.dev.ndmf.BuildPhase,nadena.dev.ndmf.BuildPhase) (at ./Packages/nadena.dev.ndmf/Editor/AvatarProcessor.cs:276)
+nadena.dev.ndmf.AvatarProcessor:ProcessAvatar (UnityEngine.GameObject,nadena.dev.ndmf.BuildPhase) (at ./Packages/nadena.dev.ndmf/Editor/AvatarProcessor.cs:233)
+nadena.dev.ndmf.AvatarProcessor:ProcessAvatar (UnityEngine.GameObject,nadena.dev.ndmf.platform.INDMFPlatformProvider) (at ./Packages/nadena.dev.ndmf/Editor/AvatarProcessor.cs:195)
+WineFoxItems.Editor.ValidateWineFoxItems:Validate () (at Assets/WineFoxItems/Editor/ValidateWineFoxItems.cs:54)
+
+(Filename: ./Packages/nadena.dev.ndmf/Editor/AvatarProcessor.cs Line: 276)
+
+Processed pass ScaleAdjusterPass in 0 ms
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+nadena.dev.ndmf.AvatarProcessor:ProcessAvatar (nadena.dev.ndmf.BuildContext,nadena.dev.ndmf.BuildPhase,nadena.dev.ndmf.BuildPhase) (at ./Packages/nadena.dev.ndmf/Editor/AvatarProcessor.cs:276)
+nadena.dev.ndmf.AvatarProcessor:ProcessAvatar (UnityEngine.GameObject,nadena.dev.ndmf.BuildPhase) (at ./Packages/nadena.dev.ndmf/Editor/AvatarProcessor.cs:233)
+nadena.dev.ndmf.AvatarProcessor:ProcessAvatar (UnityEngine.GameObject,nadena.dev.ndmf.platform.INDMFPlatformProvider) (at ./Packages/nadena.dev.ndmf/Editor/AvatarProcessor.cs:195)
+WineFoxItems.Editor.ValidateWineFoxItems:Validate () (at Assets/WineFoxItems/Editor/ValidateWineFoxItems.cs:54)
+
+(Filename: ./Packages/nadena.dev.ndmf/Editor/AvatarProcessor.cs Line: 276)
+
+Processed pass VRChatGlobalColliderPass in 1 ms
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+nadena.dev.ndmf.AvatarProcessor:ProcessAvatar (nadena.dev.ndmf.BuildContext,nadena.dev.ndmf.BuildPhase,nadena.dev.ndmf.BuildPhase) (at ./Packages/nadena.dev.ndmf/Editor/AvatarProcessor.cs:276)
+nadena.dev.ndmf.AvatarProcessor:ProcessAvatar (UnityEngine.GameObject,nadena.dev.ndmf.BuildPhase) (at ./Packages/nadena.dev.ndmf/Editor/AvatarProcessor.cs:233)
+nadena.dev.ndmf.AvatarProcessor:ProcessAvatar (UnityEngine.GameObject,nadena.dev.ndmf.platform.INDMFPlatformProvider) (at ./Packages/nadena.dev.ndmf/Editor/AvatarProcessor.cs:195)
+WineFoxItems.Editor.ValidateWineFoxItems:Validate () (at Assets/WineFoxItems/Editor/ValidateWineFoxItems.cs:54)
+
+(Filename: ./Packages/nadena.dev.ndmf/Editor/AvatarProcessor.cs Line: 276)
+
+Processed pass RenameCollisionTagsPass in 0 ms
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+nadena.dev.ndmf.AvatarProcessor:ProcessAvatar (nadena.dev.ndmf.BuildContext,nadena.dev.ndmf.BuildPhase,nadena.dev.ndmf.BuildPhase) (at ./Packages/nadena.dev.ndmf/Editor/AvatarProcessor.cs:276)
+nadena.dev.ndmf.AvatarProcessor:ProcessAvatar (UnityEngine.GameObject,nadena.dev.ndmf.BuildPhase) (at ./Packages/nadena.dev.ndmf/Editor/AvatarProcessor.cs:233)
+nadena.dev.ndmf.AvatarProcessor:ProcessAvatar (UnityEngine.GameObject,nadena.dev.ndmf.platform.INDMFPlatformProvider) (at ./Packages/nadena.dev.ndmf/Editor/AvatarProcessor.cs:195)
+WineFoxItems.Editor.ValidateWineFoxItems:Validate () (at Assets/WineFoxItems/Editor/ValidateWineFoxItems.cs:54)
+
+(Filename: ./Packages/nadena.dev.ndmf/Editor/AvatarProcessor.cs Line: 276)
+
+Processed pass ReactiveObjectPrepass in 0 ms
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+nadena.dev.ndmf.AvatarProcessor:ProcessAvatar (nadena.dev.ndmf.BuildContext,nadena.dev.ndmf.BuildPhase,nadena.dev.ndmf.BuildPhase) (at ./Packages/nadena.dev.ndmf/Editor/AvatarProcessor.cs:276)
+nadena.dev.ndmf.AvatarProcessor:ProcessAvatar (UnityEngine.GameObject,nadena.dev.ndmf.BuildPhase) (at ./Packages/nadena.dev.ndmf/Editor/AvatarProcessor.cs:233)
+nadena.dev.ndmf.AvatarProcessor:ProcessAvatar (UnityEngine.GameObject,nadena.dev.ndmf.platform.INDMFPlatformProvider) (at ./Packages/nadena.dev.ndmf/Editor/AvatarProcessor.cs:195)
+WineFoxItems.Editor.ValidateWineFoxItems:Validate () (at Assets/WineFoxItems/Editor/ValidateWineFoxItems.cs:54)
+
+(Filename: ./Packages/nadena.dev.ndmf/Editor/AvatarProcessor.cs Line: 276)
+
+Processed pass FixupAbsolutePlayAudioPass in 2 ms
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+nadena.dev.ndmf.AvatarProcessor:ProcessAvatar (nadena.dev.ndmf.BuildContext,nadena.dev.ndmf.BuildPhase,nadena.dev.ndmf.BuildPhase) (at ./Packages/nadena.dev.ndmf/Editor/AvatarProcessor.cs:276)
+nadena.dev.ndmf.AvatarProcessor:ProcessAvatar (UnityEngine.GameObject,nadena.dev.ndmf.BuildPhase) (at ./Packages/nadena.dev.ndmf/Editor/AvatarProcessor.cs:233)
+nadena.dev.ndmf.AvatarProcessor:ProcessAvatar (UnityEngine.GameObject,nadena.dev.ndmf.platform.INDMFPlatformProvider) (at ./Packages/nadena.dev.ndmf/Editor/AvatarProcessor.cs:195)
+WineFoxItems.Editor.ValidateWineFoxItems:Validate () (at Assets/WineFoxItems/Editor/ValidateWineFoxItems.cs:54)
+
+(Filename: ./Packages/nadena.dev.ndmf/Editor/AvatarProcessor.cs Line: 276)
+
+Processed pass MMDRelayEarlyPass in 1 ms
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+nadena.dev.ndmf.AvatarProcessor:ProcessAvatar (nadena.dev.ndmf.BuildContext,nadena.dev.ndmf.BuildPhase,nadena.dev.ndmf.BuildPhase) (at ./Packages/nadena.dev.ndmf/Editor/AvatarProcessor.cs:276)
+nadena.dev.ndmf.AvatarProcessor:ProcessAvatar (UnityEngine.GameObject,nadena.dev.ndmf.BuildPhase) (at ./Packages/nadena.dev.ndmf/Editor/AvatarProcessor.cs:233)
+nadena.dev.ndmf.AvatarProcessor:ProcessAvatar (UnityEngine.GameObject,nadena.dev.ndmf.platform.INDMFPlatformProvider) (at ./Packages/nadena.dev.ndmf/Editor/AvatarProcessor.cs:195)
+WineFoxItems.Editor.ValidateWineFoxItems:Validate () (at Assets/WineFoxItems/Editor/ValidateWineFoxItems.cs:54)
+
+(Filename: ./Packages/nadena.dev.ndmf/Editor/AvatarProcessor.cs Line: 276)
+
+Processed pass RenameParametersPluginPass in 31 ms
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+nadena.dev.ndmf.AvatarProcessor:ProcessAvatar (nadena.dev.ndmf.BuildContext,nadena.dev.ndmf.BuildPhase,nadena.dev.ndmf.BuildPhase) (at ./Packages/nadena.dev.ndmf/Editor/AvatarProcessor.cs:276)
+nadena.dev.ndmf.AvatarProcessor:ProcessAvatar (UnityEngine.GameObject,nadena.dev.ndmf.BuildPhase) (at ./Packages/nadena.dev.ndmf/Editor/AvatarProcessor.cs:233)
+nadena.dev.ndmf.AvatarProcessor:ProcessAvatar (UnityEngine.GameObject,nadena.dev.ndmf.platform.INDMFPlatformProvider) (at ./Packages/nadena.dev.ndmf/Editor/AvatarProcessor.cs:195)
+WineFoxItems.Editor.ValidateWineFoxItems:Validate () (at Assets/WineFoxItems/Editor/ValidateWineFoxItems.cs:54)
+
+(Filename: ./Packages/nadena.dev.ndmf/Editor/AvatarProcessor.cs Line: 276)
+
+Processed pass ParameterAssignerPass in 1 ms
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+nadena.dev.ndmf.AvatarProcessor:ProcessAvatar (nadena.dev.ndmf.BuildContext,nadena.dev.ndmf.BuildPhase,nadena.dev.ndmf.BuildPhase) (at ./Packages/nadena.dev.ndmf/Editor/AvatarProcessor.cs:276)
+nadena.dev.ndmf.AvatarProcessor:ProcessAvatar (UnityEngine.GameObject,nadena.dev.ndmf.BuildPhase) (at ./Packages/nadena.dev.ndmf/Editor/AvatarProcessor.cs:233)
+nadena.dev.ndmf.AvatarProcessor:ProcessAvatar (UnityEngine.GameObject,nadena.dev.ndmf.platform.INDMFPlatformProvider) (at ./Packages/nadena.dev.ndmf/Editor/AvatarProcessor.cs:195)
+WineFoxItems.Editor.ValidateWineFoxItems:Validate () (at Assets/WineFoxItems/Editor/ValidateWineFoxItems.cs:54)
+
+(Filename: ./Packages/nadena.dev.ndmf/Editor/AvatarProcessor.cs Line: 276)
+
+Processed pass RemoveLayerPass in 0 ms
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+nadena.dev.ndmf.AvatarProcessor:ProcessAvatar (nadena.dev.ndmf.BuildContext,nadena.dev.ndmf.BuildPhase,nadena.dev.ndmf.BuildPhase) (at ./Packages/nadena.dev.ndmf/Editor/AvatarProcessor.cs:276)
+nadena.dev.ndmf.AvatarProcessor:ProcessAvatar (UnityEngine.GameObject,nadena.dev.ndmf.BuildPhase) (at ./Packages/nadena.dev.ndmf/Editor/AvatarProcessor.cs:233)
+nadena.dev.ndmf.AvatarProcessor:ProcessAvatar (UnityEngine.GameObject,nadena.dev.ndmf.platform.INDMFPlatformProvider) (at ./Packages/nadena.dev.ndmf/Editor/AvatarProcessor.cs:195)
+WineFoxItems.Editor.ValidateWineFoxItems:Validate () (at Assets/WineFoxItems/Editor/ValidateWineFoxItems.cs:54)
+
+(Filename: ./Packages/nadena.dev.ndmf/Editor/AvatarProcessor.cs Line: 276)
+
+Processed pass MergeBlendTreePass in 0 ms
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+nadena.dev.ndmf.AvatarProcessor:ProcessAvatar (nadena.dev.ndmf.BuildContext,nadena.dev.ndmf.BuildPhase,nadena.dev.ndmf.BuildPhase) (at ./Packages/nadena.dev.ndmf/Editor/AvatarProcessor.cs:276)
+nadena.dev.ndmf.AvatarProcessor:ProcessAvatar (UnityEngine.GameObject,nadena.dev.ndmf.BuildPhase) (at ./Packages/nadena.dev.ndmf/Editor/AvatarProcessor.cs:233)
+nadena.dev.ndmf.AvatarProcessor:ProcessAvatar (UnityEngine.GameObject,nadena.dev.ndmf.platform.INDMFPlatformProvider) (at ./Packages/nadena.dev.ndmf/Editor/AvatarProcessor.cs:195)
+WineFoxItems.Editor.ValidateWineFoxItems:Validate () (at Assets/WineFoxItems/Editor/ValidateWineFoxItems.cs:54)
+
+(Filename: ./Packages/nadena.dev.ndmf/Editor/AvatarProcessor.cs Line: 276)
+
+Processed pass MergeAnimatorPluginPass in 8 ms
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+nadena.dev.ndmf.AvatarProcessor:ProcessAvatar (nadena.dev.ndmf.BuildContext,nadena.dev.ndmf.BuildPhase,nadena.dev.ndmf.BuildPhase) (at ./Packages/nadena.dev.ndmf/Editor/AvatarProcessor.cs:276)
+nadena.dev.ndmf.AvatarProcessor:ProcessAvatar (UnityEngine.GameObject,nadena.dev.ndmf.BuildPhase) (at ./Packages/nadena.dev.ndmf/Editor/AvatarProcessor.cs:233)
+nadena.dev.ndmf.AvatarProcessor:ProcessAvatar (UnityEngine.GameObject,nadena.dev.ndmf.platform.INDMFPlatformProvider) (at ./Packages/nadena.dev.ndmf/Editor/AvatarProcessor.cs:195)
+WineFoxItems.Editor.ValidateWineFoxItems:Validate () (at Assets/WineFoxItems/Editor/ValidateWineFoxItems.cs:54)
+
+(Filename: ./Packages/nadena.dev.ndmf/Editor/AvatarProcessor.cs Line: 276)
+
+Processed pass ApplyAnimatorDefaultValuesPass in 0 ms
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+nadena.dev.ndmf.AvatarProcessor:ProcessAvatar (nadena.dev.ndmf.BuildContext,nadena.dev.ndmf.BuildPhase,nadena.dev.ndmf.BuildPhase) (at ./Packages/nadena.dev.ndmf/Editor/AvatarProcessor.cs:276)
+nadena.dev.ndmf.AvatarProcessor:ProcessAvatar (UnityEngine.GameObject,nadena.dev.ndmf.BuildPhase) (at ./Packages/nadena.dev.ndmf/Editor/AvatarProcessor.cs:233)
+nadena.dev.ndmf.AvatarProcessor:ProcessAvatar (UnityEngine.GameObject,nadena.dev.ndmf.platform.INDMFPlatformProvider) (at ./Packages/nadena.dev.ndmf/Editor/AvatarProcessor.cs:195)
+WineFoxItems.Editor.ValidateWineFoxItems:Validate () (at Assets/WineFoxItems/Editor/ValidateWineFoxItems.cs:54)
+
+(Filename: ./Packages/nadena.dev.ndmf/Editor/AvatarProcessor.cs Line: 276)
+
+Processed pass Reactive Components in 15 ms
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+nadena.dev.ndmf.AvatarProcessor:ProcessAvatar (nadena.dev.ndmf.BuildContext,nadena.dev.ndmf.BuildPhase,nadena.dev.ndmf.BuildPhase) (at ./Packages/nadena.dev.ndmf/Editor/AvatarProcessor.cs:276)
+nadena.dev.ndmf.AvatarProcessor:ProcessAvatar (UnityEngine.GameObject,nadena.dev.ndmf.BuildPhase) (at ./Packages/nadena.dev.ndmf/Editor/AvatarProcessor.cs:233)
+nadena.dev.ndmf.AvatarProcessor:ProcessAvatar (UnityEngine.GameObject,nadena.dev.ndmf.platform.INDMFPlatformProvider) (at ./Packages/nadena.dev.ndmf/Editor/AvatarProcessor.cs:195)
+WineFoxItems.Editor.ValidateWineFoxItems:Validate () (at Assets/WineFoxItems/Editor/ValidateWineFoxItems.cs:54)
+
+(Filename: ./Packages/nadena.dev.ndmf/Editor/AvatarProcessor.cs Line: 276)
+
+Processed pass FixupHeadChopRootBone in 2 ms
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+nadena.dev.ndmf.AvatarProcessor:ProcessAvatar (nadena.dev.ndmf.BuildContext,nadena.dev.ndmf.BuildPhase,nadena.dev.ndmf.BuildPhase) (at ./Packages/nadena.dev.ndmf/Editor/AvatarProcessor.cs:276)
+nadena.dev.ndmf.AvatarProcessor:ProcessAvatar (UnityEngine.GameObject,nadena.dev.ndmf.BuildPhase) (at ./Packages/nadena.dev.ndmf/Editor/AvatarProcessor.cs:233)
+nadena.dev.ndmf.AvatarProcessor:ProcessAvatar (UnityEngine.GameObject,nadena.dev.ndmf.platform.INDMFPlatformProvider) (at ./Packages/nadena.dev.ndmf/Editor/AvatarProcessor.cs:195)
+WineFoxItems.Editor.ValidateWineFoxItems:Validate () (at Assets/WineFoxItems/Editor/ValidateWineFoxItems.cs:54)
+
+(Filename: ./Packages/nadena.dev.ndmf/Editor/AvatarProcessor.cs Line: 276)
+
+Processed pass GameObjectDelayDisablePass in 1 ms
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+nadena.dev.ndmf.AvatarProcessor:ProcessAvatar (nadena.dev.ndmf.BuildContext,nadena.dev.ndmf.BuildPhase,nadena.dev.ndmf.BuildPhase) (at ./Packages/nadena.dev.ndmf/Editor/AvatarProcessor.cs:276)
+nadena.dev.ndmf.AvatarProcessor:ProcessAvatar (UnityEngine.GameObject,nadena.dev.ndmf.BuildPhase) (at ./Packages/nadena.dev.ndmf/Editor/AvatarProcessor.cs:233)
+nadena.dev.ndmf.AvatarProcessor:ProcessAvatar (UnityEngine.GameObject,nadena.dev.ndmf.platform.INDMFPlatformProvider) (at ./Packages/nadena.dev.ndmf/Editor/AvatarProcessor.cs:195)
+WineFoxItems.Editor.ValidateWineFoxItems:Validate () (at Assets/WineFoxItems/Editor/ValidateWineFoxItems.cs:54)
+
+(Filename: ./Packages/nadena.dev.ndmf/Editor/AvatarProcessor.cs Line: 276)
+
+Processed pass MenuInstallPluginPass in 8 ms
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+nadena.dev.ndmf.AvatarProcessor:ProcessAvatar (nadena.dev.ndmf.BuildContext,nadena.dev.ndmf.BuildPhase,nadena.dev.ndmf.BuildPhase) (at ./Packages/nadena.dev.ndmf/Editor/AvatarProcessor.cs:276)
+nadena.dev.ndmf.AvatarProcessor:ProcessAvatar (UnityEngine.GameObject,nadena.dev.ndmf.BuildPhase) (at ./Packages/nadena.dev.ndmf/Editor/AvatarProcessor.cs:233)
+nadena.dev.ndmf.AvatarProcessor:ProcessAvatar (UnityEngine.GameObject,nadena.dev.ndmf.platform.INDMFPlatformProvider) (at ./Packages/nadena.dev.ndmf/Editor/AvatarProcessor.cs:195)
+WineFoxItems.Editor.ValidateWineFoxItems:Validate () (at Assets/WineFoxItems/Editor/ValidateWineFoxItems.cs:54)
+
+(Filename: ./Packages/nadena.dev.ndmf/Editor/AvatarProcessor.cs Line: 276)
+
+Processed pass CycleCheckPass in 3 ms
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+nadena.dev.ndmf.AvatarProcessor:ProcessAvatar (nadena.dev.ndmf.BuildContext,nadena.dev.ndmf.BuildPhase,nadena.dev.ndmf.BuildPhase) (at ./Packages/nadena.dev.ndmf/Editor/AvatarProcessor.cs:276)
+nadena.dev.ndmf.AvatarProcessor:ProcessAvatar (UnityEngine.GameObject,nadena.dev.ndmf.BuildPhase) (at ./Packages/nadena.dev.ndmf/Editor/AvatarProcessor.cs:233)
+nadena.dev.ndmf.AvatarProcessor:ProcessAvatar (UnityEngine.GameObject,nadena.dev.ndmf.platform.INDMFPlatformProvider) (at ./Packages/nadena.dev.ndmf/Editor/AvatarProcessor.cs:195)
+WineFoxItems.Editor.ValidateWineFoxItems:Validate () (at Assets/WineFoxItems/Editor/ValidateWineFoxItems.cs:54)
+
+(Filename: ./Packages/nadena.dev.ndmf/Editor/AvatarProcessor.cs Line: 276)
+
+Processed pass BoneProxyPluginPrepass in 0 ms
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+nadena.dev.ndmf.AvatarProcessor:ProcessAvatar (nadena.dev.ndmf.BuildContext,nadena.dev.ndmf.BuildPhase,nadena.dev.ndmf.BuildPhase) (at ./Packages/nadena.dev.ndmf/Editor/AvatarProcessor.cs:276)
+nadena.dev.ndmf.AvatarProcessor:ProcessAvatar (UnityEngine.GameObject,nadena.dev.ndmf.BuildPhase) (at ./Packages/nadena.dev.ndmf/Editor/AvatarProcessor.cs:233)
+nadena.dev.ndmf.AvatarProcessor:ProcessAvatar (UnityEngine.GameObject,nadena.dev.ndmf.platform.INDMFPlatformProvider) (at ./Packages/nadena.dev.ndmf/Editor/AvatarProcessor.cs:195)
+WineFoxItems.Editor.ValidateWineFoxItems:Validate () (at Assets/WineFoxItems/Editor/ValidateWineFoxItems.cs:54)
+
+(Filename: ./Packages/nadena.dev.ndmf/Editor/AvatarProcessor.cs Line: 276)
+
+Processed pass MergeArmaturePluginPass in 7 ms
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+nadena.dev.ndmf.AvatarProcessor:ProcessAvatar (nadena.dev.ndmf.BuildContext,nadena.dev.ndmf.BuildPhase,nadena.dev.ndmf.BuildPhase) (at ./Packages/nadena.dev.ndmf/Editor/AvatarProcessor.cs:276)
+nadena.dev.ndmf.AvatarProcessor:ProcessAvatar (UnityEngine.GameObject,nadena.dev.ndmf.BuildPhase) (at ./Packages/nadena.dev.ndmf/Editor/AvatarProcessor.cs:233)
+nadena.dev.ndmf.AvatarProcessor:ProcessAvatar (UnityEngine.GameObject,nadena.dev.ndmf.platform.INDMFPlatformProvider) (at ./Packages/nadena.dev.ndmf/Editor/AvatarProcessor.cs:195)
+WineFoxItems.Editor.ValidateWineFoxItems:Validate () (at Assets/WineFoxItems/Editor/ValidateWineFoxItems.cs:54)
+
+(Filename: ./Packages/nadena.dev.ndmf/Editor/AvatarProcessor.cs Line: 276)
+
+Processed pass BoneProxyPluginPass in 1 ms
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+nadena.dev.ndmf.AvatarProcessor:ProcessAvatar (nadena.dev.ndmf.BuildContext,nadena.dev.ndmf.BuildPhase,nadena.dev.ndmf.BuildPhase) (at ./Packages/nadena.dev.ndmf/Editor/AvatarProcessor.cs:276)
+nadena.dev.ndmf.AvatarProcessor:ProcessAvatar (UnityEngine.GameObject,nadena.dev.ndmf.BuildPhase) (at ./Packages/nadena.dev.ndmf/Editor/AvatarProcessor.cs:233)
+nadena.dev.ndmf.AvatarProcessor:ProcessAvatar (UnityEngine.GameObject,nadena.dev.ndmf.platform.INDMFPlatformProvider) (at ./Packages/nadena.dev.ndmf/Editor/AvatarProcessor.cs:195)
+WineFoxItems.Editor.ValidateWineFoxItems:Validate () (at Assets/WineFoxItems/Editor/ValidateWineFoxItems.cs:54)
+
+(Filename: ./Packages/nadena.dev.ndmf/Editor/AvatarProcessor.cs Line: 276)
+
+Processed pass MoveToPluginPass in 0 ms
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+nadena.dev.ndmf.AvatarProcessor:ProcessAvatar (nadena.dev.ndmf.BuildContext,nadena.dev.ndmf.BuildPhase,nadena.dev.ndmf.BuildPhase) (at ./Packages/nadena.dev.ndmf/Editor/AvatarProcessor.cs:276)
+nadena.dev.ndmf.AvatarProcessor:ProcessAvatar (UnityEngine.GameObject,nadena.dev.ndmf.BuildPhase) (at ./Packages/nadena.dev.ndmf/Editor/AvatarProcessor.cs:233)
+nadena.dev.ndmf.AvatarProcessor:ProcessAvatar (UnityEngine.GameObject,nadena.dev.ndmf.platform.INDMFPlatformProvider) (at ./Packages/nadena.dev.ndmf/Editor/AvatarProcessor.cs:195)
+WineFoxItems.Editor.ValidateWineFoxItems:Validate () (at Assets/WineFoxItems/Editor/ValidateWineFoxItems.cs:54)
+
+(Filename: ./Packages/nadena.dev.ndmf/Editor/AvatarProcessor.cs Line: 276)
+
+Processed pass VisibleHeadAccessoryPluginPass in 1 ms
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+nadena.dev.ndmf.AvatarProcessor:ProcessAvatar (nadena.dev.ndmf.BuildContext,nadena.dev.ndmf.BuildPhase,nadena.dev.ndmf.BuildPhase) (at ./Packages/nadena.dev.ndmf/Editor/AvatarProcessor.cs:276)
+nadena.dev.ndmf.AvatarProcessor:ProcessAvatar (UnityEngine.GameObject,nadena.dev.ndmf.BuildPhase) (at ./Packages/nadena.dev.ndmf/Editor/AvatarProcessor.cs:233)
+nadena.dev.ndmf.AvatarProcessor:ProcessAvatar (UnityEngine.GameObject,nadena.dev.ndmf.platform.INDMFPlatformProvider) (at ./Packages/nadena.dev.ndmf/Editor/AvatarProcessor.cs:195)
+WineFoxItems.Editor.ValidateWineFoxItems:Validate () (at Assets/WineFoxItems/Editor/ValidateWineFoxItems.cs:54)
+
+(Filename: ./Packages/nadena.dev.ndmf/Editor/AvatarProcessor.cs Line: 276)
+
+Processed pass World Fixed Object in 0 ms
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+nadena.dev.ndmf.AvatarProcessor:ProcessAvatar (nadena.dev.ndmf.BuildContext,nadena.dev.ndmf.BuildPhase,nadena.dev.ndmf.BuildPhase) (at ./Packages/nadena.dev.ndmf/Editor/AvatarProcessor.cs:276)
+nadena.dev.ndmf.AvatarProcessor:ProcessAvatar (UnityEngine.GameObject,nadena.dev.ndmf.BuildPhase) (at ./Packages/nadena.dev.ndmf/Editor/AvatarProcessor.cs:233)
+nadena.dev.ndmf.AvatarProcessor:ProcessAvatar (UnityEngine.GameObject,nadena.dev.ndmf.platform.INDMFPlatformProvider) (at ./Packages/nadena.dev.ndmf/Editor/AvatarProcessor.cs:195)
+WineFoxItems.Editor.ValidateWineFoxItems:Validate () (at Assets/WineFoxItems/Editor/ValidateWineFoxItems.cs:54)
+
+(Filename: ./Packages/nadena.dev.ndmf/Editor/AvatarProcessor.cs Line: 276)
+
+Processed pass WorldScaleObjectPass in 0 ms
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+nadena.dev.ndmf.AvatarProcessor:ProcessAvatar (nadena.dev.ndmf.BuildContext,nadena.dev.ndmf.BuildPhase,nadena.dev.ndmf.BuildPhase) (at ./Packages/nadena.dev.ndmf/Editor/AvatarProcessor.cs:276)
+nadena.dev.ndmf.AvatarProcessor:ProcessAvatar (UnityEngine.GameObject,nadena.dev.ndmf.BuildPhase) (at ./Packages/nadena.dev.ndmf/Editor/AvatarProcessor.cs:233)
+nadena.dev.ndmf.AvatarProcessor:ProcessAvatar (UnityEngine.GameObject,nadena.dev.ndmf.platform.INDMFPlatformProvider) (at ./Packages/nadena.dev.ndmf/Editor/AvatarProcessor.cs:195)
+WineFoxItems.Editor.ValidateWineFoxItems:Validate () (at Assets/WineFoxItems/Editor/ValidateWineFoxItems.cs:54)
+
+(Filename: ./Packages/nadena.dev.ndmf/Editor/AvatarProcessor.cs Line: 276)
+
+Processed pass ReplaceObjectPluginPass in 1 ms
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+nadena.dev.ndmf.AvatarProcessor:ProcessAvatar (nadena.dev.ndmf.BuildContext,nadena.dev.ndmf.BuildPhase,nadena.dev.ndmf.BuildPhase) (at ./Packages/nadena.dev.ndmf/Editor/AvatarProcessor.cs:276)
+nadena.dev.ndmf.AvatarProcessor:ProcessAvatar (UnityEngine.GameObject,nadena.dev.ndmf.BuildPhase) (at ./Packages/nadena.dev.ndmf/Editor/AvatarProcessor.cs:233)
+nadena.dev.ndmf.AvatarProcessor:ProcessAvatar (UnityEngine.GameObject,nadena.dev.ndmf.platform.INDMFPlatformProvider) (at ./Packages/nadena.dev.ndmf/Editor/AvatarProcessor.cs:195)
+WineFoxItems.Editor.ValidateWineFoxItems:Validate () (at Assets/WineFoxItems/Editor/ValidateWineFoxItems.cs:54)
+
+(Filename: ./Packages/nadena.dev.ndmf/Editor/AvatarProcessor.cs Line: 276)
+
+Processed pass BlendshapeSyncAnimationPluginPass in 1 ms
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+nadena.dev.ndmf.AvatarProcessor:ProcessAvatar (nadena.dev.ndmf.BuildContext,nadena.dev.ndmf.BuildPhase,nadena.dev.ndmf.BuildPhase) (at ./Packages/nadena.dev.ndmf/Editor/AvatarProcessor.cs:276)
+nadena.dev.ndmf.AvatarProcessor:ProcessAvatar (UnityEngine.GameObject,nadena.dev.ndmf.BuildPhase) (at ./Packages/nadena.dev.ndmf/Editor/AvatarProcessor.cs:233)
+nadena.dev.ndmf.AvatarProcessor:ProcessAvatar (UnityEngine.GameObject,nadena.dev.ndmf.platform.INDMFPlatformProvider) (at ./Packages/nadena.dev.ndmf/Editor/AvatarProcessor.cs:195)
+WineFoxItems.Editor.ValidateWineFoxItems:Validate () (at Assets/WineFoxItems/Editor/ValidateWineFoxItems.cs:54)
+
+(Filename: ./Packages/nadena.dev.ndmf/Editor/AvatarProcessor.cs Line: 276)
+
+Processed pass ConstraintConverterPass in 0 ms
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+nadena.dev.ndmf.AvatarProcessor:ProcessAvatar (nadena.dev.ndmf.BuildContext,nadena.dev.ndmf.BuildPhase,nadena.dev.ndmf.BuildPhase) (at ./Packages/nadena.dev.ndmf/Editor/AvatarProcessor.cs:276)
+nadena.dev.ndmf.AvatarProcessor:ProcessAvatar (UnityEngine.GameObject,nadena.dev.ndmf.BuildPhase) (at ./Packages/nadena.dev.ndmf/Editor/AvatarProcessor.cs:233)
+nadena.dev.ndmf.AvatarProcessor:ProcessAvatar (UnityEngine.GameObject,nadena.dev.ndmf.platform.INDMFPlatformProvider) (at ./Packages/nadena.dev.ndmf/Editor/AvatarProcessor.cs:195)
+WineFoxItems.Editor.ValidateWineFoxItems:Validate () (at Assets/WineFoxItems/Editor/ValidateWineFoxItems.cs:54)
+
+(Filename: ./Packages/nadena.dev.ndmf/Editor/AvatarProcessor.cs Line: 276)
+
+Processed pass Prune empty animator layers in 1 ms
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+nadena.dev.ndmf.AvatarProcessor:ProcessAvatar (nadena.dev.ndmf.BuildContext,nadena.dev.ndmf.BuildPhase,nadena.dev.ndmf.BuildPhase) (at ./Packages/nadena.dev.ndmf/Editor/AvatarProcessor.cs:276)
+nadena.dev.ndmf.AvatarProcessor:ProcessAvatar (UnityEngine.GameObject,nadena.dev.ndmf.BuildPhase) (at ./Packages/nadena.dev.ndmf/Editor/AvatarProcessor.cs:233)
+nadena.dev.ndmf.AvatarProcessor:ProcessAvatar (UnityEngine.GameObject,nadena.dev.ndmf.platform.INDMFPlatformProvider) (at ./Packages/nadena.dev.ndmf/Editor/AvatarProcessor.cs:195)
+WineFoxItems.Editor.ValidateWineFoxItems:Validate () (at Assets/WineFoxItems/Editor/ValidateWineFoxItems.cs:54)
+
+(Filename: ./Packages/nadena.dev.ndmf/Editor/AvatarProcessor.cs Line: 276)
+
+Processed pass Harmonize animator parameter types in 6 ms
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+nadena.dev.ndmf.AvatarProcessor:ProcessAvatar (nadena.dev.ndmf.BuildContext,nadena.dev.ndmf.BuildPhase,nadena.dev.ndmf.BuildPhase) (at ./Packages/nadena.dev.ndmf/Editor/AvatarProcessor.cs:276)
+nadena.dev.ndmf.AvatarProcessor:ProcessAvatar (UnityEngine.GameObject,nadena.dev.ndmf.BuildPhase) (at ./Packages/nadena.dev.ndmf/Editor/AvatarProcessor.cs:233)
+nadena.dev.ndmf.AvatarProcessor:ProcessAvatar (UnityEngine.GameObject,nadena.dev.ndmf.platform.INDMFPlatformProvider) (at ./Packages/nadena.dev.ndmf/Editor/AvatarProcessor.cs:195)
+WineFoxItems.Editor.ValidateWineFoxItems:Validate () (at Assets/WineFoxItems/Editor/ValidateWineFoxItems.cs:54)
+
+(Filename: ./Packages/nadena.dev.ndmf/Editor/AvatarProcessor.cs Line: 276)
+
+Processed pass MMDRelayPass in 5 ms
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+nadena.dev.ndmf.AvatarProcessor:ProcessAvatar (nadena.dev.ndmf.BuildContext,nadena.dev.ndmf.BuildPhase,nadena.dev.ndmf.BuildPhase) (at ./Packages/nadena.dev.ndmf/Editor/AvatarProcessor.cs:276)
+nadena.dev.ndmf.AvatarProcessor:ProcessAvatar (UnityEngine.GameObject,nadena.dev.ndmf.BuildPhase) (at ./Packages/nadena.dev.ndmf/Editor/AvatarProcessor.cs:233)
+nadena.dev.ndmf.AvatarProcessor:ProcessAvatar (UnityEngine.GameObject,nadena.dev.ndmf.platform.INDMFPlatformProvider) (at ./Packages/nadena.dev.ndmf/Editor/AvatarProcessor.cs:195)
+WineFoxItems.Editor.ValidateWineFoxItems:Validate () (at Assets/WineFoxItems/Editor/ValidateWineFoxItems.cs:54)
+
+(Filename: ./Packages/nadena.dev.ndmf/Editor/AvatarProcessor.cs Line: 276)
+
+Asset Pipeline Refresh (id=6f76e574f141a1046b9a4fa6056c4df9): Total: 0.001 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Processed pass PhysbonesBlockerPluginPass in 12 ms
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+nadena.dev.ndmf.AvatarProcessor:ProcessAvatar (nadena.dev.ndmf.BuildContext,nadena.dev.ndmf.BuildPhase,nadena.dev.ndmf.BuildPhase) (at ./Packages/nadena.dev.ndmf/Editor/AvatarProcessor.cs:276)
+nadena.dev.ndmf.AvatarProcessor:ProcessAvatar (UnityEngine.GameObject,nadena.dev.ndmf.BuildPhase) (at ./Packages/nadena.dev.ndmf/Editor/AvatarProcessor.cs:233)
+nadena.dev.ndmf.AvatarProcessor:ProcessAvatar (UnityEngine.GameObject,nadena.dev.ndmf.platform.INDMFPlatformProvider) (at ./Packages/nadena.dev.ndmf/Editor/AvatarProcessor.cs:195)
+WineFoxItems.Editor.ValidateWineFoxItems:Validate () (at Assets/WineFoxItems/Editor/ValidateWineFoxItems.cs:54)
+
+(Filename: ./Packages/nadena.dev.ndmf/Editor/AvatarProcessor.cs Line: 276)
+
+Processed pass Fixup Expressions Menu in 0 ms
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+nadena.dev.ndmf.AvatarProcessor:ProcessAvatar (nadena.dev.ndmf.BuildContext,nadena.dev.ndmf.BuildPhase,nadena.dev.ndmf.BuildPhase) (at ./Packages/nadena.dev.ndmf/Editor/AvatarProcessor.cs:276)
+nadena.dev.ndmf.AvatarProcessor:ProcessAvatar (UnityEngine.GameObject,nadena.dev.ndmf.BuildPhase) (at ./Packages/nadena.dev.ndmf/Editor/AvatarProcessor.cs:233)
+nadena.dev.ndmf.AvatarProcessor:ProcessAvatar (UnityEngine.GameObject,nadena.dev.ndmf.platform.INDMFPlatformProvider) (at ./Packages/nadena.dev.ndmf/Editor/AvatarProcessor.cs:195)
+WineFoxItems.Editor.ValidateWineFoxItems:Validate () (at Assets/WineFoxItems/Editor/ValidateWineFoxItems.cs:54)
+
+(Filename: ./Packages/nadena.dev.ndmf/Editor/AvatarProcessor.cs Line: 276)
+
+Processed pass SyncParameterSequencePass in 0 ms
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+nadena.dev.ndmf.AvatarProcessor:ProcessAvatar (nadena.dev.ndmf.BuildContext,nadena.dev.ndmf.BuildPhase,nadena.dev.ndmf.BuildPhase) (at ./Packages/nadena.dev.ndmf/Editor/AvatarProcessor.cs:276)
+nadena.dev.ndmf.AvatarProcessor:ProcessAvatar (UnityEngine.GameObject,nadena.dev.ndmf.BuildPhase) (at ./Packages/nadena.dev.ndmf/Editor/AvatarProcessor.cs:233)
+nadena.dev.ndmf.AvatarProcessor:ProcessAvatar (UnityEngine.GameObject,nadena.dev.ndmf.platform.INDMFPlatformProvider) (at ./Packages/nadena.dev.ndmf/Editor/AvatarProcessor.cs:195)
+WineFoxItems.Editor.ValidateWineFoxItems:Validate () (at Assets/WineFoxItems/Editor/ValidateWineFoxItems.cs:54)
+
+(Filename: ./Packages/nadena.dev.ndmf/Editor/AvatarProcessor.cs Line: 276)
+
+Processed pass RemoveVertexColorPass in 0 ms
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+nadena.dev.ndmf.AvatarProcessor:ProcessAvatar (nadena.dev.ndmf.BuildContext,nadena.dev.ndmf.BuildPhase,nadena.dev.ndmf.BuildPhase) (at ./Packages/nadena.dev.ndmf/Editor/AvatarProcessor.cs:276)
+nadena.dev.ndmf.AvatarProcessor:ProcessAvatar (UnityEngine.GameObject,nadena.dev.ndmf.BuildPhase) (at ./Packages/nadena.dev.ndmf/Editor/AvatarProcessor.cs:233)
+nadena.dev.ndmf.AvatarProcessor:ProcessAvatar (UnityEngine.GameObject,nadena.dev.ndmf.platform.INDMFPlatformProvider) (at ./Packages/nadena.dev.ndmf/Editor/AvatarProcessor.cs:195)
+WineFoxItems.Editor.ValidateWineFoxItems:Validate () (at Assets/WineFoxItems/Editor/ValidateWineFoxItems.cs:54)
+
+(Filename: ./Packages/nadena.dev.ndmf/Editor/AvatarProcessor.cs Line: 276)
+
+Processed pass RebindHumanoidAvatarPass in 1 ms
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+nadena.dev.ndmf.AvatarProcessor:ProcessAvatar (nadena.dev.ndmf.BuildContext,nadena.dev.ndmf.BuildPhase,nadena.dev.ndmf.BuildPhase) (at ./Packages/nadena.dev.ndmf/Editor/AvatarProcessor.cs:276)
+nadena.dev.ndmf.AvatarProcessor:ProcessAvatar (UnityEngine.GameObject,nadena.dev.ndmf.BuildPhase) (at ./Packages/nadena.dev.ndmf/Editor/AvatarProcessor.cs:233)
+nadena.dev.ndmf.AvatarProcessor:ProcessAvatar (UnityEngine.GameObject,nadena.dev.ndmf.platform.INDMFPlatformProvider) (at ./Packages/nadena.dev.ndmf/Editor/AvatarProcessor.cs:195)
+WineFoxItems.Editor.ValidateWineFoxItems:Validate () (at Assets/WineFoxItems/Editor/ValidateWineFoxItems.cs:54)
+
+(Filename: ./Packages/nadena.dev.ndmf/Editor/AvatarProcessor.cs Line: 276)
+
+Processed pass PruneParametersPass in 0 ms
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+nadena.dev.ndmf.AvatarProcessor:ProcessAvatar (nadena.dev.ndmf.BuildContext,nadena.dev.ndmf.BuildPhase,nadena.dev.ndmf.BuildPhase) (at ./Packages/nadena.dev.ndmf/Editor/AvatarProcessor.cs:276)
+nadena.dev.ndmf.AvatarProcessor:ProcessAvatar (UnityEngine.GameObject,nadena.dev.ndmf.BuildPhase) (at ./Packages/nadena.dev.ndmf/Editor/AvatarProcessor.cs:233)
+nadena.dev.ndmf.AvatarProcessor:ProcessAvatar (UnityEngine.GameObject,nadena.dev.ndmf.platform.INDMFPlatformProvider) (at ./Packages/nadena.dev.ndmf/Editor/AvatarProcessor.cs:195)
+WineFoxItems.Editor.ValidateWineFoxItems:Validate () (at Assets/WineFoxItems/Editor/ValidateWineFoxItems.cs:54)
+
+(Filename: ./Packages/nadena.dev.ndmf/Editor/AvatarProcessor.cs Line: 276)
+
+Processed pass FloorAdjusterPass in 0 ms
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+nadena.dev.ndmf.AvatarProcessor:ProcessAvatar (nadena.dev.ndmf.BuildContext,nadena.dev.ndmf.BuildPhase,nadena.dev.ndmf.BuildPhase) (at ./Packages/nadena.dev.ndmf/Editor/AvatarProcessor.cs:276)
+nadena.dev.ndmf.AvatarProcessor:ProcessAvatar (UnityEngine.GameObject,nadena.dev.ndmf.BuildPhase) (at ./Packages/nadena.dev.ndmf/Editor/AvatarProcessor.cs:233)
+nadena.dev.ndmf.AvatarProcessor:ProcessAvatar (UnityEngine.GameObject,nadena.dev.ndmf.platform.INDMFPlatformProvider) (at ./Packages/nadena.dev.ndmf/Editor/AvatarProcessor.cs:195)
+WineFoxItems.Editor.ValidateWineFoxItems:Validate () (at Assets/WineFoxItems/Editor/ValidateWineFoxItems.cs:54)
+
+(Filename: ./Packages/nadena.dev.ndmf/Editor/AvatarProcessor.cs Line: 276)
+
+Processed pass Purge ModularAvatar components in 0 ms
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+nadena.dev.ndmf.AvatarProcessor:ProcessAvatar (nadena.dev.ndmf.BuildContext,nadena.dev.ndmf.BuildPhase,nadena.dev.ndmf.BuildPhase) (at ./Packages/nadena.dev.ndmf/Editor/AvatarProcessor.cs:276)
+nadena.dev.ndmf.AvatarProcessor:ProcessAvatar (UnityEngine.GameObject,nadena.dev.ndmf.BuildPhase) (at ./Packages/nadena.dev.ndmf/Editor/AvatarProcessor.cs:233)
+nadena.dev.ndmf.AvatarProcessor:ProcessAvatar (UnityEngine.GameObject,nadena.dev.ndmf.platform.INDMFPlatformProvider) (at ./Packages/nadena.dev.ndmf/Editor/AvatarProcessor.cs:195)
+WineFoxItems.Editor.ValidateWineFoxItems:Validate () (at Assets/WineFoxItems/Editor/ValidateWineFoxItems.cs:54)
+
+(Filename: ./Packages/nadena.dev.ndmf/Editor/AvatarProcessor.cs Line: 276)
+
+Processed pass Rebind humanoid avatar (again) in 0 ms
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+nadena.dev.ndmf.AvatarProcessor:ProcessAvatar (nadena.dev.ndmf.BuildContext,nadena.dev.ndmf.BuildPhase,nadena.dev.ndmf.BuildPhase) (at ./Packages/nadena.dev.ndmf/Editor/AvatarProcessor.cs:276)
+nadena.dev.ndmf.AvatarProcessor:ProcessAvatar (UnityEngine.GameObject,nadena.dev.ndmf.BuildPhase) (at ./Packages/nadena.dev.ndmf/Editor/AvatarProcessor.cs:233)
+nadena.dev.ndmf.AvatarProcessor:ProcessAvatar (UnityEngine.GameObject,nadena.dev.ndmf.platform.INDMFPlatformProvider) (at ./Packages/nadena.dev.ndmf/Editor/AvatarProcessor.cs:195)
+WineFoxItems.Editor.ValidateWineFoxItems:Validate () (at Assets/WineFoxItems/Editor/ValidateWineFoxItems.cs:54)
+
+(Filename: ./Packages/nadena.dev.ndmf/Editor/AvatarProcessor.cs Line: 276)
+
+Processed pass Close extensions in 0 ms
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+nadena.dev.ndmf.AvatarProcessor:ProcessAvatar (nadena.dev.ndmf.BuildContext,nadena.dev.ndmf.BuildPhase,nadena.dev.ndmf.BuildPhase) (at ./Packages/nadena.dev.ndmf/Editor/AvatarProcessor.cs:276)
+nadena.dev.ndmf.AvatarProcessor:ProcessAvatar (UnityEngine.GameObject,nadena.dev.ndmf.BuildPhase) (at ./Packages/nadena.dev.ndmf/Editor/AvatarProcessor.cs:233)
+nadena.dev.ndmf.AvatarProcessor:ProcessAvatar (UnityEngine.GameObject,nadena.dev.ndmf.platform.INDMFPlatformProvider) (at ./Packages/nadena.dev.ndmf/Editor/AvatarProcessor.cs:195)
+WineFoxItems.Editor.ValidateWineFoxItems:Validate () (at Assets/WineFoxItems/Editor/ValidateWineFoxItems.cs:54)
+
+(Filename: ./Packages/nadena.dev.ndmf/Editor/AvatarProcessor.cs Line: 276)
+
+=== Processing phase Optimizing ===
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+nadena.dev.ndmf.AvatarProcessor:ProcessAvatar (nadena.dev.ndmf.BuildContext,nadena.dev.ndmf.BuildPhase,nadena.dev.ndmf.BuildPhase) (at ./Packages/nadena.dev.ndmf/Editor/AvatarProcessor.cs:257)
+nadena.dev.ndmf.AvatarProcessor:ProcessAvatar (UnityEngine.GameObject,nadena.dev.ndmf.BuildPhase) (at ./Packages/nadena.dev.ndmf/Editor/AvatarProcessor.cs:233)
+nadena.dev.ndmf.AvatarProcessor:ProcessAvatar (UnityEngine.GameObject,nadena.dev.ndmf.platform.INDMFPlatformProvider) (at ./Packages/nadena.dev.ndmf/Editor/AvatarProcessor.cs:195)
+WineFoxItems.Editor.ValidateWineFoxItems:Validate () (at Assets/WineFoxItems/Editor/ValidateWineFoxItems.cs:54)
+
+(Filename: ./Packages/nadena.dev.ndmf/Editor/AvatarProcessor.cs Line: 257)
+
+Processed pass GCGameObjectsPluginPass in 8 ms
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+nadena.dev.ndmf.AvatarProcessor:ProcessAvatar (nadena.dev.ndmf.BuildContext,nadena.dev.ndmf.BuildPhase,nadena.dev.ndmf.BuildPhase) (at ./Packages/nadena.dev.ndmf/Editor/AvatarProcessor.cs:276)
+nadena.dev.ndmf.AvatarProcessor:ProcessAvatar (UnityEngine.GameObject,nadena.dev.ndmf.BuildPhase) (at ./Packages/nadena.dev.ndmf/Editor/AvatarProcessor.cs:233)
+nadena.dev.ndmf.AvatarProcessor:ProcessAvatar (UnityEngine.GameObject,nadena.dev.ndmf.platform.INDMFPlatformProvider) (at ./Packages/nadena.dev.ndmf/Editor/AvatarProcessor.cs:195)
+WineFoxItems.Editor.ValidateWineFoxItems:Validate () (at Assets/WineFoxItems/Editor/ValidateWineFoxItems.cs:54)
+
+(Filename: ./Packages/nadena.dev.ndmf/Editor/AvatarProcessor.cs Line: 276)
+
+Asset Pipeline Refresh (id=a000cc3d4c5c24a429b879eb6c1c4fcd): Total: 0.001 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Processed pass Close extensions in 8 ms
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+nadena.dev.ndmf.AvatarProcessor:ProcessAvatar (nadena.dev.ndmf.BuildContext,nadena.dev.ndmf.BuildPhase,nadena.dev.ndmf.BuildPhase) (at ./Packages/nadena.dev.ndmf/Editor/AvatarProcessor.cs:276)
+nadena.dev.ndmf.AvatarProcessor:ProcessAvatar (UnityEngine.GameObject,nadena.dev.ndmf.BuildPhase) (at ./Packages/nadena.dev.ndmf/Editor/AvatarProcessor.cs:233)
+nadena.dev.ndmf.AvatarProcessor:ProcessAvatar (UnityEngine.GameObject,nadena.dev.ndmf.platform.INDMFPlatformProvider) (at ./Packages/nadena.dev.ndmf/Editor/AvatarProcessor.cs:195)
+WineFoxItems.Editor.ValidateWineFoxItems:Validate () (at Assets/WineFoxItems/Editor/ValidateWineFoxItems.cs:54)
+
+(Filename: ./Packages/nadena.dev.ndmf/Editor/AvatarProcessor.cs Line: 276)
+
+=== Processing phase PlatformFinish ===
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+nadena.dev.ndmf.AvatarProcessor:ProcessAvatar (nadena.dev.ndmf.BuildContext,nadena.dev.ndmf.BuildPhase,nadena.dev.ndmf.BuildPhase) (at ./Packages/nadena.dev.ndmf/Editor/AvatarProcessor.cs:257)
+nadena.dev.ndmf.AvatarProcessor:ProcessAvatar (UnityEngine.GameObject,nadena.dev.ndmf.BuildPhase) (at ./Packages/nadena.dev.ndmf/Editor/AvatarProcessor.cs:233)
+nadena.dev.ndmf.AvatarProcessor:ProcessAvatar (UnityEngine.GameObject,nadena.dev.ndmf.platform.INDMFPlatformProvider) (at ./Packages/nadena.dev.ndmf/Editor/AvatarProcessor.cs:195)
+WineFoxItems.Editor.ValidateWineFoxItems:Validate () (at Assets/WineFoxItems/Editor/ValidateWineFoxItems.cs:54)
+
+(Filename: ./Packages/nadena.dev.ndmf/Editor/AvatarProcessor.cs Line: 257)
+
+Processed pass Generate portable components in 1 ms
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+nadena.dev.ndmf.AvatarProcessor:ProcessAvatar (nadena.dev.ndmf.BuildContext,nadena.dev.ndmf.BuildPhase,nadena.dev.ndmf.BuildPhase) (at ./Packages/nadena.dev.ndmf/Editor/AvatarProcessor.cs:276)
+nadena.dev.ndmf.AvatarProcessor:ProcessAvatar (UnityEngine.GameObject,nadena.dev.ndmf.BuildPhase) (at ./Packages/nadena.dev.ndmf/Editor/AvatarProcessor.cs:233)
+nadena.dev.ndmf.AvatarProcessor:ProcessAvatar (UnityEngine.GameObject,nadena.dev.ndmf.platform.INDMFPlatformProvider) (at ./Packages/nadena.dev.ndmf/Editor/AvatarProcessor.cs:195)
+WineFoxItems.Editor.ValidateWineFoxItems:Validate () (at Assets/WineFoxItems/Editor/ValidateWineFoxItems.cs:54)
+
+(Filename: ./Packages/nadena.dev.ndmf/Editor/AvatarProcessor.cs Line: 276)
+
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
+Processed pass CheckMipStreamingPass in 82 ms
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+nadena.dev.ndmf.AvatarProcessor:ProcessAvatar (nadena.dev.ndmf.BuildContext,nadena.dev.ndmf.BuildPhase,nadena.dev.ndmf.BuildPhase) (at ./Packages/nadena.dev.ndmf/Editor/AvatarProcessor.cs:276)
+nadena.dev.ndmf.AvatarProcessor:ProcessAvatar (UnityEngine.GameObject,nadena.dev.ndmf.BuildPhase) (at ./Packages/nadena.dev.ndmf/Editor/AvatarProcessor.cs:233)
+nadena.dev.ndmf.AvatarProcessor:ProcessAvatar (UnityEngine.GameObject,nadena.dev.ndmf.platform.INDMFPlatformProvider) (at ./Packages/nadena.dev.ndmf/Editor/AvatarProcessor.cs:195)
+WineFoxItems.Editor.ValidateWineFoxItems:Validate () (at Assets/WineFoxItems/Editor/ValidateWineFoxItems.cs:54)
+
+(Filename: ./Packages/nadena.dev.ndmf/Editor/AvatarProcessor.cs Line: 276)
+
+Asset Pipeline Refresh (id=fda69e3957c251e4fa3b45d673e147a7): Total: 0.002 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Processed pass Close extensions in 9 ms
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+nadena.dev.ndmf.AvatarProcessor:ProcessAvatar (nadena.dev.ndmf.BuildContext,nadena.dev.ndmf.BuildPhase,nadena.dev.ndmf.BuildPhase) (at ./Packages/nadena.dev.ndmf/Editor/AvatarProcessor.cs:276)
+nadena.dev.ndmf.AvatarProcessor:ProcessAvatar (UnityEngine.GameObject,nadena.dev.ndmf.BuildPhase) (at ./Packages/nadena.dev.ndmf/Editor/AvatarProcessor.cs:233)
+nadena.dev.ndmf.AvatarProcessor:ProcessAvatar (UnityEngine.GameObject,nadena.dev.ndmf.platform.INDMFPlatformProvider) (at ./Packages/nadena.dev.ndmf/Editor/AvatarProcessor.cs:195)
+WineFoxItems.Editor.ValidateWineFoxItems:Validate () (at Assets/WineFoxItems/Editor/ValidateWineFoxItems.cs:54)
+
+(Filename: ./Packages/nadena.dev.ndmf/Editor/AvatarProcessor.cs Line: 276)
+
+Asset Pipeline Refresh (id=67b9a2e155b53ee46ab79d3d9acbb390): Total: 0.001 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Start importing Assets/NDMFValidationOutput/WineFoxItems Validation Clone/_assets/assets.asset using Guid(90fcf6ead416ea14cb1eef4665c61b59) Importer(-1,00000000000000000000000000000000)  -> (artifact id: 'a2ca74a13b417b5ca5825af7158e67a1') in 0.001814 seconds
+Start importing Assets/NDMFValidationOutput/WineFoxItems Validation Clone/WineFoxItems Validation Clone.asset using Guid(d0d8d77024ba47d4b93be574d153df95) Importer(-1,00000000000000000000000000000000)  -> (artifact id: 'a837dfc521ed0449e0ec19779b0b52c1') in 0.001424 seconds
+Start importing Assets/NDMFValidationOutput/WineFoxItems Validation Clone/_assets/assets 1.asset using Guid(a4bae3ea2fc1db049bb2dce3e14cadc7) Importer(-1,00000000000000000000000000000000)  -> (artifact id: '284098d231ce6fd73ffac1e4d369cd15') in 0.001523 seconds
+Refreshing native plugins compatible for Editor in 7.42 ms, found 4 plugins.
+Preloading 2 native plugins for Editor in 0.08 ms.
+Asset Pipeline Refresh (id=584fc0199a46bf3419af88cab5dcd429): Total: 0.022 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+AvatarBuilder 'Renamed tester': Parent for 'IndexProximal.L' differs from one found in HumanDescription. 'DifferentName_LeftHand' was found instead of 'Hand.L'.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.AvatarBuilder:BuildHumanAvatarInternal (UnityEngine.GameObject,UnityEngine.HumanDescription)
+UnityEngine.AvatarBuilder:BuildHumanAvatar (UnityEngine.GameObject,UnityEngine.HumanDescription)
+WineFoxItems.Editor.ValidateWineFoxItems:Validate () (at Assets/WineFoxItems/Editor/ValidateWineFoxItems.cs:78)
+
+[Assets/WineFoxItems/Editor/ValidateWineFoxItems.cs line 78]
+
+Exception: Rebuilt tester humanoid is invalid
+  at WineFoxItems.Editor.ValidateWineFoxItems.Require (System.Boolean condition, System.String message) [0x0000a] in D:\vrc-create-items\Assets\WineFoxItems\Editor\ValidateWineFoxItems.cs:24 
+  at WineFoxItems.Editor.ValidateWineFoxItems.Validate () [0x00446] in D:\vrc-create-items\Assets\WineFoxItems\Editor\ValidateWineFoxItems.cs:78 
+
+(Filename: Assets/WineFoxItems/Editor/ValidateWineFoxItems.cs Line: 24)
+
+executeMethod method WineFoxItems.Editor.ValidateWineFoxItems.Validate threw exception.
+Exiting without the bug reporter. Application will terminate with return code 1

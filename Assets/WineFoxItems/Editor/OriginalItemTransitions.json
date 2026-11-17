@@ -1,0 +1,249 @@
+{
+  "transitions": [
+    {
+      "state": "空手",
+      "index": 0,
+      "duration": 0.0
+    },
+    {
+      "state": "土豆加农炮",
+      "index": 0,
+      "duration": 0.0
+    },
+    {
+      "state": "土豆加农炮",
+      "index": 1,
+      "duration": 0.0
+    },
+    {
+      "state": "土豆加农炮_发射",
+      "index": 0,
+      "duration": 0.0
+    },
+    {
+      "state": "土豆加农炮_发射",
+      "index": 1,
+      "duration": 0.0
+    },
+    {
+      "state": "伸缩机械手",
+      "index": 0,
+      "duration": 0.1
+    },
+    {
+      "state": "伸缩机械手",
+      "index": 1,
+      "duration": 0.0
+    },
+    {
+      "state": "密渍苹果",
+      "index": 0,
+      "duration": 0.0
+    },
+    {
+      "state": "密渍苹果",
+      "index": 1,
+      "duration": 0.0
+    },
+    {
+      "state": "密渍苹果 1",
+      "index": 0,
+      "duration": 0.0
+    },
+    {
+      "state": "密渍苹果 1",
+      "index": 1,
+      "duration": 0.0
+    },
+    {
+      "state": "密渍苹果 2",
+      "index": 0,
+      "duration": 0.0
+    },
+    {
+      "state": "密渍苹果 2",
+      "index": 1,
+      "duration": 0.0
+    },
+    {
+      "state": "密渍苹果 3",
+      "index": 0,
+      "duration": 0.0
+    },
+    {
+      "state": "密渍苹果 3",
+      "index": 1,
+      "duration": 0.0
+    },
+    {
+      "state": "对称之杖",
+      "index": 0,
+      "duration": 0.0
+    },
+    {
+      "state": "巧克力包层浆果",
+      "index": 0,
+      "duration": 0.0
+    },
+    {
+      "state": "巧克力包层浆果",
+      "index": 1,
+      "duration": 0.0
+    },
+    {
+      "state": "巧克力包层浆果 1",
+      "index": 0,
+      "duration": 0.0
+    },
+    {
+      "state": "巧克力包层浆果 1",
+      "index": 1,
+      "duration": 0.0
+    },
+    {
+      "state": "巧克力包层浆果 2",
+      "index": 0,
+      "duration": 0.0
+    },
+    {
+      "state": "巧克力包层浆果 2",
+      "index": 1,
+      "duration": 0.0
+    },
+    {
+      "state": "巧克力包层浆果 3",
+      "index": 0,
+      "duration": 0.0
+    },
+    {
+      "state": "巧克力包层浆果 3",
+      "index": 1,
+      "duration": 0.0
+    },
+    {
+      "state": "建筑工茶饮",
+      "index": 0,
+      "duration": 0.0
+    },
+    {
+      "state": "扳手",
+      "index": 0,
+      "duration": 0.0
+    },
+    {
+      "state": "物理手杖",
+      "index": 0,
+      "duration": 0.25
+    },
+    {
+      "state": "物理手杖",
+      "index": 1,
+      "duration": 0.0
+    },
+    {
+      "state": "甜甜卷",
+      "index": 0,
+      "duration": 0.0
+    },
+    {
+      "state": "甜甜卷",
+      "index": 1,
+      "duration": 0.0
+    },
+    {
+      "state": "甜甜卷 1",
+      "index": 0,
+      "duration": 0.0
+    },
+    {
+      "state": "甜甜卷 1",
+      "index": 1,
+      "duration": 0.0
+    },
+    {
+      "state": "甜甜卷 2",
+      "index": 0,
+      "duration": 0.0
+    },
+    {
+      "state": "甜甜卷 2",
+      "index": 1,
+      "duration": 0.0
+    },
+    {
+      "state": "甜甜卷 3",
+      "index": 0,
+      "duration": 0.0
+    },
+    {
+      "state": "甜甜卷 3",
+      "index": 1,
+      "duration": 0.0
+    },
+    {
+      "state": "纸棍",
+      "index": 0,
+      "duration": 0.0
+    },
+    {
+      "state": "蛋糕",
+      "index": 0,
+      "duration": 0.0
+    },
+    {
+      "state": "蛋糕",
+      "index": 1,
+      "duration": 0.0
+    },
+    {
+      "state": "蛋糕 1",
+      "index": 0,
+      "duration": 0.0
+    },
+    {
+      "state": "蛋糕 1",
+      "index": 1,
+      "duration": 0.0
+    },
+    {
+      "state": "蛋糕 2",
+      "index": 0,
+      "duration": 0.0
+    },
+    {
+      "state": "蛋糕 2",
+      "index": 1,
+      "duration": 0.0
+    },
+    {
+      "state": "蛋糕 3",
+      "index": 0,
+      "duration": 0.0
+    },
+    {
+      "state": "蛋糕 3",
+      "index": 1,
+      "duration": 0.0
+    },
+    {
+      "state": "手杖_开",
+      "index": 0,
+      "duration": 0.25
+    },
+    {
+      "state": "机械手_开",
+      "index": 0,
+      "duration": 0.1
+    },
+    {
+      "state": "清空变量",
+      "index": 0,
+      "duration": 0.0
+    },
+    {
+      "state": "炮_物品破碎",
+      "index": 0,
+      "duration": 0.0
+    }
+  ]
+}

@@ -1,0 +1,1799 @@
+[Licensing::Module] Trying to connect to existing licensing client channel...
+[Licensing::IpcConnector] Successfully connected to the License Client on channel: "LicenseClient-donyw" at "2026-11-17T06:47:47.2438984Z"
+[Licensing::Client] Error: Code 10 while verifying Licensing Client signature (process Id: 14840, path: "C:/Program Files/WindowsApps/UnityTechnologies.UnityHub_4.0.1.65535_x64__2vrhnee42bhxm/app/UnityLicensingClient_V1/Unity.Licensing.Client.exe")
+[Licensing::Module] Error: LicensingClient has failed validation; ignoring
+[Licensing::Client] Handshaking with LicensingClient:
+  Version:                 1.19.0+4cc3dda
+  Session Id:              ad3586c82b734a7795840535c0c677c0
+  Correlation Id:          7f5746790b93777f3500afe5bb0e283a
+  External correlation Id: 22094551993778792
+  Machine Id:              U5f9rJoGGTS0D/9HRmGcCM8CBBc=
+[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-donyw" (connect: 0.00s, validation: 0.04s, handshake: 0.06s)
+[Licensing::IpcConnector] Successfully connected to the License Notification on channel: "LicenseClient-donyw-notifications" at "2026-11-17T06:47:47.3373124Z"
+[Licensing::Module] Error: Access token is unavailable; failed to update
+[Licensing::Client] Successfully updated license
+Built from '2022.3/staging' branch; Version is '2022.3.22f1 (887be4894c44) revision 8944612'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.26200) 64bit Core' Language: 'zh' Physical Memory: 32548 MB
+[Licensing::Client] Successfully resolved entitlements
+[Licensing::Module] Serial number assigned to: "3573478467214-UnityPersXXXX"
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2022.3.22f1\Editor\Unity.exe
+-batchmode
+-projectPath
+D:\vrc-create-items
+-executeMethod
+WineFoxItems.Editor.ValidateWineFoxItems.Finish
+-quit
+-logFile
+D:\vrc-create-items\Artifacts\finish-unity.log
+Successfully changed project path to: D:\vrc-create-items
+D:/vrc-create-items
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Failed to start primary listening socket at (0.0.0.0:55504-55512).
+Player connection [36748] Host "[IP] 192.168.1.65 [Port] 55511 [Flags] 2 [Guid] 1382710993 [EditorId] 1382710993 [Version] 1048832 [Id] WindowsEditor(7,ywsy) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [36748] Host "[IP] 192.168.1.65 [Port] 55511 [Flags] 2 [Guid] 1382710993 [EditorId] 1382710993 [Version] 1048832 [Id] WindowsEditor(7,ywsy) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+[Physics::Module] Initialized MultithreadedJobDispatcher with 23 workers.
+[Package Manager] UpmClient::Connect -- Connected to IPC stream "Upm-39060" after 0.3 seconds.
+[Licensing::Client] Successfully resolved entitlements
+[Package Manager] Restoring resolved packages state from cache
+[Licensing::Client] Successfully resolved entitlement details
+[Package Manager] Registered 55 packages:
+  Packages from [https://packages.unity.com]:
+    com.unity.ide.rider@3.0.26 (location: D:\vrc-create-items\Library\PackageCache\com.unity.ide.rider@3.0.26)
+    com.unity.ide.visualstudio@2.0.22 (location: D:\vrc-create-items\Library\PackageCache\com.unity.ide.visualstudio@2.0.22)
+    com.unity.ide.vscode@1.2.5 (location: D:\vrc-create-items\Library\PackageCache\com.unity.ide.vscode@1.2.5)
+    com.unity.test-framework@1.1.29 (location: D:\vrc-create-items\Library\PackageCache\com.unity.test-framework@1.1.29)
+    com.unity.textmeshpro@2.1.6 (location: D:\vrc-create-items\Library\PackageCache\com.unity.textmeshpro@2.1.6)
+    com.unity.collections@2.1.4 (location: D:\vrc-create-items\Library\PackageCache\com.unity.collections@2.1.4)
+    com.unity.mathematics@1.2.6 (location: D:\vrc-create-items\Library\PackageCache\com.unity.mathematics@1.2.6)
+    com.unity.nuget.newtonsoft-json@3.2.1 (location: D:\vrc-create-items\Library\PackageCache\com.unity.nuget.newtonsoft-json@3.2.1)
+    com.unity.burst@1.8.12 (location: D:\vrc-create-items\Library\PackageCache\com.unity.burst@1.8.12)
+    com.unity.timeline@1.7.6 (location: D:\vrc-create-items\Library\PackageCache\com.unity.timeline@1.7.6)
+    com.unity.xr.management@4.4.0 (location: D:\vrc-create-items\Library\PackageCache\com.unity.xr.management@4.4.0)
+    com.unity.xr.oculus@4.2.0 (location: D:\vrc-create-items\Library\PackageCache\com.unity.xr.oculus@4.2.0)
+    com.unity.postprocessing@3.4.0 (location: D:\vrc-create-items\Library\PackageCache\com.unity.postprocessing@3.4.0)
+    com.unity.ext.nunit@1.0.6 (location: D:\vrc-create-items\Library\PackageCache\com.unity.ext.nunit@1.0.6)
+    com.unity.nuget.mono-cecil@1.11.4 (location: D:\vrc-create-items\Library\PackageCache\com.unity.nuget.mono-cecil@1.11.4)
+    com.unity.xr.legacyinputhelpers@2.1.10 (location: D:\vrc-create-items\Library\PackageCache\com.unity.xr.legacyinputhelpers@2.1.10)
+  Built-in packages:
+    com.unity.ugui@1.0.0 (location: D:\vrc-create-items\Library\PackageCache\com.unity.ugui@1.0.0)
+    com.unity.modules.ai@1.0.0 (location: D:\vrc-create-items\Library\PackageCache\com.unity.modules.ai@1.0.0)
+    com.unity.modules.androidjni@1.0.0 (location: D:\vrc-create-items\Library\PackageCache\com.unity.modules.androidjni@1.0.0)
+    com.unity.modules.animation@1.0.0 (location: D:\vrc-create-items\Library\PackageCache\com.unity.modules.animation@1.0.0)
+    com.unity.modules.assetbundle@1.0.0 (location: D:\vrc-create-items\Library\PackageCache\com.unity.modules.assetbundle@1.0.0)
+    com.unity.modules.audio@1.0.0 (location: D:\vrc-create-items\Library\PackageCache\com.unity.modules.audio@1.0.0)
+    com.unity.modules.cloth@1.0.0 (location: D:\vrc-create-items\Library\PackageCache\com.unity.modules.cloth@1.0.0)
+    com.unity.modules.director@1.0.0 (location: D:\vrc-create-items\Library\PackageCache\com.unity.modules.director@1.0.0)
+    com.unity.modules.imageconversion@1.0.0 (location: D:\vrc-create-items\Library\PackageCache\com.unity.modules.imageconversion@1.0.0)
+    com.unity.modules.imgui@1.0.0 (location: D:\vrc-create-items\Library\PackageCache\com.unity.modules.imgui@1.0.0)
+    com.unity.modules.jsonserialize@1.0.0 (location: D:\vrc-create-items\Library\PackageCache\com.unity.modules.jsonserialize@1.0.0)
+    com.unity.modules.particlesystem@1.0.0 (location: D:\vrc-create-items\Library\PackageCache\com.unity.modules.particlesystem@1.0.0)
+    com.unity.modules.physics@1.0.0 (location: D:\vrc-create-items\Library\PackageCache\com.unity.modules.physics@1.0.0)
+    com.unity.modules.physics2d@1.0.0 (location: D:\vrc-create-items\Library\PackageCache\com.unity.modules.physics2d@1.0.0)
+    com.unity.modules.screencapture@1.0.0 (location: D:\vrc-create-items\Library\PackageCache\com.unity.modules.screencapture@1.0.0)
+    com.unity.modules.terrain@1.0.0 (location: D:\vrc-create-items\Library\PackageCache\com.unity.modules.terrain@1.0.0)
+    com.unity.modules.terrainphysics@1.0.0 (location: D:\vrc-create-items\Library\PackageCache\com.unity.modules.terrainphysics@1.0.0)
+    com.unity.modules.tilemap@1.0.0 (location: D:\vrc-create-items\Library\PackageCache\com.unity.modules.tilemap@1.0.0)
+    com.unity.modules.ui@1.0.0 (location: D:\vrc-create-items\Library\PackageCache\com.unity.modules.ui@1.0.0)
+    com.unity.modules.uielements@1.0.0 (location: D:\vrc-create-items\Library\PackageCache\com.unity.modules.uielements@1.0.0)
+    com.unity.modules.umbra@1.0.0 (location: D:\vrc-create-items\Library\PackageCache\com.unity.modules.umbra@1.0.0)
+    com.unity.modules.unityanalytics@1.0.0 (location: D:\vrc-create-items\Library\PackageCache\com.unity.modules.unityanalytics@1.0.0)
+    com.unity.modules.unitywebrequest@1.0.0 (location: D:\vrc-create-items\Library\PackageCache\com.unity.modules.unitywebrequest@1.0.0)
+    com.unity.modules.unitywebrequestassetbundle@1.0.0 (location: D:\vrc-create-items\Library\PackageCache\com.unity.modules.unitywebrequestassetbundle@1.0.0)
+    com.unity.modules.unitywebrequestaudio@1.0.0 (location: D:\vrc-create-items\Library\PackageCache\com.unity.modules.unitywebrequestaudio@1.0.0)
+    com.unity.modules.unitywebrequesttexture@1.0.0 (location: D:\vrc-create-items\Library\PackageCache\com.unity.modules.unitywebrequesttexture@1.0.0)
+    com.unity.modules.unitywebrequestwww@1.0.0 (location: D:\vrc-create-items\Library\PackageCache\com.unity.modules.unitywebrequestwww@1.0.0)
+    com.unity.modules.vehicles@1.0.0 (location: D:\vrc-create-items\Library\PackageCache\com.unity.modules.vehicles@1.0.0)
+    com.unity.modules.video@1.0.0 (location: D:\vrc-create-items\Library\PackageCache\com.unity.modules.video@1.0.0)
+    com.unity.modules.vr@1.0.0 (location: D:\vrc-create-items\Library\PackageCache\com.unity.modules.vr@1.0.0)
+    com.unity.modules.wind@1.0.0 (location: D:\vrc-create-items\Library\PackageCache\com.unity.modules.wind@1.0.0)
+    com.unity.modules.xr@1.0.0 (location: D:\vrc-create-items\Library\PackageCache\com.unity.modules.xr@1.0.0)
+    com.unity.modules.subsystems@1.0.0 (location: D:\vrc-create-items\Library\PackageCache\com.unity.modules.subsystems@1.0.0)
+  Embedded packages:
+    com.vrchat.avatars@file:D:\vrc-create-items\Packages\com.vrchat.avatars (location: D:\vrc-create-items\Packages\com.vrchat.avatars)
+    com.vrchat.base@file:D:\vrc-create-items\Packages\com.vrchat.base (location: D:\vrc-create-items\Packages\com.vrchat.base)
+    com.vrchat.core.vpm-resolver@file:D:\vrc-create-items\Packages\com.vrchat.core.vpm-resolver (location: D:\vrc-create-items\Packages\com.vrchat.core.vpm-resolver)
+    nadena.dev.modular-avatar@file:D:\vrc-create-items\Packages\nadena.dev.modular-avatar (location: D:\vrc-create-items\Packages\nadena.dev.modular-avatar)
+    nadena.dev.ndmf@file:D:\vrc-create-items\Packages\nadena.dev.ndmf (location: D:\vrc-create-items\Packages\nadena.dev.ndmf)
+    vrchat.blackstartx.gesture-manager@file:D:\vrc-create-items\Packages\vrchat.blackstartx.gesture-manager (location: D:\vrc-create-items\Packages\vrchat.blackstartx.gesture-manager)
+[Subsystems] Looking for new subsystems at path D:\vrc-create-items\Library\PackageCache\com.unity.xr.oculus@4.2.0
+[Subsystems] Novel subsystem found at Library/PackageCache/com.unity.xr.oculus@4.2.0/Runtime/UnitySubsystemsManifest.json
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.22f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/vrc-create-items/Assets
+[Subsystems] Discovering subsystems at path D:\vrc-create-items\Library\PackageCache\com.unity.xr.oculus@4.2.0
+[Subsystems] No descriptors matched for  examples in Library/PackageCache/com.unity.xr.oculus@4.2.0/Runtime/UnitySubsystemsManifest.json.
+[Subsystems] 1 'inputs' descriptors matched in Library/PackageCache/com.unity.xr.oculus@4.2.0/Runtime/UnitySubsystemsManifest.json
+[Subsystems] 1 'displays' descriptors matched in Library/PackageCache/com.unity.xr.oculus@4.2.0/Runtime/UnitySubsystemsManifest.json
+[Subsystems] No descriptors matched for  meshings in Library/PackageCache/com.unity.xr.oculus@4.2.0/Runtime/UnitySubsystemsManifest.json.
+Package Manager log level set to [2]
+[Package Manager] Done registering packages in 0.08 seconds
+Refreshing native plugins compatible for Editor in 16.78 ms, found 4 plugins.
+Preloading 2 native plugins for Editor in 1.52 ms.
+Initialize engine version: 2022.3.22f1 (887be4894c44)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.22f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/vrc-create-items/Assets
+[Subsystems] Discovering subsystems at path D:\vrc-create-items\Library\PackageCache\com.unity.xr.oculus@4.2.0
+[Subsystems] No descriptors matched for  examples in Library/PackageCache/com.unity.xr.oculus@4.2.0/Runtime/UnitySubsystemsManifest.json.
+[Subsystems] 1 'inputs' descriptors matched in Library/PackageCache/com.unity.xr.oculus@4.2.0/Runtime/UnitySubsystemsManifest.json
+[Subsystems] 1 'displays' descriptors matched in Library/PackageCache/com.unity.xr.oculus@4.2.0/Runtime/UnitySubsystemsManifest.json
+[Subsystems] No descriptors matched for  meshings in Library/PackageCache/com.unity.xr.oculus@4.2.0/Runtime/UnitySubsystemsManifest.json.
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 4070 (ID=0x2786)
+    Vendor:   NVIDIA
+    VRAM:     12010 MB
+    Driver:   32.0.16.1742
+[Licensing::Client] Successfully resolved entitlements
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.22f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.22f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.22f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56060
+Using cacheserver namespaces - metadata:defaultmetadata, artifacts:defaultartifacts
+Using cacheserver namespaces - metadata:defaultmetadata, artifacts:defaultartifacts
+ImportWorker Server TCP listen port: 0
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+[Licensing::Client] Successfully resolved entitlements
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.22f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+[Licensing::Client] Successfully resolved entitlements
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.22f1/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.22f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.051931 seconds.
+- Loaded All Assemblies, in  0.348 seconds
+Native extension for WindowsStandalone target not found
+[usbmuxd] Start listen thread
+[usbmuxd] Listen thread started
+Native extension for iOS target not found
+Native extension for Android target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.234 seconds
+Domain Reload Profiling: 577ms
+	BeginReloadAssembly (105ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (0ms)
+	RebuildCommonClasses (24ms)
+	RebuildNativeTypeToScriptingClass (6ms)
+	initialDomainReloadingComplete (99ms)
+	LoadAllAssembliesAndSetupDomain (108ms)
+		LoadAssemblies (101ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (105ms)
+			TypeCache.Refresh (104ms)
+				TypeCache.ScanAssembly (94ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (235ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (201ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (91ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (1ms)
+			ProcessInitializeOnLoadAttributes (78ms)
+			ProcessInitializeOnLoadMethodAttributes (28ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+[Licensing::Client] Successfully resolved entitlements
+Application.AssetDatabase Initial Refresh Start
+[ScriptCompilation] Requested script compilation because: Assetdatabase observed changes in script compilation related files
+info: Microsoft.Hosting.Lifetime[14]
+      Now listening on: http://localhost:80
+info: Microsoft.Hosting.Lifetime[0]
+      Application started. Press Ctrl+C to shut down.
+info: Microsoft.Hosting.Lifetime[0]
+      Hosting environment: Production
+info: Microsoft.Hosting.Lifetime[0]
+      Content root path: D:\vrc-create-items\
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/2 POST http://ilpp/UnityILPP.PostProcessing/Ping application/grpc -
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[0]
+      Executing endpoint 'gRPC - /UnityILPP.PostProcessing/Ping'
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[1]
+      Executed endpoint 'gRPC - /UnityILPP.PostProcessing/Ping'
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/2 POST http://ilpp/UnityILPP.PostProcessing/Ping application/grpc - - 200 - application/grpc 25.9542ms
+Starting: C:\Program Files\Unity\Hub\Editor\2022.3.22f1\Editor\Data\bee_backend.exe --dont-print-to-structured-log --ipc --defer-dag-verification --dagfile="Library/Bee/1900b0aE.dag" --continue-on-failure --profile="Library/Bee/backend1.traceevents" ScriptAssemblies
+WorkingDir: D:/vrc-create-items
+DisplayProgressbar: Compiling Scripts
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/2 POST http://ilpp/UnityILPP.PostProcessing/ConfigurePostProcessors application/grpc -
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[0]
+      Executing endpoint 'gRPC - /UnityILPP.PostProcessing/ConfigurePostProcessors'
+info: Unity.ILPP.Runner.PostProcessingAssemblyLoadContext[0]
+      Resolved Unity.Burst.Cecil, Version=0.11.4.0, Culture=neutral, PublicKeyToken=50cebf1cceb9d05e with Library\PackageCache\com.unity.burst@1.8.12\Unity.Burst.CodeGen\Unity.Burst.Cecil.dll
+info: Unity.ILPP.Runner.PostProcessingAssemblyLoadContext[0]
+      Resolved Mono.Cecil, Version=0.11.4.0, Culture=neutral, PublicKeyToken=50cebf1cceb9d05e with Library\PackageCache\com.unity.nuget.mono-cecil@1.11.4\Mono.Cecil.dll
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[1]
+      Executed endpoint 'gRPC - /UnityILPP.PostProcessing/ConfigurePostProcessors'
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/2 POST http://ilpp/UnityILPP.PostProcessing/ConfigurePostProcessors application/grpc - - 200 - application/grpc 37.3388ms
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/2 POST http://ilpp/UnityILPP.PostProcessing/PostProcessAssembly application/grpc -
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[0]
+      Executing endpoint 'gRPC - /UnityILPP.PostProcessing/PostProcessAssembly'
+info: Unity.ILPP.Runner.PostProcessingPipeline[0]
+      Processing assembly Library/Bee/artifacts/1900b0aE.dag/Assembly-CSharp-Editor.dll, with 119 defines and 305 references
+info: Unity.ILPP.Runner.PostProcessingPipeline[0]
+      processors: Unity.Jobs.CodeGen.JobsILPostProcessor, zzzUnity.Burst.CodeGen.BurstILPostProcessor
+info: Unity.ILPP.Runner.PostProcessingPipeline[0]
+      running Unity.Jobs.CodeGen.JobsILPostProcessor
+info: Unity.ILPP.Runner.PostProcessingAssemblyLoadContext[0]
+      Resolved Unity.Collections, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null with Library\Bee\artifacts\1900b0aE.dag\Unity.Collections.dll
+info: Unity.ILPP.Runner.PostProcessingAssemblyLoadContext[0]
+      Resolved UnityEditor.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null with C:\Program Files\Unity\Hub\Editor\2022.3.22f1\Editor\Data\Managed\UnityEngine\UnityEditor.CoreModule.dll
+info: Unity.ILPP.Runner.PostProcessingAssemblyLoadContext[0]
+      Resolved UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null with C:\Program Files\Unity\Hub\Editor\2022.3.22f1\Editor\Data\Managed\UnityEngine\UnityEngine.CoreModule.dll
+info: Unity.ILPP.Runner.PostProcessingPipeline[0]
+      running zzzUnity.Burst.CodeGen.BurstILPostProcessor
+info: Unity.ILPP.Runner.PostProcessingAssemblyLoadContext[0]
+      Resolved Unity.Burst.Cecil.Rocks, Version=0.11.4.0, Culture=neutral, PublicKeyToken=50cebf1cceb9d05e with Library\PackageCache\com.unity.burst@1.8.12\Unity.Burst.CodeGen\Unity.Burst.Cecil.Rocks.dll
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[1]
+      Executed endpoint 'gRPC - /UnityILPP.PostProcessing/PostProcessAssembly'
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/2 POST http://ilpp/UnityILPP.PostProcessing/PostProcessAssembly application/grpc - - 200 - application/grpc 257.7828ms
+ExitCode: 0 Duration: 0s696ms
+[527/676    0s] ILPP-Configuration Library/ilpp-configuration.nevergeneratedoutput
+[672/676    0s] Csc Library/Bee/artifacts/1900b0aE.dag/Assembly-CSharp-Editor.dll (+2 others)
+[673/676    0s] ILPostProcess Library/Bee/artifacts/1900b0aE.dag/post-processed/Assembly-CSharp-Editor.dll (+pdb)
+Processing assembly Library/Bee/artifacts/1900b0aE.dag/Assembly-CSharp-Editor.dll, with 119 defines and 305 references
+
+processors: Unity.Jobs.CodeGen.JobsILPostProcessor, zzzUnity.Burst.CodeGen.BurstILPostProcessor
+
+running Unity.Jobs.CodeGen.JobsILPostProcessor
+
+running zzzUnity.Burst.CodeGen.BurstILPostProcessor
+[674/676    0s] CopyFiles Library/ScriptAssemblies/Assembly-CSharp-Editor.dll
+[675/676    0s] CopyFiles Library/ScriptAssemblies/Assembly-CSharp-Editor.pdb
+*** Tundra build success (0.66 seconds), 5 items updated, 676 evaluated
+AssetDatabase: script compilation time: 1.113093s
+Begin MonoManager ReloadAssembly
+Total cache size 268375230
+Total cache size after purge 268375230
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  0.629 seconds
+Refreshing native plugins compatible for Editor in 7.58 ms, found 4 plugins.
+Preloading 2 native plugins for Editor in 0.14 ms.
+Start importing Assets/WineFoxItems/Editor/ValidateWineFoxItems.cs using Guid(efa2e54009327294e81da5be1cbdf4bb) Importer(-1,00000000000000000000000000000000)  -> (artifact id: 'dd3647ac9968c00be511b5b51fa95947') in 0.013258 seconds
+Refreshing native plugins compatible for Editor in 8.11 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+[XR] OculusXRPlugin: registering subsystems
+[Subsystems] OculusXRPlugin successfully registered Provider for oculus display
+[XR] Oculus Input lifecycle provider registered.
+[Subsystems] OculusXRPlugin successfully registered Provider for oculus input
+[Subsystems] OculusXRPlugin successfully registered Provider for oculus display
+[XR] OVRP version 1.92.0
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  3.718 seconds
+Domain Reload Profiling: 4340ms
+	BeginReloadAssembly (136ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (3ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (14ms)
+	RebuildCommonClasses (27ms)
+	RebuildNativeTypeToScriptingClass (6ms)
+	initialDomainReloadingComplete (44ms)
+	LoadAllAssembliesAndSetupDomain (409ms)
+		LoadAssemblies (358ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (143ms)
+			TypeCache.Refresh (127ms)
+				TypeCache.ScanAssembly (113ms)
+			ScanForSourceGeneratedMonoScriptInfo (11ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (3718ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (3610ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (36ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (52ms)
+			ProcessInitializeOnLoadAttributes (2226ms)
+			ProcessInitializeOnLoadMethodAttributes (1273ms)
+			AfterProcessingInitializeOnLoad (19ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (4ms)
+Refreshing native plugins compatible for Editor in 7.56 ms, found 4 plugins.
+Preloading 2 native plugins for Editor in 0.08 ms.
+Asset Pipeline Refresh (id=e9ea6416b3b9e4747ab27b6b69b30b59): Total: 6.265 seconds - Initiated by InitialRefreshV2(ForceSynchronousImport)
+	Summary:
+		Imports: total=1 (actual=1, local cache=0, cache server=0)
+		Asset DB Process Time: managed=2 ms, native=599 ms
+		Asset DB Callback time: managed=77 ms, native=10 ms
+		Scripting: domain reloads=1, domain reload time=4426 ms, compile time=1113 ms, other=35 ms
+		Project Asset Count: scripts=3519, non-scripts=1340
+		Asset File Changes: new=0, changed=1, moved=0, deleted=0
+		Scan Filter Count: 0
+	InvokeBeforeRefreshCallbacks: 0.706ms
+	ApplyChangesToAssetFolders: 0.034ms
+	Scan: 35.729ms
+	OnSourceAssetsModified: 1.691ms
+	GetAllGuidsForCategorization: 0.375ms
+	CategorizeAssets: 49.400ms
+	ImportOutOfDateAssets: 3764.017ms (2622.357ms without children)
+		ImportManagerImport: 18.407ms (4.392ms without children)
+			ImportInProcess: 14.009ms
+			UpdateCategorizedAssets: 0.006ms
+		CompileScripts: 1113.176ms
+		ReloadNativeAssets: 0.012ms
+		UnloadImportedAssets: 8.830ms
+		EnsureUptoDateAssetsAreRegisteredWithGuidPM: 0.777ms
+		InitializingProgressBar: 0.005ms
+		PostProcessAllAssetNotificationsAddChangedAssets: 0.000ms
+		OnDemandSchedulerStart: 0.452ms
+	PostProcessAllAssets: 78.265ms
+	Hotreload: 8.002ms
+	GatherAllCurrentPrimaryArtifactRevisions: 0.002ms
+	UnloadStreamsBegin: 0.737ms
+	PersistCurrentRevisions: 0.162ms
+	UnloadStreamsEnd: 0.018ms
+	GenerateScriptTypeHashes: 0.549ms
+	Untracked: 2325.676ms
+Application.AssetDatabase Initial Refresh End
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Scanning for USB devices : 26.804ms
+Initializing Unity extensions:
+[Licensing::Client] Successfully resolved entitlements
+[MODES] ModeService[none].Initialize
+[MODES] ModeService[none].LoadModes
+[MODES] Loading mode Default (0) for mode-current-id-vrc-create-items
+Opening scene 'Packages/nadena.dev.ndmf/Runtime/___NDMF Preview___.unity additively'
+Loaded scene 'Packages/nadena.dev.ndmf/Runtime/___NDMF Preview___.unity'
+	Deserialize:            0.358 ms
+	Integration:            0.422 ms
+	Integration of assets:  0.001 ms
+	Thread Wait Time:       0.007 ms
+	Total Operation Time:   0.787 ms
+ProgressiveSceneManager::Cancel()
+Unloading 68 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 186 unused Assets / (18.4 MB). Loaded Objects now: 3329.
+Memory consumption went from 249.9 MB to 231.4 MB.
+Total: 5.796900 ms (FindLiveObjects: 0.274100 ms CreateObjectMapping: 0.048800 ms MarkObjects: 4.027900 ms  DeleteObjects: 1.445700 ms)
+
+Opening scene 'Assets/WineFoxItems/Examples/Tester-WineFoxItems.unity'
+Unloading 5 Unused Serialized files (Serialized files now loaded: 0)
+Opening scene 'Packages/nadena.dev.ndmf/Runtime/___NDMF Preview___.unity additively'
+Unloading 6 unused Assets / (39.4 MB). Loaded Objects now: 3909.
+Memory consumption went from 204.9 MB to 165.5 MB.
+Total: 5.706200 ms (FindLiveObjects: 0.131300 ms CreateObjectMapping: 0.041400 ms MarkObjects: 4.523300 ms  DeleteObjects: 1.009700 ms)
+
+Loaded scene 'Packages/nadena.dev.ndmf/Runtime/___NDMF Preview___.unity'
+	Deserialize:            0.348 ms
+	Integration:            0.271 ms
+	Integration of assets:  0.001 ms
+	Thread Wait Time:       15.852 ms
+	Total Operation Time:   16.473 ms
+Loaded scene 'Assets/WineFoxItems/Examples/Tester-WineFoxItems.unity'
+	Deserialize:            0.566 ms
+	Integration:            184.506 ms
+	Integration of assets:  0.001 ms
+	Thread Wait Time:       0.009 ms
+	Total Operation Time:   185.082 ms
+Starting processing for avatar: WineFoxItems Validation Clone
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+nadena.dev.ndmf.BuildContext:.ctor (UnityEngine.GameObject,string,nadena.dev.ndmf.platform.INDMFPlatformProvider,bool) (at ./Packages/nadena.dev.ndmf/Editor/API/BuildContext.cs:146)
+nadena.dev.ndmf.AvatarProcessor:ProcessAvatar (UnityEngine.GameObject,nadena.dev.ndmf.BuildPhase) (at ./Packages/nadena.dev.ndmf/Editor/AvatarProcessor.cs:231)
+nadena.dev.ndmf.AvatarProcessor:ProcessAvatar (UnityEngine.GameObject,nadena.dev.ndmf.platform.INDMFPlatformProvider) (at ./Packages/nadena.dev.ndmf/Editor/AvatarProcessor.cs:195)
+WineFoxItems.Editor.ValidateWineFoxItems:Validate () (at Assets/WineFoxItems/Editor/ValidateWineFoxItems.cs:50)
+WineFoxItems.Editor.ValidateWineFoxItems:Finish () (at Assets/WineFoxItems/Editor/ValidateWineFoxItems.cs:25)
+
+(Filename: ./Packages/nadena.dev.ndmf/Editor/API/BuildContext.cs Line: 146)
+
+Refreshing native plugins compatible for Editor in 7.43 ms, found 4 plugins.
+Preloading 2 native plugins for Editor in 0.08 ms.
+Asset Pipeline Refresh (id=1a0106991bed16f46ac5b83f8099f199): Total: 0.033 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Start importing Assets/NDMFValidationOutput/WineFoxItems Validation Clone/WineFoxItems Validation Clone.asset using Guid(d0d8d77024ba47d4b93be574d153df95) Importer(-1,00000000000000000000000000000000)  -> (artifact id: '7b72a187de82d61bc5617e1b1475fb3f') in 0.003160 seconds
+Start importing Assets/NDMFValidationOutput/WineFoxItems Validation Clone/_assets/assets.asset using Guid(90fcf6ead416ea14cb1eef4665c61b59) Importer(-1,00000000000000000000000000000000)  -> (artifact id: '96bda9f83fea3727eca189b20f4c9431') in 0.001585 seconds
+Start importing Assets/NDMFValidationOutput/WineFoxItems Validation Clone using Guid(d51ff62438211c14f8d3c13ac69722bf) Importer(-1,00000000000000000000000000000000)  -> (artifact id: 'e4a09aa88cb11355a9871686714f8f6b') in 0.001624 seconds
+Start importing Assets/NDMFValidationOutput/WineFoxItems Validation Clone/_assets using Guid(44a1fda79bba6404e82f811f5bddbde0) Importer(-1,00000000000000000000000000000000)  -> (artifact id: 'a3377b237f93517e4174e83b13eadda6') in 0.001102 seconds
+Refreshing native plugins compatible for Editor in 7.64 ms, found 4 plugins.
+Preloading 2 native plugins for Editor in 0.09 ms.
+Asset Pipeline Refresh (id=f1ef44d922b1fcf478f7cc203150095f): Total: 0.024 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+=== Processing phase FirstChance ===
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+nadena.dev.ndmf.AvatarProcessor:ProcessAvatar (nadena.dev.ndmf.BuildContext,nadena.dev.ndmf.BuildPhase,nadena.dev.ndmf.BuildPhase) (at ./Packages/nadena.dev.ndmf/Editor/AvatarProcessor.cs:257)
+nadena.dev.ndmf.AvatarProcessor:ProcessAvatar (UnityEngine.GameObject,nadena.dev.ndmf.BuildPhase) (at ./Packages/nadena.dev.ndmf/Editor/AvatarProcessor.cs:233)
+nadena.dev.ndmf.AvatarProcessor:ProcessAvatar (UnityEngine.GameObject,nadena.dev.ndmf.platform.INDMFPlatformProvider) (at ./Packages/nadena.dev.ndmf/Editor/AvatarProcessor.cs:195)
+WineFoxItems.Editor.ValidateWineFoxItems:Validate () (at Assets/WineFoxItems/Editor/ValidateWineFoxItems.cs:50)
+WineFoxItems.Editor.ValidateWineFoxItems:Finish () (at Assets/WineFoxItems/Editor/ValidateWineFoxItems.cs:25)
+
+(Filename: ./Packages/nadena.dev.ndmf/Editor/AvatarProcessor.cs Line: 257)
+
+=== Processing phase Before platform initialization ===
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+nadena.dev.ndmf.AvatarProcessor:ProcessAvatar (nadena.dev.ndmf.BuildContext,nadena.dev.ndmf.BuildPhase,nadena.dev.ndmf.BuildPhase) (at ./Packages/nadena.dev.ndmf/Editor/AvatarProcessor.cs:257)
+nadena.dev.ndmf.AvatarProcessor:ProcessAvatar (UnityEngine.GameObject,nadena.dev.ndmf.BuildPhase) (at ./Packages/nadena.dev.ndmf/Editor/AvatarProcessor.cs:233)
+nadena.dev.ndmf.AvatarProcessor:ProcessAvatar (UnityEngine.GameObject,nadena.dev.ndmf.platform.INDMFPlatformProvider) (at ./Packages/nadena.dev.ndmf/Editor/AvatarProcessor.cs:195)
+WineFoxItems.Editor.ValidateWineFoxItems:Validate () (at Assets/WineFoxItems/Editor/ValidateWineFoxItems.cs:50)
+WineFoxItems.Editor.ValidateWineFoxItems:Finish () (at Assets/WineFoxItems/Editor/ValidateWineFoxItems.cs:25)
+
+(Filename: ./Packages/nadena.dev.ndmf/Editor/AvatarProcessor.cs Line: 257)
+
+Processed pass SyncPlatformConfigPass in 5 ms
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+nadena.dev.ndmf.AvatarProcessor:ProcessAvatar (nadena.dev.ndmf.BuildContext,nadena.dev.ndmf.BuildPhase,nadena.dev.ndmf.BuildPhase) (at ./Packages/nadena.dev.ndmf/Editor/AvatarProcessor.cs:276)
+nadena.dev.ndmf.AvatarProcessor:ProcessAvatar (UnityEngine.GameObject,nadena.dev.ndmf.BuildPhase) (at ./Packages/nadena.dev.ndmf/Editor/AvatarProcessor.cs:233)
+nadena.dev.ndmf.AvatarProcessor:ProcessAvatar (UnityEngine.GameObject,nadena.dev.ndmf.platform.INDMFPlatformProvider) (at ./Packages/nadena.dev.ndmf/Editor/AvatarProcessor.cs:195)
+WineFoxItems.Editor.ValidateWineFoxItems:Validate () (at Assets/WineFoxItems/Editor/ValidateWineFoxItems.cs:50)
+WineFoxItems.Editor.ValidateWineFoxItems:Finish () (at Assets/WineFoxItems/Editor/ValidateWineFoxItems.cs:25)
+
+(Filename: ./Packages/nadena.dev.ndmf/Editor/AvatarProcessor.cs Line: 276)
+
+=== Processing phase PlatformInit ===
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+nadena.dev.ndmf.AvatarProcessor:ProcessAvatar (nadena.dev.ndmf.BuildContext,nadena.dev.ndmf.BuildPhase,nadena.dev.ndmf.BuildPhase) (at ./Packages/nadena.dev.ndmf/Editor/AvatarProcessor.cs:257)
+nadena.dev.ndmf.AvatarProcessor:ProcessAvatar (UnityEngine.GameObject,nadena.dev.ndmf.BuildPhase) (at ./Packages/nadena.dev.ndmf/Editor/AvatarProcessor.cs:233)
+nadena.dev.ndmf.AvatarProcessor:ProcessAvatar (UnityEngine.GameObject,nadena.dev.ndmf.platform.INDMFPlatformProvider) (at ./Packages/nadena.dev.ndmf/Editor/AvatarProcessor.cs:195)
+WineFoxItems.Editor.ValidateWineFoxItems:Validate () (at Assets/WineFoxItems/Editor/ValidateWineFoxItems.cs:50)
+WineFoxItems.Editor.ValidateWineFoxItems:Finish () (at Assets/WineFoxItems/Editor/ValidateWineFoxItems.cs:25)
+
+(Filename: ./Packages/nadena.dev.ndmf/Editor/AvatarProcessor.cs Line: 257)
+
+=== Processing phase Resolving ===
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+nadena.dev.ndmf.AvatarProcessor:ProcessAvatar (nadena.dev.ndmf.BuildContext,nadena.dev.ndmf.BuildPhase,nadena.dev.ndmf.BuildPhase) (at ./Packages/nadena.dev.ndmf/Editor/AvatarProcessor.cs:257)
+nadena.dev.ndmf.AvatarProcessor:ProcessAvatar (UnityEngine.GameObject,nadena.dev.ndmf.BuildPhase) (at ./Packages/nadena.dev.ndmf/Editor/AvatarProcessor.cs:233)
+nadena.dev.ndmf.AvatarProcessor:ProcessAvatar (UnityEngine.GameObject,nadena.dev.ndmf.platform.INDMFPlatformProvider) (at ./Packages/nadena.dev.ndmf/Editor/AvatarProcessor.cs:195)
+WineFoxItems.Editor.ValidateWineFoxItems:Validate () (at Assets/WineFoxItems/Editor/ValidateWineFoxItems.cs:50)
+WineFoxItems.Editor.ValidateWineFoxItems:Finish () (at Assets/WineFoxItems/Editor/ValidateWineFoxItems.cs:25)
+
+(Filename: ./Packages/nadena.dev.ndmf/Editor/AvatarProcessor.cs Line: 257)
+
+Processed pass RemoveMissingScriptComponents in 0 ms
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+nadena.dev.ndmf.AvatarProcessor:ProcessAvatar (nadena.dev.ndmf.BuildContext,nadena.dev.ndmf.BuildPhase,nadena.dev.ndmf.BuildPhase) (at ./Packages/nadena.dev.ndmf/Editor/AvatarProcessor.cs:276)
+nadena.dev.ndmf.AvatarProcessor:ProcessAvatar (UnityEngine.GameObject,nadena.dev.ndmf.BuildPhase) (at ./Packages/nadena.dev.ndmf/Editor/AvatarProcessor.cs:233)
+nadena.dev.ndmf.AvatarProcessor:ProcessAvatar (UnityEngine.GameObject,nadena.dev.ndmf.platform.INDMFPlatformProvider) (at ./Packages/nadena.dev.ndmf/Editor/AvatarProcessor.cs:195)
+WineFoxItems.Editor.ValidateWineFoxItems:Validate () (at Assets/WineFoxItems/Editor/ValidateWineFoxItems.cs:50)
+WineFoxItems.Editor.ValidateWineFoxItems:Finish () (at Assets/WineFoxItems/Editor/ValidateWineFoxItems.cs:25)
+
+(Filename: ./Packages/nadena.dev.ndmf/Editor/AvatarProcessor.cs Line: 276)
+
+Processed pass Remove EditorOnly Objects in 0 ms
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+nadena.dev.ndmf.AvatarProcessor:ProcessAvatar (nadena.dev.ndmf.BuildContext,nadena.dev.ndmf.BuildPhase,nadena.dev.ndmf.BuildPhase) (at ./Packages/nadena.dev.ndmf/Editor/AvatarProcessor.cs:276)
+nadena.dev.ndmf.AvatarProcessor:ProcessAvatar (UnityEngine.GameObject,nadena.dev.ndmf.BuildPhase) (at ./Packages/nadena.dev.ndmf/Editor/AvatarProcessor.cs:233)
+nadena.dev.ndmf.AvatarProcessor:ProcessAvatar (UnityEngine.GameObject,nadena.dev.ndmf.platform.INDMFPlatformProvider) (at ./Packages/nadena.dev.ndmf/Editor/AvatarProcessor.cs:195)
+WineFoxItems.Editor.ValidateWineFoxItems:Validate () (at Assets/WineFoxItems/Editor/ValidateWineFoxItems.cs:50)
+WineFoxItems.Editor.ValidateWineFoxItems:Finish () (at Assets/WineFoxItems/Editor/ValidateWineFoxItems.cs:25)
+
+(Filename: ./Packages/nadena.dev.ndmf/Editor/AvatarProcessor.cs Line: 276)
+
+Processed pass Incompatible: TEST - Should not run (incompatible platform) in 0 ms
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+nadena.dev.ndmf.AvatarProcessor:ProcessAvatar (nadena.dev.ndmf.BuildContext,nadena.dev.ndmf.BuildPhase,nadena.dev.ndmf.BuildPhase) (at ./Packages/nadena.dev.ndmf/Editor/AvatarProcessor.cs:276)
+nadena.dev.ndmf.AvatarProcessor:ProcessAvatar (UnityEngine.GameObject,nadena.dev.ndmf.BuildPhase) (at ./Packages/nadena.dev.ndmf/Editor/AvatarProcessor.cs:233)
+nadena.dev.ndmf.AvatarProcessor:ProcessAvatar (UnityEngine.GameObject,nadena.dev.ndmf.platform.INDMFPlatformProvider) (at ./Packages/nadena.dev.ndmf/Editor/AvatarProcessor.cs:195)
+WineFoxItems.Editor.ValidateWineFoxItems:Validate () (at Assets/WineFoxItems/Editor/ValidateWineFoxItems.cs:50)
+WineFoxItems.Editor.ValidateWineFoxItems:Finish () (at Assets/WineFoxItems/Editor/ValidateWineFoxItems.cs:25)
+
+(Filename: ./Packages/nadena.dev.ndmf/Editor/AvatarProcessor.cs Line: 276)
+
+Processed pass PlatformFilterPass in 0 ms
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+nadena.dev.ndmf.AvatarProcessor:ProcessAvatar (nadena.dev.ndmf.BuildContext,nadena.dev.ndmf.BuildPhase,nadena.dev.ndmf.BuildPhase) (at ./Packages/nadena.dev.ndmf/Editor/AvatarProcessor.cs:276)
+nadena.dev.ndmf.AvatarProcessor:ProcessAvatar (UnityEngine.GameObject,nadena.dev.ndmf.BuildPhase) (at ./Packages/nadena.dev.ndmf/Editor/AvatarProcessor.cs:233)
+nadena.dev.ndmf.AvatarProcessor:ProcessAvatar (UnityEngine.GameObject,nadena.dev.ndmf.platform.INDMFPlatformProvider) (at ./Packages/nadena.dev.ndmf/Editor/AvatarProcessor.cs:195)
+WineFoxItems.Editor.ValidateWineFoxItems:Validate () (at Assets/WineFoxItems/Editor/ValidateWineFoxItems.cs:50)
+WineFoxItems.Editor.ValidateWineFoxItems:Finish () (at Assets/WineFoxItems/Editor/ValidateWineFoxItems.cs:25)
+
+(Filename: ./Packages/nadena.dev.ndmf/Editor/AvatarProcessor.cs Line: 276)
+
+Processed pass ResolveObjectReferences in 0 ms
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+nadena.dev.ndmf.AvatarProcessor:ProcessAvatar (nadena.dev.ndmf.BuildContext,nadena.dev.ndmf.BuildPhase,nadena.dev.ndmf.BuildPhase) (at ./Packages/nadena.dev.ndmf/Editor/AvatarProcessor.cs:276)
+nadena.dev.ndmf.AvatarProcessor:ProcessAvatar (UnityEngine.GameObject,nadena.dev.ndmf.BuildPhase) (at ./Packages/nadena.dev.ndmf/Editor/AvatarProcessor.cs:233)
+nadena.dev.ndmf.AvatarProcessor:ProcessAvatar (UnityEngine.GameObject,nadena.dev.ndmf.platform.INDMFPlatformProvider) (at ./Packages/nadena.dev.ndmf/Editor/AvatarProcessor.cs:195)
+WineFoxItems.Editor.ValidateWineFoxItems:Validate () (at Assets/WineFoxItems/Editor/ValidateWineFoxItems.cs:50)
+WineFoxItems.Editor.ValidateWineFoxItems:Finish () (at Assets/WineFoxItems/Editor/ValidateWineFoxItems.cs:25)
+
+(Filename: ./Packages/nadena.dev.ndmf/Editor/AvatarProcessor.cs Line: 276)
+
+Processed pass Clone animators in 170 ms
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+nadena.dev.ndmf.AvatarProcessor:ProcessAvatar (nadena.dev.ndmf.BuildContext,nadena.dev.ndmf.BuildPhase,nadena.dev.ndmf.BuildPhase) (at ./Packages/nadena.dev.ndmf/Editor/AvatarProcessor.cs:276)
+nadena.dev.ndmf.AvatarProcessor:ProcessAvatar (UnityEngine.GameObject,nadena.dev.ndmf.BuildPhase) (at ./Packages/nadena.dev.ndmf/Editor/AvatarProcessor.cs:233)
+nadena.dev.ndmf.AvatarProcessor:ProcessAvatar (UnityEngine.GameObject,nadena.dev.ndmf.platform.INDMFPlatformProvider) (at ./Packages/nadena.dev.ndmf/Editor/AvatarProcessor.cs:195)
+WineFoxItems.Editor.ValidateWineFoxItems:Validate () (at Assets/WineFoxItems/Editor/ValidateWineFoxItems.cs:50)
+WineFoxItems.Editor.ValidateWineFoxItems:Finish () (at Assets/WineFoxItems/Editor/ValidateWineFoxItems.cs:25)
+
+(Filename: ./Packages/nadena.dev.ndmf/Editor/AvatarProcessor.cs Line: 276)
+
+Start importing Assets/NDMFValidationOutput/WineFoxItems Validation Clone/_assets/assets 1.asset using Guid(a4bae3ea2fc1db049bb2dce3e14cadc7) Importer(-1,00000000000000000000000000000000)  -> (artifact id: 'e51a6ffc2360b76c4d4c675d6fcb5e97') in 0.002443 seconds
+Refreshing native plugins compatible for Editor in 7.92 ms, found 4 plugins.
+Preloading 2 native plugins for Editor in 0.08 ms.
+Asset Pipeline Refresh (id=ea5183e5bd0e6ae469282b156a8c2696): Total: 0.015 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Processed pass Close extensions in 65 ms
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+nadena.dev.ndmf.AvatarProcessor:ProcessAvatar (nadena.dev.ndmf.BuildContext,nadena.dev.ndmf.BuildPhase,nadena.dev.ndmf.BuildPhase) (at ./Packages/nadena.dev.ndmf/Editor/AvatarProcessor.cs:276)
+nadena.dev.ndmf.AvatarProcessor:ProcessAvatar (UnityEngine.GameObject,nadena.dev.ndmf.BuildPhase) (at ./Packages/nadena.dev.ndmf/Editor/AvatarProcessor.cs:233)
+nadena.dev.ndmf.AvatarProcessor:ProcessAvatar (UnityEngine.GameObject,nadena.dev.ndmf.platform.INDMFPlatformProvider) (at ./Packages/nadena.dev.ndmf/Editor/AvatarProcessor.cs:195)
+WineFoxItems.Editor.ValidateWineFoxItems:Validate () (at Assets/WineFoxItems/Editor/ValidateWineFoxItems.cs:50)
+WineFoxItems.Editor.ValidateWineFoxItems:Finish () (at Assets/WineFoxItems/Editor/ValidateWineFoxItems.cs:25)
+
+(Filename: ./Packages/nadena.dev.ndmf/Editor/AvatarProcessor.cs Line: 276)
+
+=== Processing phase Generating ===
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+nadena.dev.ndmf.AvatarProcessor:ProcessAvatar (nadena.dev.ndmf.BuildContext,nadena.dev.ndmf.BuildPhase,nadena.dev.ndmf.BuildPhase) (at ./Packages/nadena.dev.ndmf/Editor/AvatarProcessor.cs:257)
+nadena.dev.ndmf.AvatarProcessor:ProcessAvatar (UnityEngine.GameObject,nadena.dev.ndmf.BuildPhase) (at ./Packages/nadena.dev.ndmf/Editor/AvatarProcessor.cs:233)
+nadena.dev.ndmf.AvatarProcessor:ProcessAvatar (UnityEngine.GameObject,nadena.dev.ndmf.platform.INDMFPlatformProvider) (at ./Packages/nadena.dev.ndmf/Editor/AvatarProcessor.cs:195)
+WineFoxItems.Editor.ValidateWineFoxItems:Validate () (at Assets/WineFoxItems/Editor/ValidateWineFoxItems.cs:50)
+WineFoxItems.Editor.ValidateWineFoxItems:Finish () (at Assets/WineFoxItems/Editor/ValidateWineFoxItems.cs:25)
+
+(Filename: ./Packages/nadena.dev.ndmf/Editor/AvatarProcessor.cs Line: 257)
+
+=== Processing phase Transforming ===
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+nadena.dev.ndmf.AvatarProcessor:ProcessAvatar (nadena.dev.ndmf.BuildContext,nadena.dev.ndmf.BuildPhase,nadena.dev.ndmf.BuildPhase) (at ./Packages/nadena.dev.ndmf/Editor/AvatarProcessor.cs:257)
+nadena.dev.ndmf.AvatarProcessor:ProcessAvatar (UnityEngine.GameObject,nadena.dev.ndmf.BuildPhase) (at ./Packages/nadena.dev.ndmf/Editor/AvatarProcessor.cs:233)
+nadena.dev.ndmf.AvatarProcessor:ProcessAvatar (UnityEngine.GameObject,nadena.dev.ndmf.platform.INDMFPlatformProvider) (at ./Packages/nadena.dev.ndmf/Editor/AvatarProcessor.cs:195)
+WineFoxItems.Editor.ValidateWineFoxItems:Validate () (at Assets/WineFoxItems/Editor/ValidateWineFoxItems.cs:50)
+WineFoxItems.Editor.ValidateWineFoxItems:Finish () (at Assets/WineFoxItems/Editor/ValidateWineFoxItems.cs:25)
+
+(Filename: ./Packages/nadena.dev.ndmf/Editor/AvatarProcessor.cs Line: 257)
+
+Processed pass Validate configuration in 0 ms
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+nadena.dev.ndmf.AvatarProcessor:ProcessAvatar (nadena.dev.ndmf.BuildContext,nadena.dev.ndmf.BuildPhase,nadena.dev.ndmf.BuildPhase) (at ./Packages/nadena.dev.ndmf/Editor/AvatarProcessor.cs:276)
+nadena.dev.ndmf.AvatarProcessor:ProcessAvatar (UnityEngine.GameObject,nadena.dev.ndmf.BuildPhase) (at ./Packages/nadena.dev.ndmf/Editor/AvatarProcessor.cs:233)
+nadena.dev.ndmf.AvatarProcessor:ProcessAvatar (UnityEngine.GameObject,nadena.dev.ndmf.platform.INDMFPlatformProvider) (at ./Packages/nadena.dev.ndmf/Editor/AvatarProcessor.cs:195)
+WineFoxItems.Editor.ValidateWineFoxItems:Validate () (at Assets/WineFoxItems/Editor/ValidateWineFoxItems.cs:50)
+WineFoxItems.Editor.ValidateWineFoxItems:Finish () (at Assets/WineFoxItems/Editor/ValidateWineFoxItems.cs:25)
+
+(Filename: ./Packages/nadena.dev.ndmf/Editor/AvatarProcessor.cs Line: 276)
+
+Processed pass ClearEditorOnlyTags in 0 ms
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+nadena.dev.ndmf.AvatarProcessor:ProcessAvatar (nadena.dev.ndmf.BuildContext,nadena.dev.ndmf.BuildPhase,nadena.dev.ndmf.BuildPhase) (at ./Packages/nadena.dev.ndmf/Editor/AvatarProcessor.cs:276)
+nadena.dev.ndmf.AvatarProcessor:ProcessAvatar (UnityEngine.GameObject,nadena.dev.ndmf.BuildPhase) (at ./Packages/nadena.dev.ndmf/Editor/AvatarProcessor.cs:233)
+nadena.dev.ndmf.AvatarProcessor:ProcessAvatar (UnityEngine.GameObject,nadena.dev.ndmf.platform.INDMFPlatformProvider) (at ./Packages/nadena.dev.ndmf/Editor/AvatarProcessor.cs:195)
+WineFoxItems.Editor.ValidateWineFoxItems:Validate () (at Assets/WineFoxItems/Editor/ValidateWineFoxItems.cs:50)
+WineFoxItems.Editor.ValidateWineFoxItems:Finish () (at Assets/WineFoxItems/Editor/ValidateWineFoxItems.cs:25)
+
+(Filename: ./Packages/nadena.dev.ndmf/Editor/AvatarProcessor.cs Line: 276)
+
+Processed pass VRChatSettingsPass in 0 ms
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+nadena.dev.ndmf.AvatarProcessor:ProcessAvatar (nadena.dev.ndmf.BuildContext,nadena.dev.ndmf.BuildPhase,nadena.dev.ndmf.BuildPhase) (at ./Packages/nadena.dev.ndmf/Editor/AvatarProcessor.cs:276)
+nadena.dev.ndmf.AvatarProcessor:ProcessAvatar (UnityEngine.GameObject,nadena.dev.ndmf.BuildPhase) (at ./Packages/nadena.dev.ndmf/Editor/AvatarProcessor.cs:233)
+nadena.dev.ndmf.AvatarProcessor:ProcessAvatar (UnityEngine.GameObject,nadena.dev.ndmf.platform.INDMFPlatformProvider) (at ./Packages/nadena.dev.ndmf/Editor/AvatarProcessor.cs:195)
+WineFoxItems.Editor.ValidateWineFoxItems:Validate () (at Assets/WineFoxItems/Editor/ValidateWineFoxItems.cs:50)
+WineFoxItems.Editor.ValidateWineFoxItems:Finish () (at Assets/WineFoxItems/Editor/ValidateWineFoxItems.cs:25)
+
+(Filename: ./Packages/nadena.dev.ndmf/Editor/AvatarProcessor.cs Line: 276)
+
+Processed pass MeshSettingsPluginPass in 0 ms
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+nadena.dev.ndmf.AvatarProcessor:ProcessAvatar (nadena.dev.ndmf.BuildContext,nadena.dev.ndmf.BuildPhase,nadena.dev.ndmf.BuildPhase) (at ./Packages/nadena.dev.ndmf/Editor/AvatarProcessor.cs:276)
+nadena.dev.ndmf.AvatarProcessor:ProcessAvatar (UnityEngine.GameObject,nadena.dev.ndmf.BuildPhase) (at ./Packages/nadena.dev.ndmf/Editor/AvatarProcessor.cs:233)
+nadena.dev.ndmf.AvatarProcessor:ProcessAvatar (UnityEngine.GameObject,nadena.dev.ndmf.platform.INDMFPlatformProvider) (at ./Packages/nadena.dev.ndmf/Editor/AvatarProcessor.cs:195)
+WineFoxItems.Editor.ValidateWineFoxItems:Validate () (at Assets/WineFoxItems/Editor/ValidateWineFoxItems.cs:50)
+WineFoxItems.Editor.ValidateWineFoxItems:Finish () (at Assets/WineFoxItems/Editor/ValidateWineFoxItems.cs:25)
+
+(Filename: ./Packages/nadena.dev.ndmf/Editor/AvatarProcessor.cs Line: 276)
+
+Processed pass ScaleAdjusterPass in 0 ms
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+nadena.dev.ndmf.AvatarProcessor:ProcessAvatar (nadena.dev.ndmf.BuildContext,nadena.dev.ndmf.BuildPhase,nadena.dev.ndmf.BuildPhase) (at ./Packages/nadena.dev.ndmf/Editor/AvatarProcessor.cs:276)
+nadena.dev.ndmf.AvatarProcessor:ProcessAvatar (UnityEngine.GameObject,nadena.dev.ndmf.BuildPhase) (at ./Packages/nadena.dev.ndmf/Editor/AvatarProcessor.cs:233)
+nadena.dev.ndmf.AvatarProcessor:ProcessAvatar (UnityEngine.GameObject,nadena.dev.ndmf.platform.INDMFPlatformProvider) (at ./Packages/nadena.dev.ndmf/Editor/AvatarProcessor.cs:195)
+WineFoxItems.Editor.ValidateWineFoxItems:Validate () (at Assets/WineFoxItems/Editor/ValidateWineFoxItems.cs:50)
+WineFoxItems.Editor.ValidateWineFoxItems:Finish () (at Assets/WineFoxItems/Editor/ValidateWineFoxItems.cs:25)
+
+(Filename: ./Packages/nadena.dev.ndmf/Editor/AvatarProcessor.cs Line: 276)
+
+Processed pass VRChatGlobalColliderPass in 1 ms
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+nadena.dev.ndmf.AvatarProcessor:ProcessAvatar (nadena.dev.ndmf.BuildContext,nadena.dev.ndmf.BuildPhase,nadena.dev.ndmf.BuildPhase) (at ./Packages/nadena.dev.ndmf/Editor/AvatarProcessor.cs:276)
+nadena.dev.ndmf.AvatarProcessor:ProcessAvatar (UnityEngine.GameObject,nadena.dev.ndmf.BuildPhase) (at ./Packages/nadena.dev.ndmf/Editor/AvatarProcessor.cs:233)
+nadena.dev.ndmf.AvatarProcessor:ProcessAvatar (UnityEngine.GameObject,nadena.dev.ndmf.platform.INDMFPlatformProvider) (at ./Packages/nadena.dev.ndmf/Editor/AvatarProcessor.cs:195)
+WineFoxItems.Editor.ValidateWineFoxItems:Validate () (at Assets/WineFoxItems/Editor/ValidateWineFoxItems.cs:50)
+WineFoxItems.Editor.ValidateWineFoxItems:Finish () (at Assets/WineFoxItems/Editor/ValidateWineFoxItems.cs:25)
+
+(Filename: ./Packages/nadena.dev.ndmf/Editor/AvatarProcessor.cs Line: 276)
+
+Processed pass RenameCollisionTagsPass in 0 ms
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+nadena.dev.ndmf.AvatarProcessor:ProcessAvatar (nadena.dev.ndmf.BuildContext,nadena.dev.ndmf.BuildPhase,nadena.dev.ndmf.BuildPhase) (at ./Packages/nadena.dev.ndmf/Editor/AvatarProcessor.cs:276)
+nadena.dev.ndmf.AvatarProcessor:ProcessAvatar (UnityEngine.GameObject,nadena.dev.ndmf.BuildPhase) (at ./Packages/nadena.dev.ndmf/Editor/AvatarProcessor.cs:233)
+nadena.dev.ndmf.AvatarProcessor:ProcessAvatar (UnityEngine.GameObject,nadena.dev.ndmf.platform.INDMFPlatformProvider) (at ./Packages/nadena.dev.ndmf/Editor/AvatarProcessor.cs:195)
+WineFoxItems.Editor.ValidateWineFoxItems:Validate () (at Assets/WineFoxItems/Editor/ValidateWineFoxItems.cs:50)
+WineFoxItems.Editor.ValidateWineFoxItems:Finish () (at Assets/WineFoxItems/Editor/ValidateWineFoxItems.cs:25)
+
+(Filename: ./Packages/nadena.dev.ndmf/Editor/AvatarProcessor.cs Line: 276)
+
+Processed pass ReactiveObjectPrepass in 0 ms
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+nadena.dev.ndmf.AvatarProcessor:ProcessAvatar (nadena.dev.ndmf.BuildContext,nadena.dev.ndmf.BuildPhase,nadena.dev.ndmf.BuildPhase) (at ./Packages/nadena.dev.ndmf/Editor/AvatarProcessor.cs:276)
+nadena.dev.ndmf.AvatarProcessor:ProcessAvatar (UnityEngine.GameObject,nadena.dev.ndmf.BuildPhase) (at ./Packages/nadena.dev.ndmf/Editor/AvatarProcessor.cs:233)
+nadena.dev.ndmf.AvatarProcessor:ProcessAvatar (UnityEngine.GameObject,nadena.dev.ndmf.platform.INDMFPlatformProvider) (at ./Packages/nadena.dev.ndmf/Editor/AvatarProcessor.cs:195)
+WineFoxItems.Editor.ValidateWineFoxItems:Validate () (at Assets/WineFoxItems/Editor/ValidateWineFoxItems.cs:50)
+WineFoxItems.Editor.ValidateWineFoxItems:Finish () (at Assets/WineFoxItems/Editor/ValidateWineFoxItems.cs:25)
+
+(Filename: ./Packages/nadena.dev.ndmf/Editor/AvatarProcessor.cs Line: 276)
+
+Processed pass FixupAbsolutePlayAudioPass in 2 ms
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+nadena.dev.ndmf.AvatarProcessor:ProcessAvatar (nadena.dev.ndmf.BuildContext,nadena.dev.ndmf.BuildPhase,nadena.dev.ndmf.BuildPhase) (at ./Packages/nadena.dev.ndmf/Editor/AvatarProcessor.cs:276)
+nadena.dev.ndmf.AvatarProcessor:ProcessAvatar (UnityEngine.GameObject,nadena.dev.ndmf.BuildPhase) (at ./Packages/nadena.dev.ndmf/Editor/AvatarProcessor.cs:233)
+nadena.dev.ndmf.AvatarProcessor:ProcessAvatar (UnityEngine.GameObject,nadena.dev.ndmf.platform.INDMFPlatformProvider) (at ./Packages/nadena.dev.ndmf/Editor/AvatarProcessor.cs:195)
+WineFoxItems.Editor.ValidateWineFoxItems:Validate () (at Assets/WineFoxItems/Editor/ValidateWineFoxItems.cs:50)
+WineFoxItems.Editor.ValidateWineFoxItems:Finish () (at Assets/WineFoxItems/Editor/ValidateWineFoxItems.cs:25)
+
+(Filename: ./Packages/nadena.dev.ndmf/Editor/AvatarProcessor.cs Line: 276)
+
+Processed pass MMDRelayEarlyPass in 0 ms
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+nadena.dev.ndmf.AvatarProcessor:ProcessAvatar (nadena.dev.ndmf.BuildContext,nadena.dev.ndmf.BuildPhase,nadena.dev.ndmf.BuildPhase) (at ./Packages/nadena.dev.ndmf/Editor/AvatarProcessor.cs:276)
+nadena.dev.ndmf.AvatarProcessor:ProcessAvatar (UnityEngine.GameObject,nadena.dev.ndmf.BuildPhase) (at ./Packages/nadena.dev.ndmf/Editor/AvatarProcessor.cs:233)
+nadena.dev.ndmf.AvatarProcessor:ProcessAvatar (UnityEngine.GameObject,nadena.dev.ndmf.platform.INDMFPlatformProvider) (at ./Packages/nadena.dev.ndmf/Editor/AvatarProcessor.cs:195)
+WineFoxItems.Editor.ValidateWineFoxItems:Validate () (at Assets/WineFoxItems/Editor/ValidateWineFoxItems.cs:50)
+WineFoxItems.Editor.ValidateWineFoxItems:Finish () (at Assets/WineFoxItems/Editor/ValidateWineFoxItems.cs:25)
+
+(Filename: ./Packages/nadena.dev.ndmf/Editor/AvatarProcessor.cs Line: 276)
+
+Processed pass RenameParametersPluginPass in 30 ms
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+nadena.dev.ndmf.AvatarProcessor:ProcessAvatar (nadena.dev.ndmf.BuildContext,nadena.dev.ndmf.BuildPhase,nadena.dev.ndmf.BuildPhase) (at ./Packages/nadena.dev.ndmf/Editor/AvatarProcessor.cs:276)
+nadena.dev.ndmf.AvatarProcessor:ProcessAvatar (UnityEngine.GameObject,nadena.dev.ndmf.BuildPhase) (at ./Packages/nadena.dev.ndmf/Editor/AvatarProcessor.cs:233)
+nadena.dev.ndmf.AvatarProcessor:ProcessAvatar (UnityEngine.GameObject,nadena.dev.ndmf.platform.INDMFPlatformProvider) (at ./Packages/nadena.dev.ndmf/Editor/AvatarProcessor.cs:195)
+WineFoxItems.Editor.ValidateWineFoxItems:Validate () (at Assets/WineFoxItems/Editor/ValidateWineFoxItems.cs:50)
+WineFoxItems.Editor.ValidateWineFoxItems:Finish () (at Assets/WineFoxItems/Editor/ValidateWineFoxItems.cs:25)
+
+(Filename: ./Packages/nadena.dev.ndmf/Editor/AvatarProcessor.cs Line: 276)
+
+Processed pass ParameterAssignerPass in 2 ms
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+nadena.dev.ndmf.AvatarProcessor:ProcessAvatar (nadena.dev.ndmf.BuildContext,nadena.dev.ndmf.BuildPhase,nadena.dev.ndmf.BuildPhase) (at ./Packages/nadena.dev.ndmf/Editor/AvatarProcessor.cs:276)
+nadena.dev.ndmf.AvatarProcessor:ProcessAvatar (UnityEngine.GameObject,nadena.dev.ndmf.BuildPhase) (at ./Packages/nadena.dev.ndmf/Editor/AvatarProcessor.cs:233)
+nadena.dev.ndmf.AvatarProcessor:ProcessAvatar (UnityEngine.GameObject,nadena.dev.ndmf.platform.INDMFPlatformProvider) (at ./Packages/nadena.dev.ndmf/Editor/AvatarProcessor.cs:195)
+WineFoxItems.Editor.ValidateWineFoxItems:Validate () (at Assets/WineFoxItems/Editor/ValidateWineFoxItems.cs:50)
+WineFoxItems.Editor.ValidateWineFoxItems:Finish () (at Assets/WineFoxItems/Editor/ValidateWineFoxItems.cs:25)
+
+(Filename: ./Packages/nadena.dev.ndmf/Editor/AvatarProcessor.cs Line: 276)
+
+Processed pass RemoveLayerPass in 0 ms
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+nadena.dev.ndmf.AvatarProcessor:ProcessAvatar (nadena.dev.ndmf.BuildContext,nadena.dev.ndmf.BuildPhase,nadena.dev.ndmf.BuildPhase) (at ./Packages/nadena.dev.ndmf/Editor/AvatarProcessor.cs:276)
+nadena.dev.ndmf.AvatarProcessor:ProcessAvatar (UnityEngine.GameObject,nadena.dev.ndmf.BuildPhase) (at ./Packages/nadena.dev.ndmf/Editor/AvatarProcessor.cs:233)
+nadena.dev.ndmf.AvatarProcessor:ProcessAvatar (UnityEngine.GameObject,nadena.dev.ndmf.platform.INDMFPlatformProvider) (at ./Packages/nadena.dev.ndmf/Editor/AvatarProcessor.cs:195)
+WineFoxItems.Editor.ValidateWineFoxItems:Validate () (at Assets/WineFoxItems/Editor/ValidateWineFoxItems.cs:50)
+WineFoxItems.Editor.ValidateWineFoxItems:Finish () (at Assets/WineFoxItems/Editor/ValidateWineFoxItems.cs:25)
+
+(Filename: ./Packages/nadena.dev.ndmf/Editor/AvatarProcessor.cs Line: 276)
+
+Processed pass MergeBlendTreePass in 0 ms
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+nadena.dev.ndmf.AvatarProcessor:ProcessAvatar (nadena.dev.ndmf.BuildContext,nadena.dev.ndmf.BuildPhase,nadena.dev.ndmf.BuildPhase) (at ./Packages/nadena.dev.ndmf/Editor/AvatarProcessor.cs:276)
+nadena.dev.ndmf.AvatarProcessor:ProcessAvatar (UnityEngine.GameObject,nadena.dev.ndmf.BuildPhase) (at ./Packages/nadena.dev.ndmf/Editor/AvatarProcessor.cs:233)
+nadena.dev.ndmf.AvatarProcessor:ProcessAvatar (UnityEngine.GameObject,nadena.dev.ndmf.platform.INDMFPlatformProvider) (at ./Packages/nadena.dev.ndmf/Editor/AvatarProcessor.cs:195)
+WineFoxItems.Editor.ValidateWineFoxItems:Validate () (at Assets/WineFoxItems/Editor/ValidateWineFoxItems.cs:50)
+WineFoxItems.Editor.ValidateWineFoxItems:Finish () (at Assets/WineFoxItems/Editor/ValidateWineFoxItems.cs:25)
+
+(Filename: ./Packages/nadena.dev.ndmf/Editor/AvatarProcessor.cs Line: 276)
+
+Processed pass MergeAnimatorPluginPass in 7 ms
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+nadena.dev.ndmf.AvatarProcessor:ProcessAvatar (nadena.dev.ndmf.BuildContext,nadena.dev.ndmf.BuildPhase,nadena.dev.ndmf.BuildPhase) (at ./Packages/nadena.dev.ndmf/Editor/AvatarProcessor.cs:276)
+nadena.dev.ndmf.AvatarProcessor:ProcessAvatar (UnityEngine.GameObject,nadena.dev.ndmf.BuildPhase) (at ./Packages/nadena.dev.ndmf/Editor/AvatarProcessor.cs:233)
+nadena.dev.ndmf.AvatarProcessor:ProcessAvatar (UnityEngine.GameObject,nadena.dev.ndmf.platform.INDMFPlatformProvider) (at ./Packages/nadena.dev.ndmf/Editor/AvatarProcessor.cs:195)
+WineFoxItems.Editor.ValidateWineFoxItems:Validate () (at Assets/WineFoxItems/Editor/ValidateWineFoxItems.cs:50)
+WineFoxItems.Editor.ValidateWineFoxItems:Finish () (at Assets/WineFoxItems/Editor/ValidateWineFoxItems.cs:25)
+
+(Filename: ./Packages/nadena.dev.ndmf/Editor/AvatarProcessor.cs Line: 276)
+
+Processed pass ApplyAnimatorDefaultValuesPass in 0 ms
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+nadena.dev.ndmf.AvatarProcessor:ProcessAvatar (nadena.dev.ndmf.BuildContext,nadena.dev.ndmf.BuildPhase,nadena.dev.ndmf.BuildPhase) (at ./Packages/nadena.dev.ndmf/Editor/AvatarProcessor.cs:276)
+nadena.dev.ndmf.AvatarProcessor:ProcessAvatar (UnityEngine.GameObject,nadena.dev.ndmf.BuildPhase) (at ./Packages/nadena.dev.ndmf/Editor/AvatarProcessor.cs:233)
+nadena.dev.ndmf.AvatarProcessor:ProcessAvatar (UnityEngine.GameObject,nadena.dev.ndmf.platform.INDMFPlatformProvider) (at ./Packages/nadena.dev.ndmf/Editor/AvatarProcessor.cs:195)
+WineFoxItems.Editor.ValidateWineFoxItems:Validate () (at Assets/WineFoxItems/Editor/ValidateWineFoxItems.cs:50)
+WineFoxItems.Editor.ValidateWineFoxItems:Finish () (at Assets/WineFoxItems/Editor/ValidateWineFoxItems.cs:25)
+
+(Filename: ./Packages/nadena.dev.ndmf/Editor/AvatarProcessor.cs Line: 276)
+
+Processed pass Reactive Components in 14 ms
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+nadena.dev.ndmf.AvatarProcessor:ProcessAvatar (nadena.dev.ndmf.BuildContext,nadena.dev.ndmf.BuildPhase,nadena.dev.ndmf.BuildPhase) (at ./Packages/nadena.dev.ndmf/Editor/AvatarProcessor.cs:276)
+nadena.dev.ndmf.AvatarProcessor:ProcessAvatar (UnityEngine.GameObject,nadena.dev.ndmf.BuildPhase) (at ./Packages/nadena.dev.ndmf/Editor/AvatarProcessor.cs:233)
+nadena.dev.ndmf.AvatarProcessor:ProcessAvatar (UnityEngine.GameObject,nadena.dev.ndmf.platform.INDMFPlatformProvider) (at ./Packages/nadena.dev.ndmf/Editor/AvatarProcessor.cs:195)
+WineFoxItems.Editor.ValidateWineFoxItems:Validate () (at Assets/WineFoxItems/Editor/ValidateWineFoxItems.cs:50)
+WineFoxItems.Editor.ValidateWineFoxItems:Finish () (at Assets/WineFoxItems/Editor/ValidateWineFoxItems.cs:25)
+
+(Filename: ./Packages/nadena.dev.ndmf/Editor/AvatarProcessor.cs Line: 276)
+
+Processed pass FixupHeadChopRootBone in 1 ms
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+nadena.dev.ndmf.AvatarProcessor:ProcessAvatar (nadena.dev.ndmf.BuildContext,nadena.dev.ndmf.BuildPhase,nadena.dev.ndmf.BuildPhase) (at ./Packages/nadena.dev.ndmf/Editor/AvatarProcessor.cs:276)
+nadena.dev.ndmf.AvatarProcessor:ProcessAvatar (UnityEngine.GameObject,nadena.dev.ndmf.BuildPhase) (at ./Packages/nadena.dev.ndmf/Editor/AvatarProcessor.cs:233)
+nadena.dev.ndmf.AvatarProcessor:ProcessAvatar (UnityEngine.GameObject,nadena.dev.ndmf.platform.INDMFPlatformProvider) (at ./Packages/nadena.dev.ndmf/Editor/AvatarProcessor.cs:195)
+WineFoxItems.Editor.ValidateWineFoxItems:Validate () (at Assets/WineFoxItems/Editor/ValidateWineFoxItems.cs:50)
+WineFoxItems.Editor.ValidateWineFoxItems:Finish () (at Assets/WineFoxItems/Editor/ValidateWineFoxItems.cs:25)
+
+(Filename: ./Packages/nadena.dev.ndmf/Editor/AvatarProcessor.cs Line: 276)
+
+Processed pass GameObjectDelayDisablePass in 1 ms
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+nadena.dev.ndmf.AvatarProcessor:ProcessAvatar (nadena.dev.ndmf.BuildContext,nadena.dev.ndmf.BuildPhase,nadena.dev.ndmf.BuildPhase) (at ./Packages/nadena.dev.ndmf/Editor/AvatarProcessor.cs:276)
+nadena.dev.ndmf.AvatarProcessor:ProcessAvatar (UnityEngine.GameObject,nadena.dev.ndmf.BuildPhase) (at ./Packages/nadena.dev.ndmf/Editor/AvatarProcessor.cs:233)
+nadena.dev.ndmf.AvatarProcessor:ProcessAvatar (UnityEngine.GameObject,nadena.dev.ndmf.platform.INDMFPlatformProvider) (at ./Packages/nadena.dev.ndmf/Editor/AvatarProcessor.cs:195)
+WineFoxItems.Editor.ValidateWineFoxItems:Validate () (at Assets/WineFoxItems/Editor/ValidateWineFoxItems.cs:50)
+WineFoxItems.Editor.ValidateWineFoxItems:Finish () (at Assets/WineFoxItems/Editor/ValidateWineFoxItems.cs:25)
+
+(Filename: ./Packages/nadena.dev.ndmf/Editor/AvatarProcessor.cs Line: 276)
+
+Processed pass MenuInstallPluginPass in 7 ms
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+nadena.dev.ndmf.AvatarProcessor:ProcessAvatar (nadena.dev.ndmf.BuildContext,nadena.dev.ndmf.BuildPhase,nadena.dev.ndmf.BuildPhase) (at ./Packages/nadena.dev.ndmf/Editor/AvatarProcessor.cs:276)
+nadena.dev.ndmf.AvatarProcessor:ProcessAvatar (UnityEngine.GameObject,nadena.dev.ndmf.BuildPhase) (at ./Packages/nadena.dev.ndmf/Editor/AvatarProcessor.cs:233)
+nadena.dev.ndmf.AvatarProcessor:ProcessAvatar (UnityEngine.GameObject,nadena.dev.ndmf.platform.INDMFPlatformProvider) (at ./Packages/nadena.dev.ndmf/Editor/AvatarProcessor.cs:195)
+WineFoxItems.Editor.ValidateWineFoxItems:Validate () (at Assets/WineFoxItems/Editor/ValidateWineFoxItems.cs:50)
+WineFoxItems.Editor.ValidateWineFoxItems:Finish () (at Assets/WineFoxItems/Editor/ValidateWineFoxItems.cs:25)
+
+(Filename: ./Packages/nadena.dev.ndmf/Editor/AvatarProcessor.cs Line: 276)
+
+Processed pass CycleCheckPass in 3 ms
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+nadena.dev.ndmf.AvatarProcessor:ProcessAvatar (nadena.dev.ndmf.BuildContext,nadena.dev.ndmf.BuildPhase,nadena.dev.ndmf.BuildPhase) (at ./Packages/nadena.dev.ndmf/Editor/AvatarProcessor.cs:276)
+nadena.dev.ndmf.AvatarProcessor:ProcessAvatar (UnityEngine.GameObject,nadena.dev.ndmf.BuildPhase) (at ./Packages/nadena.dev.ndmf/Editor/AvatarProcessor.cs:233)
+nadena.dev.ndmf.AvatarProcessor:ProcessAvatar (UnityEngine.GameObject,nadena.dev.ndmf.platform.INDMFPlatformProvider) (at ./Packages/nadena.dev.ndmf/Editor/AvatarProcessor.cs:195)
+WineFoxItems.Editor.ValidateWineFoxItems:Validate () (at Assets/WineFoxItems/Editor/ValidateWineFoxItems.cs:50)
+WineFoxItems.Editor.ValidateWineFoxItems:Finish () (at Assets/WineFoxItems/Editor/ValidateWineFoxItems.cs:25)
+
+(Filename: ./Packages/nadena.dev.ndmf/Editor/AvatarProcessor.cs Line: 276)
+
+Processed pass BoneProxyPluginPrepass in 0 ms
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+nadena.dev.ndmf.AvatarProcessor:ProcessAvatar (nadena.dev.ndmf.BuildContext,nadena.dev.ndmf.BuildPhase,nadena.dev.ndmf.BuildPhase) (at ./Packages/nadena.dev.ndmf/Editor/AvatarProcessor.cs:276)
+nadena.dev.ndmf.AvatarProcessor:ProcessAvatar (UnityEngine.GameObject,nadena.dev.ndmf.BuildPhase) (at ./Packages/nadena.dev.ndmf/Editor/AvatarProcessor.cs:233)
+nadena.dev.ndmf.AvatarProcessor:ProcessAvatar (UnityEngine.GameObject,nadena.dev.ndmf.platform.INDMFPlatformProvider) (at ./Packages/nadena.dev.ndmf/Editor/AvatarProcessor.cs:195)
+WineFoxItems.Editor.ValidateWineFoxItems:Validate () (at Assets/WineFoxItems/Editor/ValidateWineFoxItems.cs:50)
+WineFoxItems.Editor.ValidateWineFoxItems:Finish () (at Assets/WineFoxItems/Editor/ValidateWineFoxItems.cs:25)
+
+(Filename: ./Packages/nadena.dev.ndmf/Editor/AvatarProcessor.cs Line: 276)
+
+Processed pass MergeArmaturePluginPass in 6 ms
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+nadena.dev.ndmf.AvatarProcessor:ProcessAvatar (nadena.dev.ndmf.BuildContext,nadena.dev.ndmf.BuildPhase,nadena.dev.ndmf.BuildPhase) (at ./Packages/nadena.dev.ndmf/Editor/AvatarProcessor.cs:276)
+nadena.dev.ndmf.AvatarProcessor:ProcessAvatar (UnityEngine.GameObject,nadena.dev.ndmf.BuildPhase) (at ./Packages/nadena.dev.ndmf/Editor/AvatarProcessor.cs:233)
+nadena.dev.ndmf.AvatarProcessor:ProcessAvatar (UnityEngine.GameObject,nadena.dev.ndmf.platform.INDMFPlatformProvider) (at ./Packages/nadena.dev.ndmf/Editor/AvatarProcessor.cs:195)
+WineFoxItems.Editor.ValidateWineFoxItems:Validate () (at Assets/WineFoxItems/Editor/ValidateWineFoxItems.cs:50)
+WineFoxItems.Editor.ValidateWineFoxItems:Finish () (at Assets/WineFoxItems/Editor/ValidateWineFoxItems.cs:25)
+
+(Filename: ./Packages/nadena.dev.ndmf/Editor/AvatarProcessor.cs Line: 276)
+
+Processed pass BoneProxyPluginPass in 1 ms
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+nadena.dev.ndmf.AvatarProcessor:ProcessAvatar (nadena.dev.ndmf.BuildContext,nadena.dev.ndmf.BuildPhase,nadena.dev.ndmf.BuildPhase) (at ./Packages/nadena.dev.ndmf/Editor/AvatarProcessor.cs:276)
+nadena.dev.ndmf.AvatarProcessor:ProcessAvatar (UnityEngine.GameObject,nadena.dev.ndmf.BuildPhase) (at ./Packages/nadena.dev.ndmf/Editor/AvatarProcessor.cs:233)
+nadena.dev.ndmf.AvatarProcessor:ProcessAvatar (UnityEngine.GameObject,nadena.dev.ndmf.platform.INDMFPlatformProvider) (at ./Packages/nadena.dev.ndmf/Editor/AvatarProcessor.cs:195)
+WineFoxItems.Editor.ValidateWineFoxItems:Validate () (at Assets/WineFoxItems/Editor/ValidateWineFoxItems.cs:50)
+WineFoxItems.Editor.ValidateWineFoxItems:Finish () (at Assets/WineFoxItems/Editor/ValidateWineFoxItems.cs:25)
+
+(Filename: ./Packages/nadena.dev.ndmf/Editor/AvatarProcessor.cs Line: 276)
+
+Processed pass MoveToPluginPass in 0 ms
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+nadena.dev.ndmf.AvatarProcessor:ProcessAvatar (nadena.dev.ndmf.BuildContext,nadena.dev.ndmf.BuildPhase,nadena.dev.ndmf.BuildPhase) (at ./Packages/nadena.dev.ndmf/Editor/AvatarProcessor.cs:276)
+nadena.dev.ndmf.AvatarProcessor:ProcessAvatar (UnityEngine.GameObject,nadena.dev.ndmf.BuildPhase) (at ./Packages/nadena.dev.ndmf/Editor/AvatarProcessor.cs:233)
+nadena.dev.ndmf.AvatarProcessor:ProcessAvatar (UnityEngine.GameObject,nadena.dev.ndmf.platform.INDMFPlatformProvider) (at ./Packages/nadena.dev.ndmf/Editor/AvatarProcessor.cs:195)
+WineFoxItems.Editor.ValidateWineFoxItems:Validate () (at Assets/WineFoxItems/Editor/ValidateWineFoxItems.cs:50)
+WineFoxItems.Editor.ValidateWineFoxItems:Finish () (at Assets/WineFoxItems/Editor/ValidateWineFoxItems.cs:25)
+
+(Filename: ./Packages/nadena.dev.ndmf/Editor/AvatarProcessor.cs Line: 276)
+
+Processed pass VisibleHeadAccessoryPluginPass in 1 ms
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+nadena.dev.ndmf.AvatarProcessor:ProcessAvatar (nadena.dev.ndmf.BuildContext,nadena.dev.ndmf.BuildPhase,nadena.dev.ndmf.BuildPhase) (at ./Packages/nadena.dev.ndmf/Editor/AvatarProcessor.cs:276)
+nadena.dev.ndmf.AvatarProcessor:ProcessAvatar (UnityEngine.GameObject,nadena.dev.ndmf.BuildPhase) (at ./Packages/nadena.dev.ndmf/Editor/AvatarProcessor.cs:233)
+nadena.dev.ndmf.AvatarProcessor:ProcessAvatar (UnityEngine.GameObject,nadena.dev.ndmf.platform.INDMFPlatformProvider) (at ./Packages/nadena.dev.ndmf/Editor/AvatarProcessor.cs:195)
+WineFoxItems.Editor.ValidateWineFoxItems:Validate () (at Assets/WineFoxItems/Editor/ValidateWineFoxItems.cs:50)
+WineFoxItems.Editor.ValidateWineFoxItems:Finish () (at Assets/WineFoxItems/Editor/ValidateWineFoxItems.cs:25)
+
+(Filename: ./Packages/nadena.dev.ndmf/Editor/AvatarProcessor.cs Line: 276)
+
+Processed pass World Fixed Object in 0 ms
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+nadena.dev.ndmf.AvatarProcessor:ProcessAvatar (nadena.dev.ndmf.BuildContext,nadena.dev.ndmf.BuildPhase,nadena.dev.ndmf.BuildPhase) (at ./Packages/nadena.dev.ndmf/Editor/AvatarProcessor.cs:276)
+nadena.dev.ndmf.AvatarProcessor:ProcessAvatar (UnityEngine.GameObject,nadena.dev.ndmf.BuildPhase) (at ./Packages/nadena.dev.ndmf/Editor/AvatarProcessor.cs:233)
+nadena.dev.ndmf.AvatarProcessor:ProcessAvatar (UnityEngine.GameObject,nadena.dev.ndmf.platform.INDMFPlatformProvider) (at ./Packages/nadena.dev.ndmf/Editor/AvatarProcessor.cs:195)
+WineFoxItems.Editor.ValidateWineFoxItems:Validate () (at Assets/WineFoxItems/Editor/ValidateWineFoxItems.cs:50)
+WineFoxItems.Editor.ValidateWineFoxItems:Finish () (at Assets/WineFoxItems/Editor/ValidateWineFoxItems.cs:25)
+
+(Filename: ./Packages/nadena.dev.ndmf/Editor/AvatarProcessor.cs Line: 276)
+
+Processed pass WorldScaleObjectPass in 0 ms
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+nadena.dev.ndmf.AvatarProcessor:ProcessAvatar (nadena.dev.ndmf.BuildContext,nadena.dev.ndmf.BuildPhase,nadena.dev.ndmf.BuildPhase) (at ./Packages/nadena.dev.ndmf/Editor/AvatarProcessor.cs:276)
+nadena.dev.ndmf.AvatarProcessor:ProcessAvatar (UnityEngine.GameObject,nadena.dev.ndmf.BuildPhase) (at ./Packages/nadena.dev.ndmf/Editor/AvatarProcessor.cs:233)
+nadena.dev.ndmf.AvatarProcessor:ProcessAvatar (UnityEngine.GameObject,nadena.dev.ndmf.platform.INDMFPlatformProvider) (at ./Packages/nadena.dev.ndmf/Editor/AvatarProcessor.cs:195)
+WineFoxItems.Editor.ValidateWineFoxItems:Validate () (at Assets/WineFoxItems/Editor/ValidateWineFoxItems.cs:50)
+WineFoxItems.Editor.ValidateWineFoxItems:Finish () (at Assets/WineFoxItems/Editor/ValidateWineFoxItems.cs:25)
+
+(Filename: ./Packages/nadena.dev.ndmf/Editor/AvatarProcessor.cs Line: 276)
+
+Processed pass ReplaceObjectPluginPass in 1 ms
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+nadena.dev.ndmf.AvatarProcessor:ProcessAvatar (nadena.dev.ndmf.BuildContext,nadena.dev.ndmf.BuildPhase,nadena.dev.ndmf.BuildPhase) (at ./Packages/nadena.dev.ndmf/Editor/AvatarProcessor.cs:276)
+nadena.dev.ndmf.AvatarProcessor:ProcessAvatar (UnityEngine.GameObject,nadena.dev.ndmf.BuildPhase) (at ./Packages/nadena.dev.ndmf/Editor/AvatarProcessor.cs:233)
+nadena.dev.ndmf.AvatarProcessor:ProcessAvatar (UnityEngine.GameObject,nadena.dev.ndmf.platform.INDMFPlatformProvider) (at ./Packages/nadena.dev.ndmf/Editor/AvatarProcessor.cs:195)
+WineFoxItems.Editor.ValidateWineFoxItems:Validate () (at Assets/WineFoxItems/Editor/ValidateWineFoxItems.cs:50)
+WineFoxItems.Editor.ValidateWineFoxItems:Finish () (at Assets/WineFoxItems/Editor/ValidateWineFoxItems.cs:25)
+
+(Filename: ./Packages/nadena.dev.ndmf/Editor/AvatarProcessor.cs Line: 276)
+
+Processed pass BlendshapeSyncAnimationPluginPass in 1 ms
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+nadena.dev.ndmf.AvatarProcessor:ProcessAvatar (nadena.dev.ndmf.BuildContext,nadena.dev.ndmf.BuildPhase,nadena.dev.ndmf.BuildPhase) (at ./Packages/nadena.dev.ndmf/Editor/AvatarProcessor.cs:276)
+nadena.dev.ndmf.AvatarProcessor:ProcessAvatar (UnityEngine.GameObject,nadena.dev.ndmf.BuildPhase) (at ./Packages/nadena.dev.ndmf/Editor/AvatarProcessor.cs:233)
+nadena.dev.ndmf.AvatarProcessor:ProcessAvatar (UnityEngine.GameObject,nadena.dev.ndmf.platform.INDMFPlatformProvider) (at ./Packages/nadena.dev.ndmf/Editor/AvatarProcessor.cs:195)
+WineFoxItems.Editor.ValidateWineFoxItems:Validate () (at Assets/WineFoxItems/Editor/ValidateWineFoxItems.cs:50)
+WineFoxItems.Editor.ValidateWineFoxItems:Finish () (at Assets/WineFoxItems/Editor/ValidateWineFoxItems.cs:25)
+
+(Filename: ./Packages/nadena.dev.ndmf/Editor/AvatarProcessor.cs Line: 276)
+
+Processed pass ConstraintConverterPass in 0 ms
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+nadena.dev.ndmf.AvatarProcessor:ProcessAvatar (nadena.dev.ndmf.BuildContext,nadena.dev.ndmf.BuildPhase,nadena.dev.ndmf.BuildPhase) (at ./Packages/nadena.dev.ndmf/Editor/AvatarProcessor.cs:276)
+nadena.dev.ndmf.AvatarProcessor:ProcessAvatar (UnityEngine.GameObject,nadena.dev.ndmf.BuildPhase) (at ./Packages/nadena.dev.ndmf/Editor/AvatarProcessor.cs:233)
+nadena.dev.ndmf.AvatarProcessor:ProcessAvatar (UnityEngine.GameObject,nadena.dev.ndmf.platform.INDMFPlatformProvider) (at ./Packages/nadena.dev.ndmf/Editor/AvatarProcessor.cs:195)
+WineFoxItems.Editor.ValidateWineFoxItems:Validate () (at Assets/WineFoxItems/Editor/ValidateWineFoxItems.cs:50)
+WineFoxItems.Editor.ValidateWineFoxItems:Finish () (at Assets/WineFoxItems/Editor/ValidateWineFoxItems.cs:25)
+
+(Filename: ./Packages/nadena.dev.ndmf/Editor/AvatarProcessor.cs Line: 276)
+
+Processed pass Prune empty animator layers in 1 ms
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+nadena.dev.ndmf.AvatarProcessor:ProcessAvatar (nadena.dev.ndmf.BuildContext,nadena.dev.ndmf.BuildPhase,nadena.dev.ndmf.BuildPhase) (at ./Packages/nadena.dev.ndmf/Editor/AvatarProcessor.cs:276)
+nadena.dev.ndmf.AvatarProcessor:ProcessAvatar (UnityEngine.GameObject,nadena.dev.ndmf.BuildPhase) (at ./Packages/nadena.dev.ndmf/Editor/AvatarProcessor.cs:233)
+nadena.dev.ndmf.AvatarProcessor:ProcessAvatar (UnityEngine.GameObject,nadena.dev.ndmf.platform.INDMFPlatformProvider) (at ./Packages/nadena.dev.ndmf/Editor/AvatarProcessor.cs:195)
+WineFoxItems.Editor.ValidateWineFoxItems:Validate () (at Assets/WineFoxItems/Editor/ValidateWineFoxItems.cs:50)
+WineFoxItems.Editor.ValidateWineFoxItems:Finish () (at Assets/WineFoxItems/Editor/ValidateWineFoxItems.cs:25)
+
+(Filename: ./Packages/nadena.dev.ndmf/Editor/AvatarProcessor.cs Line: 276)
+
+Processed pass Harmonize animator parameter types in 5 ms
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+nadena.dev.ndmf.AvatarProcessor:ProcessAvatar (nadena.dev.ndmf.BuildContext,nadena.dev.ndmf.BuildPhase,nadena.dev.ndmf.BuildPhase) (at ./Packages/nadena.dev.ndmf/Editor/AvatarProcessor.cs:276)
+nadena.dev.ndmf.AvatarProcessor:ProcessAvatar (UnityEngine.GameObject,nadena.dev.ndmf.BuildPhase) (at ./Packages/nadena.dev.ndmf/Editor/AvatarProcessor.cs:233)
+nadena.dev.ndmf.AvatarProcessor:ProcessAvatar (UnityEngine.GameObject,nadena.dev.ndmf.platform.INDMFPlatformProvider) (at ./Packages/nadena.dev.ndmf/Editor/AvatarProcessor.cs:195)
+WineFoxItems.Editor.ValidateWineFoxItems:Validate () (at Assets/WineFoxItems/Editor/ValidateWineFoxItems.cs:50)
+WineFoxItems.Editor.ValidateWineFoxItems:Finish () (at Assets/WineFoxItems/Editor/ValidateWineFoxItems.cs:25)
+
+(Filename: ./Packages/nadena.dev.ndmf/Editor/AvatarProcessor.cs Line: 276)
+
+Processed pass MMDRelayPass in 5 ms
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+nadena.dev.ndmf.AvatarProcessor:ProcessAvatar (nadena.dev.ndmf.BuildContext,nadena.dev.ndmf.BuildPhase,nadena.dev.ndmf.BuildPhase) (at ./Packages/nadena.dev.ndmf/Editor/AvatarProcessor.cs:276)
+nadena.dev.ndmf.AvatarProcessor:ProcessAvatar (UnityEngine.GameObject,nadena.dev.ndmf.BuildPhase) (at ./Packages/nadena.dev.ndmf/Editor/AvatarProcessor.cs:233)
+nadena.dev.ndmf.AvatarProcessor:ProcessAvatar (UnityEngine.GameObject,nadena.dev.ndmf.platform.INDMFPlatformProvider) (at ./Packages/nadena.dev.ndmf/Editor/AvatarProcessor.cs:195)
+WineFoxItems.Editor.ValidateWineFoxItems:Validate () (at Assets/WineFoxItems/Editor/ValidateWineFoxItems.cs:50)
+WineFoxItems.Editor.ValidateWineFoxItems:Finish () (at Assets/WineFoxItems/Editor/ValidateWineFoxItems.cs:25)
+
+(Filename: ./Packages/nadena.dev.ndmf/Editor/AvatarProcessor.cs Line: 276)
+
+Asset Pipeline Refresh (id=613480fbcb71c81428b0142211fd9e12): Total: 0.001 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Processed pass PhysbonesBlockerPluginPass in 12 ms
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+nadena.dev.ndmf.AvatarProcessor:ProcessAvatar (nadena.dev.ndmf.BuildContext,nadena.dev.ndmf.BuildPhase,nadena.dev.ndmf.BuildPhase) (at ./Packages/nadena.dev.ndmf/Editor/AvatarProcessor.cs:276)
+nadena.dev.ndmf.AvatarProcessor:ProcessAvatar (UnityEngine.GameObject,nadena.dev.ndmf.BuildPhase) (at ./Packages/nadena.dev.ndmf/Editor/AvatarProcessor.cs:233)
+nadena.dev.ndmf.AvatarProcessor:ProcessAvatar (UnityEngine.GameObject,nadena.dev.ndmf.platform.INDMFPlatformProvider) (at ./Packages/nadena.dev.ndmf/Editor/AvatarProcessor.cs:195)
+WineFoxItems.Editor.ValidateWineFoxItems:Validate () (at Assets/WineFoxItems/Editor/ValidateWineFoxItems.cs:50)
+WineFoxItems.Editor.ValidateWineFoxItems:Finish () (at Assets/WineFoxItems/Editor/ValidateWineFoxItems.cs:25)
+
+(Filename: ./Packages/nadena.dev.ndmf/Editor/AvatarProcessor.cs Line: 276)
+
+Processed pass Fixup Expressions Menu in 0 ms
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+nadena.dev.ndmf.AvatarProcessor:ProcessAvatar (nadena.dev.ndmf.BuildContext,nadena.dev.ndmf.BuildPhase,nadena.dev.ndmf.BuildPhase) (at ./Packages/nadena.dev.ndmf/Editor/AvatarProcessor.cs:276)
+nadena.dev.ndmf.AvatarProcessor:ProcessAvatar (UnityEngine.GameObject,nadena.dev.ndmf.BuildPhase) (at ./Packages/nadena.dev.ndmf/Editor/AvatarProcessor.cs:233)
+nadena.dev.ndmf.AvatarProcessor:ProcessAvatar (UnityEngine.GameObject,nadena.dev.ndmf.platform.INDMFPlatformProvider) (at ./Packages/nadena.dev.ndmf/Editor/AvatarProcessor.cs:195)
+WineFoxItems.Editor.ValidateWineFoxItems:Validate () (at Assets/WineFoxItems/Editor/ValidateWineFoxItems.cs:50)
+WineFoxItems.Editor.ValidateWineFoxItems:Finish () (at Assets/WineFoxItems/Editor/ValidateWineFoxItems.cs:25)
+
+(Filename: ./Packages/nadena.dev.ndmf/Editor/AvatarProcessor.cs Line: 276)
+
+Processed pass SyncParameterSequencePass in 0 ms
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+nadena.dev.ndmf.AvatarProcessor:ProcessAvatar (nadena.dev.ndmf.BuildContext,nadena.dev.ndmf.BuildPhase,nadena.dev.ndmf.BuildPhase) (at ./Packages/nadena.dev.ndmf/Editor/AvatarProcessor.cs:276)
+nadena.dev.ndmf.AvatarProcessor:ProcessAvatar (UnityEngine.GameObject,nadena.dev.ndmf.BuildPhase) (at ./Packages/nadena.dev.ndmf/Editor/AvatarProcessor.cs:233)
+nadena.dev.ndmf.AvatarProcessor:ProcessAvatar (UnityEngine.GameObject,nadena.dev.ndmf.platform.INDMFPlatformProvider) (at ./Packages/nadena.dev.ndmf/Editor/AvatarProcessor.cs:195)
+WineFoxItems.Editor.ValidateWineFoxItems:Validate () (at Assets/WineFoxItems/Editor/ValidateWineFoxItems.cs:50)
+WineFoxItems.Editor.ValidateWineFoxItems:Finish () (at Assets/WineFoxItems/Editor/ValidateWineFoxItems.cs:25)
+
+(Filename: ./Packages/nadena.dev.ndmf/Editor/AvatarProcessor.cs Line: 276)
+
+Processed pass RemoveVertexColorPass in 0 ms
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+nadena.dev.ndmf.AvatarProcessor:ProcessAvatar (nadena.dev.ndmf.BuildContext,nadena.dev.ndmf.BuildPhase,nadena.dev.ndmf.BuildPhase) (at ./Packages/nadena.dev.ndmf/Editor/AvatarProcessor.cs:276)
+nadena.dev.ndmf.AvatarProcessor:ProcessAvatar (UnityEngine.GameObject,nadena.dev.ndmf.BuildPhase) (at ./Packages/nadena.dev.ndmf/Editor/AvatarProcessor.cs:233)
+nadena.dev.ndmf.AvatarProcessor:ProcessAvatar (UnityEngine.GameObject,nadena.dev.ndmf.platform.INDMFPlatformProvider) (at ./Packages/nadena.dev.ndmf/Editor/AvatarProcessor.cs:195)
+WineFoxItems.Editor.ValidateWineFoxItems:Validate () (at Assets/WineFoxItems/Editor/ValidateWineFoxItems.cs:50)
+WineFoxItems.Editor.ValidateWineFoxItems:Finish () (at Assets/WineFoxItems/Editor/ValidateWineFoxItems.cs:25)
+
+(Filename: ./Packages/nadena.dev.ndmf/Editor/AvatarProcessor.cs Line: 276)
+
+Processed pass RebindHumanoidAvatarPass in 1 ms
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+nadena.dev.ndmf.AvatarProcessor:ProcessAvatar (nadena.dev.ndmf.BuildContext,nadena.dev.ndmf.BuildPhase,nadena.dev.ndmf.BuildPhase) (at ./Packages/nadena.dev.ndmf/Editor/AvatarProcessor.cs:276)
+nadena.dev.ndmf.AvatarProcessor:ProcessAvatar (UnityEngine.GameObject,nadena.dev.ndmf.BuildPhase) (at ./Packages/nadena.dev.ndmf/Editor/AvatarProcessor.cs:233)
+nadena.dev.ndmf.AvatarProcessor:ProcessAvatar (UnityEngine.GameObject,nadena.dev.ndmf.platform.INDMFPlatformProvider) (at ./Packages/nadena.dev.ndmf/Editor/AvatarProcessor.cs:195)
+WineFoxItems.Editor.ValidateWineFoxItems:Validate () (at Assets/WineFoxItems/Editor/ValidateWineFoxItems.cs:50)
+WineFoxItems.Editor.ValidateWineFoxItems:Finish () (at Assets/WineFoxItems/Editor/ValidateWineFoxItems.cs:25)
+
+(Filename: ./Packages/nadena.dev.ndmf/Editor/AvatarProcessor.cs Line: 276)
+
+Processed pass PruneParametersPass in 0 ms
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+nadena.dev.ndmf.AvatarProcessor:ProcessAvatar (nadena.dev.ndmf.BuildContext,nadena.dev.ndmf.BuildPhase,nadena.dev.ndmf.BuildPhase) (at ./Packages/nadena.dev.ndmf/Editor/AvatarProcessor.cs:276)
+nadena.dev.ndmf.AvatarProcessor:ProcessAvatar (UnityEngine.GameObject,nadena.dev.ndmf.BuildPhase) (at ./Packages/nadena.dev.ndmf/Editor/AvatarProcessor.cs:233)
+nadena.dev.ndmf.AvatarProcessor:ProcessAvatar (UnityEngine.GameObject,nadena.dev.ndmf.platform.INDMFPlatformProvider) (at ./Packages/nadena.dev.ndmf/Editor/AvatarProcessor.cs:195)
+WineFoxItems.Editor.ValidateWineFoxItems:Validate () (at Assets/WineFoxItems/Editor/ValidateWineFoxItems.cs:50)
+WineFoxItems.Editor.ValidateWineFoxItems:Finish () (at Assets/WineFoxItems/Editor/ValidateWineFoxItems.cs:25)
+
+(Filename: ./Packages/nadena.dev.ndmf/Editor/AvatarProcessor.cs Line: 276)
+
+Processed pass FloorAdjusterPass in 0 ms
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+nadena.dev.ndmf.AvatarProcessor:ProcessAvatar (nadena.dev.ndmf.BuildContext,nadena.dev.ndmf.BuildPhase,nadena.dev.ndmf.BuildPhase) (at ./Packages/nadena.dev.ndmf/Editor/AvatarProcessor.cs:276)
+nadena.dev.ndmf.AvatarProcessor:ProcessAvatar (UnityEngine.GameObject,nadena.dev.ndmf.BuildPhase) (at ./Packages/nadena.dev.ndmf/Editor/AvatarProcessor.cs:233)
+nadena.dev.ndmf.AvatarProcessor:ProcessAvatar (UnityEngine.GameObject,nadena.dev.ndmf.platform.INDMFPlatformProvider) (at ./Packages/nadena.dev.ndmf/Editor/AvatarProcessor.cs:195)
+WineFoxItems.Editor.ValidateWineFoxItems:Validate () (at Assets/WineFoxItems/Editor/ValidateWineFoxItems.cs:50)
+WineFoxItems.Editor.ValidateWineFoxItems:Finish () (at Assets/WineFoxItems/Editor/ValidateWineFoxItems.cs:25)
+
+(Filename: ./Packages/nadena.dev.ndmf/Editor/AvatarProcessor.cs Line: 276)
+
+Processed pass Purge ModularAvatar components in 0 ms
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+nadena.dev.ndmf.AvatarProcessor:ProcessAvatar (nadena.dev.ndmf.BuildContext,nadena.dev.ndmf.BuildPhase,nadena.dev.ndmf.BuildPhase) (at ./Packages/nadena.dev.ndmf/Editor/AvatarProcessor.cs:276)
+nadena.dev.ndmf.AvatarProcessor:ProcessAvatar (UnityEngine.GameObject,nadena.dev.ndmf.BuildPhase) (at ./Packages/nadena.dev.ndmf/Editor/AvatarProcessor.cs:233)
+nadena.dev.ndmf.AvatarProcessor:ProcessAvatar (UnityEngine.GameObject,nadena.dev.ndmf.platform.INDMFPlatformProvider) (at ./Packages/nadena.dev.ndmf/Editor/AvatarProcessor.cs:195)
+WineFoxItems.Editor.ValidateWineFoxItems:Validate () (at Assets/WineFoxItems/Editor/ValidateWineFoxItems.cs:50)
+WineFoxItems.Editor.ValidateWineFoxItems:Finish () (at Assets/WineFoxItems/Editor/ValidateWineFoxItems.cs:25)
+
+(Filename: ./Packages/nadena.dev.ndmf/Editor/AvatarProcessor.cs Line: 276)
+
+Processed pass Rebind humanoid avatar (again) in 0 ms
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+nadena.dev.ndmf.AvatarProcessor:ProcessAvatar (nadena.dev.ndmf.BuildContext,nadena.dev.ndmf.BuildPhase,nadena.dev.ndmf.BuildPhase) (at ./Packages/nadena.dev.ndmf/Editor/AvatarProcessor.cs:276)
+nadena.dev.ndmf.AvatarProcessor:ProcessAvatar (UnityEngine.GameObject,nadena.dev.ndmf.BuildPhase) (at ./Packages/nadena.dev.ndmf/Editor/AvatarProcessor.cs:233)
+nadena.dev.ndmf.AvatarProcessor:ProcessAvatar (UnityEngine.GameObject,nadena.dev.ndmf.platform.INDMFPlatformProvider) (at ./Packages/nadena.dev.ndmf/Editor/AvatarProcessor.cs:195)
+WineFoxItems.Editor.ValidateWineFoxItems:Validate () (at Assets/WineFoxItems/Editor/ValidateWineFoxItems.cs:50)
+WineFoxItems.Editor.ValidateWineFoxItems:Finish () (at Assets/WineFoxItems/Editor/ValidateWineFoxItems.cs:25)
+
+(Filename: ./Packages/nadena.dev.ndmf/Editor/AvatarProcessor.cs Line: 276)
+
+Processed pass Close extensions in 0 ms
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+nadena.dev.ndmf.AvatarProcessor:ProcessAvatar (nadena.dev.ndmf.BuildContext,nadena.dev.ndmf.BuildPhase,nadena.dev.ndmf.BuildPhase) (at ./Packages/nadena.dev.ndmf/Editor/AvatarProcessor.cs:276)
+nadena.dev.ndmf.AvatarProcessor:ProcessAvatar (UnityEngine.GameObject,nadena.dev.ndmf.BuildPhase) (at ./Packages/nadena.dev.ndmf/Editor/AvatarProcessor.cs:233)
+nadena.dev.ndmf.AvatarProcessor:ProcessAvatar (UnityEngine.GameObject,nadena.dev.ndmf.platform.INDMFPlatformProvider) (at ./Packages/nadena.dev.ndmf/Editor/AvatarProcessor.cs:195)
+WineFoxItems.Editor.ValidateWineFoxItems:Validate () (at Assets/WineFoxItems/Editor/ValidateWineFoxItems.cs:50)
+WineFoxItems.Editor.ValidateWineFoxItems:Finish () (at Assets/WineFoxItems/Editor/ValidateWineFoxItems.cs:25)
+
+(Filename: ./Packages/nadena.dev.ndmf/Editor/AvatarProcessor.cs Line: 276)
+
+=== Processing phase Optimizing ===
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+nadena.dev.ndmf.AvatarProcessor:ProcessAvatar (nadena.dev.ndmf.BuildContext,nadena.dev.ndmf.BuildPhase,nadena.dev.ndmf.BuildPhase) (at ./Packages/nadena.dev.ndmf/Editor/AvatarProcessor.cs:257)
+nadena.dev.ndmf.AvatarProcessor:ProcessAvatar (UnityEngine.GameObject,nadena.dev.ndmf.BuildPhase) (at ./Packages/nadena.dev.ndmf/Editor/AvatarProcessor.cs:233)
+nadena.dev.ndmf.AvatarProcessor:ProcessAvatar (UnityEngine.GameObject,nadena.dev.ndmf.platform.INDMFPlatformProvider) (at ./Packages/nadena.dev.ndmf/Editor/AvatarProcessor.cs:195)
+WineFoxItems.Editor.ValidateWineFoxItems:Validate () (at Assets/WineFoxItems/Editor/ValidateWineFoxItems.cs:50)
+WineFoxItems.Editor.ValidateWineFoxItems:Finish () (at Assets/WineFoxItems/Editor/ValidateWineFoxItems.cs:25)
+
+(Filename: ./Packages/nadena.dev.ndmf/Editor/AvatarProcessor.cs Line: 257)
+
+Processed pass GCGameObjectsPluginPass in 8 ms
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+nadena.dev.ndmf.AvatarProcessor:ProcessAvatar (nadena.dev.ndmf.BuildContext,nadena.dev.ndmf.BuildPhase,nadena.dev.ndmf.BuildPhase) (at ./Packages/nadena.dev.ndmf/Editor/AvatarProcessor.cs:276)
+nadena.dev.ndmf.AvatarProcessor:ProcessAvatar (UnityEngine.GameObject,nadena.dev.ndmf.BuildPhase) (at ./Packages/nadena.dev.ndmf/Editor/AvatarProcessor.cs:233)
+nadena.dev.ndmf.AvatarProcessor:ProcessAvatar (UnityEngine.GameObject,nadena.dev.ndmf.platform.INDMFPlatformProvider) (at ./Packages/nadena.dev.ndmf/Editor/AvatarProcessor.cs:195)
+WineFoxItems.Editor.ValidateWineFoxItems:Validate () (at Assets/WineFoxItems/Editor/ValidateWineFoxItems.cs:50)
+WineFoxItems.Editor.ValidateWineFoxItems:Finish () (at Assets/WineFoxItems/Editor/ValidateWineFoxItems.cs:25)
+
+(Filename: ./Packages/nadena.dev.ndmf/Editor/AvatarProcessor.cs Line: 276)
+
+Asset Pipeline Refresh (id=3595ffa8f919ee64280b5125357edb72): Total: 0.001 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Processed pass Close extensions in 8 ms
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+nadena.dev.ndmf.AvatarProcessor:ProcessAvatar (nadena.dev.ndmf.BuildContext,nadena.dev.ndmf.BuildPhase,nadena.dev.ndmf.BuildPhase) (at ./Packages/nadena.dev.ndmf/Editor/AvatarProcessor.cs:276)
+nadena.dev.ndmf.AvatarProcessor:ProcessAvatar (UnityEngine.GameObject,nadena.dev.ndmf.BuildPhase) (at ./Packages/nadena.dev.ndmf/Editor/AvatarProcessor.cs:233)
+nadena.dev.ndmf.AvatarProcessor:ProcessAvatar (UnityEngine.GameObject,nadena.dev.ndmf.platform.INDMFPlatformProvider) (at ./Packages/nadena.dev.ndmf/Editor/AvatarProcessor.cs:195)
+WineFoxItems.Editor.ValidateWineFoxItems:Validate () (at Assets/WineFoxItems/Editor/ValidateWineFoxItems.cs:50)
+WineFoxItems.Editor.ValidateWineFoxItems:Finish () (at Assets/WineFoxItems/Editor/ValidateWineFoxItems.cs:25)
+
+(Filename: ./Packages/nadena.dev.ndmf/Editor/AvatarProcessor.cs Line: 276)
+
+=== Processing phase PlatformFinish ===
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+nadena.dev.ndmf.AvatarProcessor:ProcessAvatar (nadena.dev.ndmf.BuildContext,nadena.dev.ndmf.BuildPhase,nadena.dev.ndmf.BuildPhase) (at ./Packages/nadena.dev.ndmf/Editor/AvatarProcessor.cs:257)
+nadena.dev.ndmf.AvatarProcessor:ProcessAvatar (UnityEngine.GameObject,nadena.dev.ndmf.BuildPhase) (at ./Packages/nadena.dev.ndmf/Editor/AvatarProcessor.cs:233)
+nadena.dev.ndmf.AvatarProcessor:ProcessAvatar (UnityEngine.GameObject,nadena.dev.ndmf.platform.INDMFPlatformProvider) (at ./Packages/nadena.dev.ndmf/Editor/AvatarProcessor.cs:195)
+WineFoxItems.Editor.ValidateWineFoxItems:Validate () (at Assets/WineFoxItems/Editor/ValidateWineFoxItems.cs:50)
+WineFoxItems.Editor.ValidateWineFoxItems:Finish () (at Assets/WineFoxItems/Editor/ValidateWineFoxItems.cs:25)
+
+(Filename: ./Packages/nadena.dev.ndmf/Editor/AvatarProcessor.cs Line: 257)
+
+Processed pass Generate portable components in 1 ms
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+nadena.dev.ndmf.AvatarProcessor:ProcessAvatar (nadena.dev.ndmf.BuildContext,nadena.dev.ndmf.BuildPhase,nadena.dev.ndmf.BuildPhase) (at ./Packages/nadena.dev.ndmf/Editor/AvatarProcessor.cs:276)
+nadena.dev.ndmf.AvatarProcessor:ProcessAvatar (UnityEngine.GameObject,nadena.dev.ndmf.BuildPhase) (at ./Packages/nadena.dev.ndmf/Editor/AvatarProcessor.cs:233)
+nadena.dev.ndmf.AvatarProcessor:ProcessAvatar (UnityEngine.GameObject,nadena.dev.ndmf.platform.INDMFPlatformProvider) (at ./Packages/nadena.dev.ndmf/Editor/AvatarProcessor.cs:195)
+WineFoxItems.Editor.ValidateWineFoxItems:Validate () (at Assets/WineFoxItems/Editor/ValidateWineFoxItems.cs:50)
+WineFoxItems.Editor.ValidateWineFoxItems:Finish () (at Assets/WineFoxItems/Editor/ValidateWineFoxItems.cs:25)
+
+(Filename: ./Packages/nadena.dev.ndmf/Editor/AvatarProcessor.cs Line: 276)
+
+Processed pass CheckMipStreamingPass in 13 ms
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+nadena.dev.ndmf.AvatarProcessor:ProcessAvatar (nadena.dev.ndmf.BuildContext,nadena.dev.ndmf.BuildPhase,nadena.dev.ndmf.BuildPhase) (at ./Packages/nadena.dev.ndmf/Editor/AvatarProcessor.cs:276)
+nadena.dev.ndmf.AvatarProcessor:ProcessAvatar (UnityEngine.GameObject,nadena.dev.ndmf.BuildPhase) (at ./Packages/nadena.dev.ndmf/Editor/AvatarProcessor.cs:233)
+nadena.dev.ndmf.AvatarProcessor:ProcessAvatar (UnityEngine.GameObject,nadena.dev.ndmf.platform.INDMFPlatformProvider) (at ./Packages/nadena.dev.ndmf/Editor/AvatarProcessor.cs:195)
+WineFoxItems.Editor.ValidateWineFoxItems:Validate () (at Assets/WineFoxItems/Editor/ValidateWineFoxItems.cs:50)
+WineFoxItems.Editor.ValidateWineFoxItems:Finish () (at Assets/WineFoxItems/Editor/ValidateWineFoxItems.cs:25)
+
+(Filename: ./Packages/nadena.dev.ndmf/Editor/AvatarProcessor.cs Line: 276)
+
+Asset Pipeline Refresh (id=43ceb43f22ece374cb735fe1fa4c7120): Total: 0.001 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Processed pass Close extensions in 9 ms
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+nadena.dev.ndmf.AvatarProcessor:ProcessAvatar (nadena.dev.ndmf.BuildContext,nadena.dev.ndmf.BuildPhase,nadena.dev.ndmf.BuildPhase) (at ./Packages/nadena.dev.ndmf/Editor/AvatarProcessor.cs:276)
+nadena.dev.ndmf.AvatarProcessor:ProcessAvatar (UnityEngine.GameObject,nadena.dev.ndmf.BuildPhase) (at ./Packages/nadena.dev.ndmf/Editor/AvatarProcessor.cs:233)
+nadena.dev.ndmf.AvatarProcessor:ProcessAvatar (UnityEngine.GameObject,nadena.dev.ndmf.platform.INDMFPlatformProvider) (at ./Packages/nadena.dev.ndmf/Editor/AvatarProcessor.cs:195)
+WineFoxItems.Editor.ValidateWineFoxItems:Validate () (at Assets/WineFoxItems/Editor/ValidateWineFoxItems.cs:50)
+WineFoxItems.Editor.ValidateWineFoxItems:Finish () (at Assets/WineFoxItems/Editor/ValidateWineFoxItems.cs:25)
+
+(Filename: ./Packages/nadena.dev.ndmf/Editor/AvatarProcessor.cs Line: 276)
+
+Asset Pipeline Refresh (id=de7117264032c1c46acfd171e8311363): Total: 0.001 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Start importing Assets/NDMFValidationOutput/WineFoxItems Validation Clone/_assets/assets.asset using Guid(90fcf6ead416ea14cb1eef4665c61b59) Importer(-1,00000000000000000000000000000000)  -> (artifact id: '0f55488a7a94279c149a4f7e795d36f3') in 0.002151 seconds
+Start importing Assets/NDMFValidationOutput/WineFoxItems Validation Clone/WineFoxItems Validation Clone.asset using Guid(d0d8d77024ba47d4b93be574d153df95) Importer(-1,00000000000000000000000000000000)  -> (artifact id: 'a837dfc521ed0449e0ec19779b0b52c1') in 0.001469 seconds
+Start importing Assets/NDMFValidationOutput/WineFoxItems Validation Clone/_assets/assets 1.asset using Guid(a4bae3ea2fc1db049bb2dce3e14cadc7) Importer(-1,00000000000000000000000000000000)  -> (artifact id: '6c2a2f1a923e049c27f757ad5b2504bc') in 0.001709 seconds
+Refreshing native plugins compatible for Editor in 7.33 ms, found 4 plugins.
+Preloading 2 native plugins for Editor in 0.08 ms.
+Asset Pipeline Refresh (id=3f6d5b81c2147db4f89012960ae42b3f): Total: 0.022 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Refreshing native plugins compatible for Editor in 7.16 ms, found 4 plugins.
+Preloading 2 native plugins for Editor in 0.08 ms.
+Asset Pipeline Refresh (id=b0876c6a6de2af04cb11dcca1e9901f9): Total: 0.017 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+WINEFOX_VALIDATION_OK
+PASS: prefab is independent of source avatar, standalone item FBX, tester and custom runtime scripts.
+Animation bindings: 1123 checked; all paths, components and blendshapes resolve.
+PASS: expression menus have <=8 controls each.
+PASS: NDMF/MA build on tester; humanoid RightHand attachment; merged menu and FX. Total tester expression cost=44 bits.
+Animation bindings: 1124 checked; all paths, components and blendshapes resolve.
+PASS: playable FX switches all 11 item selections on compiled tester.
+PASS: mechanical arm open/release transitions.
+PASS: physical staff open/release transitions.
+PASS: staged food consumption and cannon firing transition.
+PASS: Bone Proxy stores humanoid RightHand with no skeleton-name subpath.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+WineFoxItems.Editor.ValidateWineFoxItems:Validate () (at Assets/WineFoxItems/Editor/ValidateWineFoxItems.cs:70)
+WineFoxItems.Editor.ValidateWineFoxItems:Finish () (at Assets/WineFoxItems/Editor/ValidateWineFoxItems.cs:25)
+
+(Filename: Assets/WineFoxItems/Editor/ValidateWineFoxItems.cs Line: 70)
+
+Opening scene 'Packages/nadena.dev.ndmf/Runtime/___NDMF Preview___.unity additively'
+Loaded scene 'Packages/nadena.dev.ndmf/Runtime/___NDMF Preview___.unity'
+	Deserialize:            0.271 ms
+	Integration:            0.273 ms
+	Integration of assets:  0.001 ms
+	Thread Wait Time:       0.007 ms
+	Total Operation Time:   0.552 ms
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 446 unused Assets / (170.1 KB). Loaded Objects now: 3667.
+Memory consumption went from 181.4 MB to 181.2 MB.
+Total: 5.917100 ms (FindLiveObjects: 0.108300 ms CreateObjectMapping: 0.036500 ms MarkObjects: 5.357400 ms  DeleteObjects: 0.414300 ms)
+
+WINEFOX_GALLERY_OK
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+WineFoxItems.Editor.ValidateWineFoxItems:RenderGallery () (at Assets/WineFoxItems/Editor/ValidateWineFoxItems.cs:164)
+WineFoxItems.Editor.ValidateWineFoxItems:Finish () (at Assets/WineFoxItems/Editor/ValidateWineFoxItems.cs:25)
+
+(Filename: Assets/WineFoxItems/Editor/ValidateWineFoxItems.cs Line: 164)
+
+Starting new worker id: 0 with log in D:/vrc-create-items/Logs/AssetImportWorker0.log
+Starting new worker id: 1 with log in D:/vrc-create-items/Logs/AssetImportWorker1.log
+Worker ready: AssetImportWorker1 1
+Worker ready: AssetImportWorker0 0
+[Worker1] Start importing Assets/WineFoxItems/Animations/手杖_开.anim using Guid(f17cab26be3e5244ba348218fda0f5e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) 
+[Worker1]  -> (artifact id: '5a76ae1d8538b3ec1da402527fbd73d5') in 0.007172 seconds
+[Worker0] Start importing Assets/WineFoxItems/Animations/C烈焰蛋糕_Exclusive.anim using Guid(c6d543478f1ac1348a553b041d232f0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) 
+[Worker0]  -> (artifact id: '9fdf61c7048a078681af04c90b23b289') in 0.006623 seconds
+[Worker0] Start importing Assets/WineFoxItems/Resources/extinguish_1.ogg using Guid(56c5f62ec0218a544bfcac77eef436ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b) 
+[Worker0]  -> (artifact id: '370d6e307bfe4258f66ce302acacf6f1') in 0.040132 seconds
+[Worker0] Start importing Assets/WineFoxItems/Animations/对称之杖.anim using Guid(957aad8f1bbee5544b1ad0ba7676c63a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) 
+[Worker0]  -> (artifact id: 'b0f910ad9c452101de620bab4d2a769d') in 0.001133 seconds
+[Worker0] Start importing Assets/WineFoxItems/Animations/土豆加农炮.anim using Guid(c0eb884a2829c004f8de1368eb650d16) Importer(815301076,1909f56bfc062723c751e8b465ee728b) 
+[Worker0]  -> (artifact id: 'b53f840484616a09552825ad6341c0f9') in 0.001197 seconds
+[Worker0] Start importing Assets/WineFoxItems/Animations/C金胡萝卜_Exclusive.anim using Guid(6f3135be7068ecb42956794ba4a6ec1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) 
+[Worker0]  -> (artifact id: 'c42264f717ea45a795c9d47ad51b7c03') in 0.000558 seconds
+[Worker0] Start importing Assets/WineFoxItems/Animations/物理手杖.anim using Guid(16505cf577018b649a85f7ceb5eee052) Importer(815301076,1909f56bfc062723c751e8b465ee728b) 
+[Worker0]  -> (artifact id: '8f436b73f6dabc614d11a24b0f1b8ec7') in 0.000906 seconds
+[Worker0] Start importing Assets/WineFoxItems/Animations/纸棍.anim using Guid(01f70693f6a3c49498f502382cfa22bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) 
+[Worker0]  -> (artifact id: '79610f9435c18c3effecaab240e93d13') in 0.000857 seconds
+[Worker0] Start importing Assets/WineFoxItems/Animations/建筑工茶饮.anim using Guid(ec1fea80a55b8204d9c02176d1bd2b98) Importer(815301076,1909f56bfc062723c751e8b465ee728b) 
+[Worker0]  -> (artifact id: 'db8f7df2f8d486b5f014a214a14c90c1') in 0.000946 seconds
+[Worker0] Start importing Assets/WineFoxItems/Animations/甜甜卷 2.anim using Guid(30ffe3f23f3aa5c409139aa0c2a70823) Importer(815301076,1909f56bfc062723c751e8b465ee728b) 
+[Worker0]  -> (artifact id: 'ce62c30a656a8796a9d3ef847eb2795d') in 0.000909 seconds
+[Worker0] Start importing Assets/WineFoxItems/Animations/手杖_动画.anim using Guid(6d28ec51b3e1e1c4ab1d9ea5c0840acf) Importer(815301076,1909f56bfc062723c751e8b465ee728b) 
+[Worker0]  -> (artifact id: 'c9e35eaced24707e4d163cb24812c0d9') in 0.000509 seconds
+[Worker0] Start importing Assets/WineFoxItems/LICENSE.txt using Guid(e4bcd6951d691ef41896e79c4d2053d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) 
+[Worker0]  -> (artifact id: '24cd879d78142e08c0a9cfa1ce811fed') in 0.000449 seconds
+[Worker0] Start importing Assets/WineFoxItems/Animations/巧克力包层浆果 2.anim using Guid(21f5a8bb2187aae42a756d7be390b82b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) 
+[Worker0]  -> (artifact id: '26c77840cd1767bd2b8a794f9a1f75aa') in 0.000860 seconds
+[Worker0] Start importing Assets/WineFoxItems/Animations/蛋糕.anim using Guid(c2b43e7afc8a91f48aa81d74b9c6119b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) 
+[Worker0]  -> (artifact id: '51e308f5a6360aa85630be515cd89d80') in 0.000875 seconds
+[Worker0] Start importing Assets/WineFoxItems/Menus/InstallMenu.asset using Guid(4741885e5e6dfe84d990a621c941aaf2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) 
+[Worker0]  -> (artifact id: '8474cc4ecdbaeb7a4bc7c4b2f6209a86') in 0.000855 seconds
+[Worker0] Start importing Assets/WineFoxItems/Resources/Material_0.mat using Guid(21b7218f53b9e284da11c9de0c7166cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) 
+[Worker0]  -> (artifact id: '0cdbac213d06abefb7d5cec2c8fc5df7') in 0.113862 seconds
+[Worker0] Start importing Assets/WineFoxItems/Resources/skin.png using Guid(dbec7beb0d16c2348bf7c69c0e24e83b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) 
+[Worker0]  -> (artifact id: 'c94da5ced5a9f73657e3e186aa48fc13') in 0.036504 seconds
+[Worker0] Start importing Assets/WineFoxItems/Animations/手杖_动画 1.anim using Guid(ca12634b0abbae9489b2c1b0baf718c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) 
+[Worker0]  -> (artifact id: '01f48abe685cfa328276a1763c8e5135') in 0.000734 seconds
+[Worker0] Start importing Assets/WineFoxItems/Animations/C苹果_Exclusive.anim using Guid(4f5227506dcff6f478794b4769036018) Importer(815301076,1909f56bfc062723c751e8b465ee728b) 
+[Worker0]  -> (artifact id: '8df25e06ac52a5f3a46193b66d15cd6d') in 0.000592 seconds
+[Worker0] Start importing Assets/WineFoxItems/Resources/eat1.ogg using Guid(82aa8a80d6c3a3d48a57fb174e86eb3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) 
+[Worker0]  -> (artifact id: '7e145fa07e7a606857c93ec562f2b5c3') in 0.006134 seconds
+[Worker0] Start importing Assets/WineFoxItems/Animations/C甜浆果_Exclusive.anim using Guid(dcb0a0324c4b32b4b9d029818242a65c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) 
+[Worker0]  -> (artifact id: 'd4ea47f603c340460ff967b6273d3128') in 0.000565 seconds
+[Worker0] Start importing Assets/WineFoxItems/Animations/C紫颂果_Exclusive.anim using Guid(4b6dde39e22dad940b1c8bbe665cfe82) Importer(815301076,1909f56bfc062723c751e8b465ee728b) 
+[Worker0]  -> (artifact id: '59c34544569a621d8ca775a51d614a85') in 0.000542 seconds
+[Worker0] Start importing Assets/WineFoxItems/Animations/甜甜卷.anim using Guid(3d52f057c3aad3847823e0edaff315ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b) 
+[Worker0]  -> (artifact id: '72b19a434be930fc2998fecdcbd8c5c5') in 0.000875 seconds
+[Worker0] Start importing Assets/WineFoxItems/Animations/蜜渍苹果.anim using Guid(a0bf5d67625849b4cae71464bd8d849e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) 
+[Worker0]  -> (artifact id: '7ebf0698bd9a926c94c887beeee18627') in 0.000863 seconds
+[Worker0] Start importing Assets/WineFoxItems/Animations/蜜渍苹果 1.anim using Guid(9bb20661a9358b94f8fc5739d87e9188) Importer(815301076,1909f56bfc062723c751e8b465ee728b) 
+[Worker0]  -> (artifact id: 'ef6a4987ae0159763527362cc26400b1') in 0.000859 seconds
+[Worker0] Start importing Assets/WineFoxItems/Animations/甜甜卷 3.anim using Guid(72d614027209a0341bc15e5fb8f19069) Importer(815301076,1909f56bfc062723c751e8b465ee728b) 
+[Worker0]  -> (artifact id: 'b94eb92805ee29e5fb620633e6eee058') in 0.000965 seconds
+[Worker0] Start importing Assets/WineFoxItems/Animations/炮_发射.anim using Guid(b10edf9113e9448429a5ec684670cc9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) 
+[Worker0]  -> (artifact id: '958966c017cf1f1c35889c69098cd0e9') in 0.000687 seconds
+[Worker0] Start importing Assets/WineFoxItems/Resources/eat2.ogg using Guid(c3b60624c5695e54a965e4f4d9d9873e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) 
+[Worker0]  -> (artifact id: 'e5814347fcfe64217eb62221a77628c3') in 0.005036 seconds
+[Worker0] Start importing Assets/WineFoxItems/Animations/扳手.anim using Guid(01003c103fa71494186984d1cf43821f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) 
+[Worker0]  -> (artifact id: '85948b4bc3cb1faf552922f17846b85f') in 0.000940 seconds
+[Worker0] Start importing Assets/WineFoxItems/Animations/C毒马铃薯_Exclusive.anim using Guid(c8c9d2b75bab06c4184b7b147190c5f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) 
+[Worker0]  -> (artifact id: '2abdc66ba95f7df4e82a22054d137e99') in 0.000546 seconds
+[Worker0] Start importing Assets/WineFoxItems/Resources/drink.ogg using Guid(107df2f6e1423b94b83a0de9959c02e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) 
+[Worker0]  -> (artifact id: 'f7031a925717a00da5c6e5d7355469f5') in 0.004555 seconds
+[Worker0] Start importing Assets/WineFoxItems/Animations/巧克力包层浆果.anim using Guid(2801067d1d5a74449962719f120a910b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) 
+[Worker0]  -> (artifact id: '1aae4a63636065e4da872b1385f5a0ee') in 0.001222 seconds
+[Worker0] Start importing Assets/WineFoxItems/Meshes/FinalMergedItems.asset using Guid(4cbf839a14906944dbdabb8f5b249737) Importer(815301076,1909f56bfc062723c751e8b465ee728b) 
+[Worker0]  -> (artifact id: 'c1fedec1e1cea9649937125308c095c7') in 0.138038 seconds
+[Worker0] Start importing Assets/WineFoxItems/README.md using Guid(779b5f177876a264891b59fc389aa85a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) 
+[Worker0]  -> (artifact id: '83640bad411a51d979b83729b8d02392') in 0.000609 seconds
+[Worker0] Start importing Assets/WineFoxItems/Animations/伸缩机械手.anim using Guid(78a4f5b26878e5e48b272106ed64e1a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) 
+[Worker0]  -> (artifact id: '47ec4d7f72ca3f83d6f6111b5a7a3461') in 0.000945 seconds
+[Worker0] Start importing Assets/WineFoxItems/Animations/蜜渍苹果 2.anim using Guid(279532b1938a0bb418f90ad025940152) Importer(815301076,1909f56bfc062723c751e8b465ee728b) 
+[Worker0]  -> (artifact id: '0ec3d160615e18d4761062910d9510fb') in 0.000896 seconds
+[Worker0] Start importing Assets/WineFoxItems/Animations/炮_物品破碎.anim using Guid(2325adcbfd93b3648b380d06869e398b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) 
+[Worker0]  -> (artifact id: 'f4e142df8140e5bfa2f71c3fd0afc11a') in 0.000841 seconds
+[Worker0] Start importing Assets/WineFoxItems/Animations/甜甜卷 1.anim using Guid(5af20e753bf09b649936005809b29e9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) 
+[Worker0]  -> (artifact id: 'aaa429331a7c42d9e2c997fae16a1dbb') in 0.000946 seconds
+[Worker0] Start importing Assets/WineFoxItems/Animations/空手.anim using Guid(e90597721a2f99b41903ee890463d8d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) 
+[Worker0]  -> (artifact id: '4962f0db853adac7b9bcd721eb104b5c') in 0.000933 seconds
+[Worker0] Start importing Assets/WineFoxItems/Resources/cardboard_bonk.ogg using Guid(8028f7a89197eff4c8a7900c8074c46c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) 
+[Worker0]  -> (artifact id: 'ad07410668d0b43d1800ed51839b9d27') in 0.007916 seconds
+[Worker0] Start importing Assets/WineFoxItems/Resources/World.prefab using Guid(58cb62c5a11fc51439017a2f58bf3a93) Importer(815301076,1909f56bfc062723c751e8b465ee728b) 
+[Worker0]  -> (artifact id: '858690041f1e20a36474df3624729d04') in 0.006277 seconds
+[Worker0] Start importing Assets/WineFoxItems/Animations/蜜渍苹果 3.anim using Guid(e952cc570de16b247988b82e090e21cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) 
+[Worker0]  -> (artifact id: '5d8c7b96442188a3130f4341cd6b84bd') in 0.000897 seconds
+[Worker0] Start importing Assets/WineFoxItems/Animations/蛋糕 3.anim using Guid(43bc62cdff4712746be141b1b1469945) Importer(815301076,1909f56bfc062723c751e8b465ee728b) 
+[Worker0]  -> (artifact id: '238dd567b0ff370ec9afbe4212d4cc92') in 0.001055 seconds
+[Worker0] Start importing Assets/WineFoxItems/WineFoxItems.prefab using Guid(45397bedbb2afc44a8db7b130287c04d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) 
+[Worker0]  -> (artifact id: 'd36d151676b6a0fb4d920a50b0b26ebf') in 0.079378 seconds
+[Worker0] Start importing Assets/WineFoxItems/Animations/巧克力包层浆果 3.anim using Guid(1f0f72e1e6472524a8d42aa1f3a12497) Importer(815301076,1909f56bfc062723c751e8b465ee728b) 
+[Worker0]  -> (artifact id: '894e5ce2c0ecb9fd262c99f9f220de47') in 0.001121 seconds
+[Worker0] Start importing Assets/WineFoxItems/SOURCE-COMPARISON.md using Guid(cffb010a46ab9174e9aa98b42a021bcc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) 
+[Worker0]  -> (artifact id: '83ff8d529fb3d71ddbfef76e6a523c75') in 0.000497 seconds
+[Worker0] Start importing Assets/WineFoxItems/Animations/占位.anim using Guid(473fbdabb130eac409316bcc8afa2275) Importer(815301076,1909f56bfc062723c751e8b465ee728b) 
+[Worker0]  -> (artifact id: 'e24a0e3390b554f6e9347c10a5115348') in 0.000483 seconds
+[Worker0] Start importing Assets/WineFoxItems/Resources/fwoomp.ogg using Guid(9231e58c2e855fe45bbd377e03a98cec) Importer(815301076,1909f56bfc062723c751e8b465ee728b) 
+[Worker0]  -> (artifact id: '35f0b21a7ceff197d607e12a7ea9f994') in 0.004515 seconds
+[Worker0] Start importing Assets/WineFoxItems/Resources/eat3.ogg using Guid(46cc7ce7c5bd5fd408e343f521700dc9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) 
+[Worker0]  -> (artifact id: '023264dfcd9d41c8c260d3a9c801fcd6') in 0.004995 seconds
+[Worker0] Start importing Assets/WineFoxItems/Animations/蛋糕 2.anim using Guid(0a00966d74151b0479a1e7b5990bf2b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) 
+[Worker0]  -> (artifact id: 'a0c685adef68e25be2ebe28e8ed04492') in 0.001014 seconds
+[Worker0] Start importing Assets/WineFoxItems/WineFoxItemsFX.controller using Guid(f502d3d313792a247aa11cf24e0f1ded) Importer(815301076,1909f56bfc062723c751e8b465ee728b) 
+[Worker0]  -> (artifact id: 'e48d756f397baf86bc73b9d078b7494e') in 0.021971 seconds
+[Worker0] Start importing Assets/WineFoxItems/Animations/机械手_开.anim using Guid(0de271e21a925da4c862f547ae859942) Importer(815301076,1909f56bfc062723c751e8b465ee728b) 
+[Worker0]  -> (artifact id: 'ac7fb3638438f9affec6e2fe83534c6a') in 0.000601 seconds
+[Worker0] Start importing Assets/WineFoxItems/Animations/旋转.anim using Guid(aebc3468760d6314794dca39b48b8c24) Importer(815301076,1909f56bfc062723c751e8b465ee728b) 
+[Worker0]  -> (artifact id: '4049233541e8291864269232cf82ae40') in 0.000655 seconds
+[Worker0] Start importing Assets/WineFoxItems/Animations/巧克力包层浆果 1.anim using Guid(1bb08ad29fb66a948bb0bd9c658b1112) Importer(815301076,1909f56bfc062723c751e8b465ee728b) 
+[Worker0]  -> (artifact id: '385fa726d29202adc47f971c7631c070') in 0.000919 seconds
+[Worker0] Start importing Assets/WineFoxItems/Animations/蛋糕 1.anim using Guid(e2fabfacd9529db43b6c476e6d10afb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) 
+[Worker0]  -> (artifact id: 'a12563341142168fa89dcd09daf35104') in 0.000919 seconds
+[Worker0] Start importing Assets/WineFoxItems/Animations/空动画.anim using Guid(24e49b52ade0172458ab03addad0cda5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) 
+[Worker0]  -> (artifact id: '137880e29abd34954f0ffd926339e2b1') in 0.000444 seconds
+WINEFOX_EXPORT_OK
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+WineFoxItems.Editor.ValidateWineFoxItems:Export () (at Assets/WineFoxItems/Editor/ValidateWineFoxItems.cs:171)
+WineFoxItems.Editor.ValidateWineFoxItems:Finish () (at Assets/WineFoxItems/Editor/ValidateWineFoxItems.cs:25)
+
+(Filename: Assets/WineFoxItems/Editor/ValidateWineFoxItems.cs Line: 171)
+
+Batchmode quit successfully invoked - shutting down!
+[Licensing::IpcConnector] License Notification channel disconnected successfully.
+[Licensing::IpcConnector] License Client channel disconnected successfully.
+TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: �����߳��˳���Ӧ�ó�����������ֹ I/O ������
+TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: �����߳��˳���Ӧ�ó�����������ֹ I/O ������
+Cleanup mono
+23:48:04.315 |V| RiderPlugin                    | :1                             | AppDomain.CurrentDomain.DomainUnload lifetimeDefinition.Terminate
+Leak Detected : Persistent allocates 2 individual allocations. To find out more please enable 'Preferences > Jobs > Leak Detection Level > Enabled With Stack Trace' and reproduce the leak again.
+Leak Detected : TransformAccessArray allocates 2 individual allocations. To find out more please enable 'Preferences > Jobs > Leak Detection Level > Enabled With Stack Trace' and reproduce the leak again.
+abort_threads: Failed aborting id: 0000000000008494, mono_thread_manage will ignore it
+
+abort_threads: Failed aborting id: 0000000000008094, mono_thread_manage will ignore it
+
+abort_threads: Failed aborting id: 0000000000008494, mono_thread_manage will ignore it
+
+abort_threads: Failed aborting id: 0000000000008094, mono_thread_manage will ignore it
+
+debugger-agent: Unable to listen on 5992
+[usbmuxd] Stop listen thread
+[usbmuxd] Listen thread exiting
+[Performance] WinEditorMain                                                                                                                                :        1 samples, Peak.   561 ms (1.0x), Avg.   561 ms, Total. 560.6 ms (3.3%)
+[Performance] WinEditorMain.ConfigureCrashHandler                                                                                                          :        1 samples, Peak.  17.8 us (1.0x), Avg.  17.8 us, Total. 17.80 us (0.0%)
+[Performance] WinEditorMain.CurlRequestInitialize                                                                                                          :        1 samples, Peak.   844 us (1.0x), Avg.   844 us, Total. 843.7 us (0.0%)
+[Performance] WinEditorMain.SetupLogFile                                                                                                                   :        1 samples, Peak.   277 us (1.0x), Avg.   277 us, Total. 277.2 us (0.0%)
+[Performance] WinEditorMain.RunNativeTestsIfRequiredAndExit                                                                                                :        1 samples, Peak.   200 ns (1.0x), Avg.   200 ns, Total. 200.0 ns (0.0%)
+[Performance] WinEditorMain.Licensing                                                                                                                      :        1 samples, Peak.   530 ms (1.0x), Avg.   530 ms, Total. 529.9 ms (3.1%)
+[Performance] WinEditorMain.InitializeCrashHandler                                                                                                         :        1 samples, Peak.  11.5 ms (1.0x), Avg.  11.5 ms, Total. 11.53 ms (0.1%)
+[Performance] WinEditorMain.CreateApplication                                                                                                              :        1 samples, Peak.  15.3 ms (1.0x), Avg.  15.3 ms, Total. 15.27 ms (0.1%)
+[Performance] Application.InitializeProject                                                                                                                :        1 samples, Peak.  8.40 s (1.0x), Avg.  8.40 s, Total. 8.398 s (48.9%)
+[Performance] Application.PackageManager.StartServer                                                                                                       :        1 samples, Peak.  12.8 ms (1.0x), Avg.  12.8 ms, Total. 12.81 ms (0.1%)
+[Performance] Application.AcquireProjectLock                                                                                                               :        1 samples, Peak.  14.6 ms (1.0x), Avg.  14.6 ms, Total. 14.57 ms (0.1%)
+[Performance] Application.InitializeEngineNoGraphics                                                                                                       :        1 samples, Peak.  45.2 ms (1.0x), Avg.  45.2 ms, Total. 45.21 ms (0.3%)
+[Performance] Application.PackageManager.Initialize                                                                                                        :        1 samples, Peak.   260 ms (1.0x), Avg.   260 ms, Total. 260.1 ms (1.5%)
+[Performance] Connecting to Package Manager                                                                                                                :       27 samples, Peak.  47.0 us (18.4x), Avg.  2.55 us, Total. 68.80 us (0.0%)
+[Performance] Application.EngineGraphics.Initialize                                                                                                        :        1 samples, Peak.   323 ms (1.0x), Avg.   323 ms, Total. 322.8 ms (1.9%)
+[Performance] Application.GI.Initialize                                                                                                                    :        1 samples, Peak.  3.64 ms (1.0x), Avg.  3.64 ms, Total. 3.642 ms (0.0%)
+[Performance] Application.LoadAllDefaultResourcesFromEditor                                                                                                :        1 samples, Peak.  1.30 ms (1.0x), Avg.  1.30 ms, Total. 1.301 ms (0.0%)
+[Performance] Application.LoadMonoAssemblies                                                                                                               :        1 samples, Peak.   603 ms (1.0x), Avg.   603 ms, Total. 603.2 ms (3.5%)
+[Performance] RestoreManagedReferences                                                                                                                     :        2 samples, Peak.  41.3 ms (2.0x), Avg.  20.6 ms, Total. 41.29 ms (0.2%)
+[Performance] EditorResources.Load                                                                                                                         :        4 samples, Peak.  13.5 ms (3.9x), Avg.  3.42 ms, Total. 13.69 ms (0.1%)
+[Performance] InitializeOnLoad ProjectSearch                                                                                                               :        2 samples, Peak.   166 us (1.1x), Avg.   151 us, Total. 302.8 us (0.0%)
+[Performance] InitializeOnLoad CacheServerWindow                                                                                                           :        2 samples, Peak.  11.5 us (1.3x), Avg.  8.80 us, Total. 17.60 us (0.0%)
+[Performance] InitializeOnLoad AddComponentWindow                                                                                                          :        2 samples, Peak.  71.4 us (1.1x), Avg.  64.6 us, Total. 129.3 us (0.0%)
+[Performance] InitializeOnLoad MixerEffectDefinitionReloader                                                                                               :        2 samples, Peak.  2.00 ms (1.2x), Avg.  1.66 ms, Total. 3.310 ms (0.0%)
+[Performance] InitializeOnLoad ObjectSelectorSearch                                                                                                        :        2 samples, Peak.  56.3 us (1.3x), Avg.  44.4 us, Total. 88.80 us (0.0%)
+[Performance] InitializeOnLoad EditMode                                                                                                                    :        2 samples, Peak.   377 us (1.0x), Avg.   365 us, Total. 730.8 us (0.0%)
+[Performance] InitializeOnLoad SceneSearch                                                                                                                 :        2 samples, Peak.  73.2 us (1.5x), Avg.  48.3 us, Total. 96.50 us (0.0%)
+[Performance] InitializeOnLoad MenuItems                                                                                                                   :        2 samples, Peak.   179 us (1.0x), Avg.   173 us, Total. 346.6 us (0.0%)
+[Performance] InitializeOnLoad DrivenRectTransformUndo                                                                                                     :        2 samples, Peak.   136 us (1.0x), Avg.   135 us, Total. 269.2 us (0.0%)
+[Performance] InitializeOnLoad PrefabInstanceChangedListener                                                                                               :        2 samples, Peak.  70.6 us (1.0x), Avg.  69.7 us, Total. 139.4 us (0.0%)
+[Performance] InitializeOnLoad SearchService                                                                                                               :        2 samples, Peak.   469 us (1.8x), Avg.   266 us, Total. 532.6 us (0.0%)
+[Performance] InitializeOnLoad SettingsService                                                                                                             :        2 samples, Peak.  5.50 us (1.1x), Avg.  5.00 us, Total. 10.000 us (0.0%)
+[Performance] InitializeOnLoad NativeFormatImporterUtility                                                                                                 :        2 samples, Peak.  1.52 ms (1.1x), Avg.  1.33 ms, Total. 2.657 ms (0.0%)
+[Performance] InitializeOnLoad PlayModeDownload                                                                                                            :        2 samples, Peak.   360 us (1.6x), Avg.   229 us, Total. 457.5 us (0.0%)
+[Performance] InitializeOnLoad ShortcutIntegration                                                                                                         :        2 samples, Peak.  41.0 us (1.1x), Avg.  37.9 us, Total. 75.80 us (0.0%)
+[Performance] InitializeOnLoad ManagedDebuggerWindow                                                                                                       :        2 samples, Peak.   395 us (1.0x), Avg.   384 us, Total. 767.9 us (0.0%)
+[Performance] InitializeOnLoad WindowLayout                                                                                                                :        2 samples, Peak.  19.8 us (1.0x), Avg.  19.6 us, Total. 39.30 us (0.0%)
+[Performance] InitializeOnLoad AssetStoreContext                                                                                                           :        2 samples, Peak.  13.9 ms (1.6x), Avg.  8.84 ms, Total. 17.68 ms (0.1%)
+[Performance] InitializeOnLoad UnityConnect                                                                                                                :        2 samples, Peak.  30.0 us (1.0x), Avg.  29.5 us, Total. 59.10 us (0.0%)
+[Performance] InitializeOnLoad ManagedDebugger                                                                                                             :        2 samples, Peak.   300 ns (1.0x), Avg.   300 ns, Total. 600.0 ns (0.0%)
+[Performance] InitializeOnLoad CloudBuild                                                                                                                  :        2 samples, Peak.  4.20 us (1.3x), Avg.  3.35 us, Total. 6.700 us (0.0%)
+[Performance] InitializeOnLoad UISystemProfilerRenderService                                                                                               :        2 samples, Peak.  5.50 us (1.2x), Avg.  4.70 us, Total. 9.400 us (0.0%)
+[Performance] InitializeOnLoad EditorMonitor                                                                                                               :        2 samples, Peak.   515 us (1.3x), Avg.   382 us, Total. 764.5 us (0.0%)
+[Performance] InitializeOnLoad RetainedMode                                                                                                                :        2 samples, Peak.  1.26 ms (1.1x), Avg.  1.20 ms, Total. 2.405 ms (0.0%)
+[Performance] InitializeOnLoad EditorShaderLoader                                                                                                          :        2 samples, Peak.   434 us (1.1x), Avg.   403 us, Total. 805.1 us (0.0%)
+[Performance] InitializeOnLoad EditorDelegateRegistration                                                                                                  :        2 samples, Peak.   302 us (1.1x), Avg.   265 us, Total. 529.0 us (0.0%)
+[Performance] InitializeOnLoad LiveReloadTrackerCreator                                                                                                    :        2 samples, Peak.   112 us (1.2x), Avg.  92.0 us, Total. 184.1 us (0.0%)
+[Performance] InitializeOnLoad UxmlObjectEditorFactories                                                                                                   :        2 samples, Peak.   339 us (1.0x), Avg.   331 us, Total. 662.5 us (0.0%)
+[Performance] InitializeOnLoad UIDocumentHierarchyWatcher                                                                                                  :        2 samples, Peak.  48.4 us (1.0x), Avg.  47.4 us, Total. 94.90 us (0.0%)
+[Performance] InitializeOnLoad UXMLEditorFactories                                                                                                         :        2 samples, Peak.  36.4 ms (1.1x), Avg.  33.4 ms, Total. 66.71 ms (0.4%)
+[Performance] InitializeOnLoad BuildService                                                                                                                :        2 samples, Peak.  4.07 ms (1.0x), Avg.  3.90 ms, Total. 7.802 ms (0.0%)
+[Performance] InitializeOnLoad AdsService                                                                                                                  :        2 samples, Peak.  3.07 ms (1.1x), Avg.  2.81 ms, Total. 5.625 ms (0.0%)
+[Performance] InitializeOnLoad UDPService                                                                                                                  :        2 samples, Peak.  2.44 ms (1.1x), Avg.  2.22 ms, Total. 4.431 ms (0.0%)
+[Performance] InitializeOnLoad EditorGameServicesAnalytics                                                                                                 :        2 samples, Peak.  1.06 ms (1.3x), Avg.   817 us, Total. 1.634 ms (0.0%)
+[Performance] InitializeOnLoad ServicesRepository                                                                                                          :        2 samples, Peak.   500 ns (1.1x), Avg.   450 ns, Total. 900.0 ns (0.0%)
+[Performance] InitializeOnLoad CrashService                                                                                                                :        2 samples, Peak.  3.29 ms (1.1x), Avg.  2.89 ms, Total. 5.790 ms (0.0%)
+[Performance] InitializeOnLoad PurchasingService                                                                                                           :        2 samples, Peak.  5.98 ms (1.0x), Avg.  5.72 ms, Total. 11.44 ms (0.1%)
+[Performance] InitializeOnLoad AnalyticsService                                                                                                            :        2 samples, Peak.  2.55 ms (1.0x), Avg.  2.52 ms, Total. 5.041 ms (0.0%)
+[Performance] InitializeOnLoad CloudBuildPoller                                                                                                            :        2 samples, Peak.   110 us (1.1x), Avg.   102 us, Total. 204.7 us (0.0%)
+[Performance] InitializeOnLoad SearchWindow                                                                                                                :        2 samples, Peak.  98.3 us (1.1x), Avg.  90.8 us, Total. 181.5 us (0.0%)
+[Performance] InitializeOnLoad CustomIndexers                                                                                                              :        2 samples, Peak.  10.4 ms (1.1x), Avg.  9.57 ms, Total. 19.14 ms (0.1%)
+[Performance] InitializeOnLoad SearchMonitor                                                                                                               :        2 samples, Peak.  1.12 ms (1.4x), Avg.   797 us, Total. 1.593 ms (0.0%)
+[Performance] InitializeOnLoad ParameterControllerEditor                                                                                                   :        2 samples, Peak.  12.0 us (1.0x), Avg.  11.6 us, Total. 23.20 us (0.0%)
+[Performance] InitializeOnLoad LayerSettingsWindow                                                                                                         :        2 samples, Peak.  14.8 us (1.7x), Avg.  8.65 us, Total. 17.30 us (0.0%)
+[Performance] InitializeOnLoad PackageManagerHookGUIDConverter.RegisterPackagesEventHandler                                                                :        2 samples, Peak.   486 us (1.7x), Avg.   281 us, Total. 562.1 us (0.0%)
+[Performance] InitializeOnLoad EditorDragAndDrop.RegisterEditorClient                                                                                      :        2 samples, Peak.   130 us (1.1x), Avg.   122 us, Total. 243.4 us (0.0%)
+[Performance] InitializeOnLoad EditorEventCallbacks.InitializeFontAssetResourceChangeCallBacks                                                             :        2 samples, Peak.   688 us (1.0x), Avg.   683 us, Total. 1.366 ms (0.0%)
+[Performance] InitializeOnLoad SceneTemplateService.Init                                                                                                   :        2 samples, Peak.   645 us (1.2x), Avg.   541 us, Total. 1.082 ms (0.0%)
+[Performance] InitializeOnLoad DiagnosticSwitchesConsoleMessage.Init                                                                                       :        2 samples, Peak.  5.13 ms (1.8x), Avg.  2.78 ms, Total. 5.553 ms (0.0%)
+[Performance] InitializeOnLoad SceneViewMotion.RegisterShortcutContexts                                                                                    :        2 samples, Peak.  94.3 us (1.0x), Avg.  90.9 us, Total. 181.8 us (0.0%)
+[Performance] InitializeOnLoad ScopedRegistryAddedPopup.SubscribeToRegistriesAdded                                                                         :        2 samples, Peak.  14.7 ms (1.5x), Avg.  9.82 ms, Total. 19.64 ms (0.1%)
+[Performance] InitializeOnLoad EditorWindow.Initialize                                                                                                     :        2 samples, Peak.   142 us (1.1x), Avg.   134 us, Total. 268.4 us (0.0%)
+[Performance] InitializeOnLoad SceneVisibilityManager.Initialize                                                                                           :        2 samples, Peak.  3.00 ms (1.5x), Avg.  1.97 ms, Total. 3.938 ms (0.0%)
+[Performance] InitializeOnLoad SysrootManager.Initialize                                                                                                   :        2 samples, Peak.   325 us (1.0x), Avg.   322 us, Total. 644.5 us (0.0%)
+[Performance] InitializeOnLoad PackageManagerWindow.EditorInitializedInSafeMode                                                                            :        2 samples, Peak.   123 us (1.2x), Avg.   104 us, Total. 208.2 us (0.0%)
+[Performance] InitializeOnLoad MemoryProfilerCompilationGuard.InjectCompileGuard                                                                           :        2 samples, Peak.  81.8 us (1.3x), Avg.  64.8 us, Total. 129.6 us (0.0%)
+[Performance] InitializeOnLoad ToolShortcutContext.Init                                                                                                    :        2 samples, Peak.  74.8 us (1.0x), Avg.  71.7 us, Total. 143.4 us (0.0%)
+[Performance] InitializeOnLoad RectSelection.RegisterShortcutContext                                                                                       :        2 samples, Peak.  86.3 us (1.0x), Avg.  84.1 us, Total. 168.3 us (0.0%)
+[Performance] InitializeOnLoad AssetPostprocessingInternal.RefreshCustomDependencies                                                                       :        2 samples, Peak.  1.57 ms (1.0x), Avg.  1.51 ms, Total. 3.017 ms (0.0%)
+[Performance] AssemblyReloadEvents.afterAssemblyReload: UnityEditor.SceneTemplate.SceneTemplateService.AfterAssemblyReload                                 :        2 samples, Peak.   613 us (1.5x), Avg.   404 us, Total. 807.2 us (0.0%)
+[Performance] ProcessService.EditorAfterLoadAllAssemblies                                                                                                  :        2 samples, Peak.   198 us (1.1x), Avg.   175 us, Total. 350.8 us (0.0%)
+[Performance] Application.ReadLicenseInfo                                                                                                                  :        1 samples, Peak.  13.2 ms (1.0x), Avg.  13.2 ms, Total. 13.20 ms (0.1%)
+[Performance] Application.InitialRefresh                                                                                                                   :        1 samples, Peak.  6.27 s (1.0x), Avg.  6.27 s, Total. 6.266 s (36.5%)
+[Performance] ShaderImporter.SourceAssetModified                                                                                                           :        7 samples, Peak.   500 ns (1.3x), Avg.   400 ns, Total. 2.800 us (0.0%)
+[Performance] ShaderIncludeImporter.SourceAssetModified                                                                                                    :        7 samples, Peak.  1.00 us (1.5x), Avg.   686 ns, Total. 4.800 us (0.0%)
+[Performance] Compiling Scripts                                                                                                                            :        1 samples, Peak.  1.11 s (1.0x), Avg.  1.11 s, Total. 1.113 s (6.5%)
+[Performance] AssemblyReloadEvents.beforeAssemblyReload: UnityEditor.SceneTemplate.SceneTemplateService.BeforeAssemblyReload                               :        1 samples, Peak.   275 us (1.0x), Avg.   275 us, Total. 274.6 us (0.0%)
+[Performance] PresetManagerPostProcessor.OnPreprocessAsset                                                                                                 :        9 samples, Peak.   853 us (7.3x), Avg.   117 us, Total. 1.056 ms (0.0%)
+[Performance] CancelSplashScreenOnAssetChange.OnPreprocessAsset                                                                                            :        9 samples, Peak.   107 us (8.1x), Avg.  13.2 us, Total. 119.1 us (0.0%)
+[Performance] InitializeOnLoad BurstLoader                                                                                                                 :        1 samples, Peak.  1.28 s (1.0x), Avg.  1.28 s, Total. 1.285 s (7.5%)
+[Performance] InitializeOnLoad VRChatTestProtocolSDKServer                                                                                                 :        1 samples, Peak.   707 us (1.0x), Avg.   707 us, Total. 707.5 us (0.0%)
+[Performance] InitializeOnLoad ApplyOnPlayGlobalActivator                                                                                                  :        1 samples, Peak.   510 us (1.0x), Avg.   510 us, Total. 510.4 us (0.0%)
+[Performance] InitializeOnLoad GlobalInit                                                                                                                  :        1 samples, Peak.   354 us (1.0x), Avg.   354 us, Total. 353.7 us (0.0%)
+[Performance] InitializeOnLoad TransformPositionMonitor                                                                                                    :        1 samples, Peak.  4.38 ms (1.0x), Avg.  4.38 ms, Total. 4.384 ms (0.0%)
+[Performance] InitializeOnLoad ApplyOnPlay                                                                                                                 :        1 samples, Peak.   964 us (1.0x), Avg.   964 us, Total. 963.5 us (0.0%)
+[Performance] InitializeOnLoad ONSPSettings                                                                                                                :        1 samples, Peak.  4.30 us (1.0x), Avg.  4.30 us, Total. 4.300 us (0.0%)
+[Performance] InitializeOnLoad XRGeneralSettingsPerBuildTarget                                                                                             :        1 samples, Peak.   830 us (1.0x), Avg.   830 us, Total. 829.8 us (0.0%)
+[Performance] InitializeOnLoad XRLegacyUninstaller                                                                                                         :        1 samples, Peak.  4.79 ms (1.0x), Avg.  4.79 ms, Total. 4.791 ms (0.0%)
+[Performance] InitializeOnLoad XRPackageInitializationBootstrap                                                                                            :        1 samples, Peak.  48.3 us (1.0x), Avg.  48.3 us, Total. 48.30 us (0.0%)
+[Performance] InitializeOnLoad XRPackageMetadataStore                                                                                                      :        1 samples, Peak.   208 us (1.0x), Avg.   208 us, Total. 208.1 us (0.0%)
+[Performance] InitializeOnLoad VRCApiCache                                                                                                                 :        1 samples, Peak.   182 us (1.0x), Avg.   182 us, Total. 182.1 us (0.0%)
+[Performance] InitializeOnLoad VRCApi                                                                                                                      :        1 samples, Peak.   432 ms (1.0x), Avg.   432 ms, Total. 431.7 ms (2.5%)
+[Performance] InitializeOnLoad EditorHandling                                                                                                              :        1 samples, Peak.  63.1 us (1.0x), Avg.  63.1 us, Total. 63.10 us (0.0%)
+[Performance] InitializeOnLoad EnvConfig                                                                                                                   :        1 samples, Peak.  3.31 ms (1.0x), Avg.  3.31 ms, Total. 3.311 ms (0.0%)
+[Performance] InitializeOnLoad AutoAddSpatialAudioComponents                                                                                               :        1 samples, Peak.   231 us (1.0x), Avg.   231 us, Total. 230.6 us (0.0%)
+[Performance] InitializeOnLoad VRC_SdkSplashScreen                                                                                                         :        1 samples, Peak.   317 us (1.0x), Avg.   317 us, Total. 316.8 us (0.0%)
+[Performance] InitializeOnLoad VRCUndoPostProcessor                                                                                                        :        1 samples, Peak.  64.6 us (1.0x), Avg.  64.6 us, Total. 64.60 us (0.0%)
+[Performance] InitializeOnLoad FaceTrackingEditorContext                                                                                                   :        1 samples, Peak.   301 us (1.0x), Avg.   301 us, Total. 301.0 us (0.0%)
+[Performance] InitializeOnLoad SDK3AImportFix                                                                                                              :        1 samples, Peak.   143 us (1.0x), Avg.   143 us, Total. 143.2 us (0.0%)
+[Performance] InitializeOnLoad Localization                                                                                                                :        1 samples, Peak.  58.5 ms (1.0x), Avg.  58.5 ms, Total. 58.50 ms (0.3%)
+[Performance] InitializeOnLoad Util                                                                                                                        :        1 samples, Peak.   998 us (1.0x), Avg.   998 us, Total. 998.2 us (0.0%)
+[Performance] InitializeOnLoad PreventStripTagObjects                                                                                                      :        1 samples, Peak.  83.0 us (1.0x), Avg.  83.0 us, Total. 83.00 us (0.0%)
+[Performance] InitializeOnLoad BackgroundWatcher                                                                                                           :        1 samples, Peak.  89.8 us (1.0x), Avg.  89.8 us, Total. 89.80 us (0.0%)
+[Performance] InitializeOnLoad UnityTestProtocolStarter                                                                                                    :        1 samples, Peak.   104 us (1.0x), Avg.   104 us, Total. 104.2 us (0.0%)
+[Performance] InitializeOnLoad TestStarter                                                                                                                 :        1 samples, Peak.   361 us (1.0x), Avg.   361 us, Total. 361.4 us (0.0%)
+[Performance] InitializeOnLoad RerunCallbackInitializer                                                                                                    :        1 samples, Peak.  2.21 ms (1.0x), Avg.  2.21 ms, Total. 2.214 ms (0.0%)
+[Performance] InitializeOnLoad VisualStudioEditor                                                                                                          :        1 samples, Peak.  9.92 ms (1.0x), Avg.  9.92 ms, Total. 9.923 ms (0.1%)
+[Performance] InitializeOnLoad TestRunnerApiListener                                                                                                       :        1 samples, Peak.   269 us (1.0x), Avg.   269 us, Total. 269.3 us (0.0%)
+[Performance] InitializeOnLoad VisualStudioIntegration                                                                                                     :        1 samples, Peak.   335 us (1.0x), Avg.   335 us, Total. 334.7 us (0.0%)
+[Performance] InitializeOnLoad PrefabLayoutRebuilder                                                                                                       :        1 samples, Peak.   188 us (1.0x), Avg.   188 us, Total. 187.7 us (0.0%)
+[Performance] InitializeOnLoad RiderScriptEditor                                                                                                           :        1 samples, Peak.   306 ms (1.0x), Avg.   306 ms, Total. 306.1 ms (1.8%)
+[Performance] InitializeOnLoad CallbackInitializer                                                                                                         :        1 samples, Peak.   756 us (1.0x), Avg.   756 us, Total. 755.9 us (0.0%)
+[Performance] InitializeOnLoad DefineSetter                                                                                                                :        1 samples, Peak.  1.84 ms (1.0x), Avg.  1.84 ms, Total. 1.840 ms (0.0%)
+[Performance] InitializeOnLoad Resolver                                                                                                                    :        1 samples, Peak.  14.8 ms (1.0x), Avg.  14.8 ms, Total. 14.81 ms (0.1%)
+[Performance] InitializeOnLoad VSCodeScriptEditor                                                                                                          :        1 samples, Peak.  2.75 ms (1.0x), Avg.  2.75 ms, Total. 2.751 ms (0.0%)
+[Performance] InitializeOnLoad OculusEnterPlayModeSettingsCheck                                                                                            :        1 samples, Peak.   106 us (1.0x), Avg.   106 us, Total. 106.1 us (0.0%)
+[Performance] InitializeOnLoad SystemsPlayerLoop.EditorInitialize                                                                                          :        1 samples, Peak.  3.34 ms (1.0x), Avg.  3.34 ms, Total. 3.338 ms (0.0%)
+[Performance] InitializeOnLoad UpdateDelegator.InitializeOnLoad                                                                                            :        1 samples, Peak.   223 us (1.0x), Avg.   223 us, Total. 223.2 us (0.0%)
+[Performance] InitializeOnLoad ConfigManager.Initialize                                                                                                    :        1 samples, Peak.  1.53 ms (1.0x), Avg.  1.53 ms, Total. 1.535 ms (0.0%)
+[Performance] InitializeOnLoad VRCRaycastAssemblyReloadMonitor.InitializeEditor                                                                            :        1 samples, Peak.   161 us (1.0x), Avg.   161 us, Total. 160.7 us (0.0%)
+[Performance] InitializeOnLoad ValidationReloadMonitor.Initialize                                                                                          :        1 samples, Peak.  10.0 ms (1.0x), Avg.  10.0 ms, Total. 10.01 ms (0.1%)
+[Performance] InitializeOnLoad VRCBuildPipelineCallbacks.Initialize                                                                                        :        1 samples, Peak.   186 ms (1.0x), Avg.   186 ms, Total. 186.2 ms (1.1%)
+[Performance] InitializeOnLoad VRCConstraintAssemblyReloadMonitor.InitializeEditorPlayback                                                                 :        1 samples, Peak.  2.81 ms (1.0x), Avg.  2.81 ms, Total. 2.809 ms (0.0%)
+[Performance] InitializeOnLoad ArmatureLockConfig.Init                                                                                                     :        1 samples, Peak.   206 us (1.0x), Avg.   206 us, Total. 206.0 us (0.0%)
+[Performance] InitializeOnLoad AvatarObjectReference.Init                                                                                                  :        1 samples, Peak.   118 us (1.0x), Avg.   118 us, Total. 118.3 us (0.0%)
+[Performance] InitializeOnLoad __JobReflectionRegistrationOutput__2352592435.EarlyInit                                                                     :        1 samples, Peak.  1.20 ms (1.0x), Avg.  1.20 ms, Total. 1.197 ms (0.0%)
+[Performance] InitializeOnLoad UpdateLoopController.Init                                                                                                   :        1 samples, Peak.   193 us (1.0x), Avg.   193 us, Total. 193.3 us (0.0%)
+[Performance] InitializeOnLoad VRChatPlatform.Init                                                                                                         :        1 samples, Peak.  2.30 ms (1.0x), Avg.  2.30 ms, Total. 2.303 ms (0.0%)
+[Performance] InitializeOnLoad ParameterInfo.Init                                                                                                          :        1 samples, Peak.   873 us (1.0x), Avg.   873 us, Total. 873.1 us (0.0%)
+[Performance] InitializeOnLoad VRChatPlatformExtensions.Init                                                                                               :        1 samples, Peak.  26.5 us (1.0x), Avg.  26.5 us, Total. 26.50 us (0.0%)
+[Performance] InitializeOnLoad VRCSocketClient.Initialize                                                                                                  :        1 samples, Peak.  10.2 ms (1.0x), Avg.  10.2 ms, Total. 10.16 ms (0.1%)
+[Performance] InitializeOnLoad FixAnimatorControllers.RegisterDelegates                                                                                    :        1 samples, Peak.   249 us (1.0x), Avg.   249 us, Total. 248.8 us (0.0%)
+[Performance] InitializeOnLoad FitPreviewSceneManager.Init                                                                                                 :        1 samples, Peak.   602 us (1.0x), Avg.   602 us, Total. 601.8 us (0.0%)
+[Performance] InitializeOnLoad FitPreviewWindow.Init                                                                                                       :        1 samples, Peak.  1.67 ms (1.0x), Avg.  1.67 ms, Total. 1.667 ms (0.0%)
+[Performance] InitializeOnLoad CLILeakDetectionSwitcher.SetLeakDetectionModeFromEnvironment                                                                :        1 samples, Peak.   189 us (1.0x), Avg.   189 us, Total. 188.7 us (0.0%)
+[Performance] InitializeOnLoad PatchLoader.ApplyPatches                                                                                                    :        2 samples, Peak.   832 ms (1.7x), Avg.   494 ms, Total. 987.4 ms (5.7%)
+[Performance] InitializeOnLoad $BurstDirectCallInitializer.Initialize                                                                                      :        1 samples, Peak.  5.74 ms (1.0x), Avg.  5.74 ms, Total. 5.745 ms (0.0%)
+[Performance] InitializeOnLoad __JobReflectionRegistrationOutput__227605180.EarlyInit                                                                      :        1 samples, Peak.  3.56 ms (1.0x), Avg.  3.56 ms, Total. 3.556 ms (0.0%)
+[Performance] InitializeOnLoad OculusLoader.EditorLoadOVRPlugin                                                                                            :        1 samples, Peak.  4.10 ms (1.0x), Avg.  4.10 ms, Total. 4.098 ms (0.0%)
+[Performance] InitializeOnLoad TestJobDataHolder.ResumeRunningJobs                                                                                         :        1 samples, Peak.   778 us (1.0x), Avg.   778 us, Total. 777.8 us (0.0%)
+[Performance] InitializeOnLoad VisualStudioEditor.LegacyVisualStudioCodePackageDisabler                                                                    :        1 samples, Peak.  4.29 ms (1.0x), Avg.  4.29 ms, Total. 4.289 ms (0.0%)
+[Performance] InitializeOnLoad PlayerLoopHelper.InitOnEditor                                                                                               :        1 samples, Peak.  3.64 ms (1.0x), Avg.  3.64 ms, Total. 3.640 ms (0.0%)
+[Performance] InitializeOnLoad MenuWatchdog.Init                                                                                                           :        1 samples, Peak.   198 us (1.0x), Avg.   198 us, Total. 198.1 us (0.0%)
+[Performance] InitializeOnLoad ObjectReferenceFixer.Init                                                                                                   :        1 samples, Peak.   144 us (1.0x), Avg.   144 us, Total. 143.7 us (0.0%)
+[Performance] InitializeOnLoad ScaleAdjusterPreview.StaticInit                                                                                             :        1 samples, Peak.   418 us (1.0x), Avg.   418 us, Total. 418.4 us (0.0%)
+[Performance] InitializeOnLoad VersionMismatchWindow.ReopenAfterDomainReload                                                                               :        1 samples, Peak.  71.7 us (1.0x), Avg.  71.7 us, Total. 71.70 us (0.0%)
+[Performance] InitializeOnLoad VersionTagInitializer.Initialize                                                                                            :        1 samples, Peak.   482 us (1.0x), Avg.   482 us, Total. 482.1 us (0.0%)
+[Performance] InitializeOnLoad VersionRecorder.Initialize                                                                                                  :        1 samples, Peak.   231 us (1.0x), Avg.   231 us, Total. 230.8 us (0.0%)
+[Performance] InitializeOnLoad VFByAxisEditor.Init                                                                                                         :        1 samples, Peak.   419 us (1.0x), Avg.   419 us, Total. 418.8 us (0.0%)
+[Performance] InitializeOnLoad VersionChecker.Init                                                                                                         :        1 samples, Peak.   197 us (1.0x), Avg.   197 us, Total. 196.6 us (0.0%)
+[Performance] InitializeOnLoad ConstraintConverterPass.Init                                                                                                :        1 samples, Peak.  1.18 ms (1.0x), Avg.  1.18 ms, Total. 1.179 ms (0.0%)
+[Performance] InitializeOnLoad __JobReflectionRegistrationOutput__144728468.EarlyInit                                                                      :        1 samples, Peak.  2.14 ms (1.0x), Avg.  2.14 ms, Total. 2.139 ms (0.0%)
+[Performance] InitializeOnLoad MergeAnimatorProcessor.Init                                                                                                 :        1 samples, Peak.   200 us (1.0x), Avg.   200 us, Total. 200.0 us (0.0%)
+[Performance] InitializeOnLoad MenuInstallerEditor.Init                                                                                                    :        1 samples, Peak.  94.8 us (1.0x), Avg.  94.8 us, Total. 94.80 us (0.0%)
+[Performance] InitializeOnLoad ScaleAdjusterPreviewNode.Init                                                                                               :        1 samples, Peak.   304 us (1.0x), Avg.   304 us, Total. 303.8 us (0.0%)
+[Performance] InitializeOnLoad MergeBlendTreePass.Init                                                                                                     :        1 samples, Peak.   203 us (1.0x), Avg.   203 us, Total. 202.6 us (0.0%)
+[Performance] InitializeOnLoad ScaleAdjustedBones.Init                                                                                                     :        1 samples, Peak.  79.4 us (1.0x), Avg.  79.4 us, Total. 79.40 us (0.0%)
+[Performance] InitializeOnLoad ScaleAdjusterTool.Init                                                                                                      :        1 samples, Peak.   158 us (1.0x), Avg.   158 us, Total. 158.2 us (0.0%)
+[Performance] InitializeOnLoad HeuristicBoneMapper.InsertboneNamePatternsToRuntime                                                                         :        1 samples, Peak.  15.9 ms (1.0x), Avg.  15.9 ms, Total. 15.93 ms (0.1%)
+[Performance] InitializeOnLoad AvatarDynamicsSetup.EditorInit                                                                                              :        1 samples, Peak.   222 us (1.0x), Avg.   222 us, Total. 222.1 us (0.0%)
+[Performance] InitializeOnLoad AsyncProfiler.Initialize                                                                                                    :        1 samples, Peak.   104 us (1.0x), Avg.   104 us, Total. 104.2 us (0.0%)
+[Performance] InitializeOnLoad TaskUtil.Init                                                                                                               :        1 samples, Peak.  22.0 us (1.0x), Avg.  22.0 us, Total. 22.00 us (0.0%)
+[Performance] InitializeOnLoad LanguagePrefs.Init                                                                                                          :        1 samples, Peak.   766 us (1.0x), Avg.   766 us, Total. 766.0 us (0.0%)
+[Performance] InitializeOnLoad VisibilityMonitor.Init                                                                                                      :        1 samples, Peak.   270 us (1.0x), Avg.   270 us, Total. 270.4 us (0.0%)
+[Performance] InitializeOnLoad ProxyManager.Initialize                                                                                                     :        1 samples, Peak.   158 us (1.0x), Avg.   158 us, Total. 158.5 us (0.0%)
+[Performance] InitializeOnLoad PlatformRegistry.Init                                                                                                       :        1 samples, Peak.  2.53 ms (1.0x), Avg.  2.53 ms, Total. 2.528 ms (0.0%)
+[Performance] InitializeOnLoad Menus.InitProfilerAccess                                                                                                    :        1 samples, Peak.   208 us (1.0x), Avg.   208 us, Total. 207.6 us (0.0%)
+[Performance] InitializeOnLoad ObjectWatcher.Init                                                                                                          :        1 samples, Peak.  1.06 ms (1.0x), Avg.  1.06 ms, Total. 1.061 ms (0.0%)
+[Performance] InitializeOnLoad ChangeStreamMonitor.Init                                                                                                    :        1 samples, Peak.   185 us (1.0x), Avg.   185 us, Total. 184.8 us (0.0%)
+[Performance] InitializeOnLoad NDMFPreviewSceneManager.Init                                                                                                :        1 samples, Peak.   285 us (1.0x), Avg.   285 us, Total. 285.1 us (0.0%)
+[Performance] InitializeOnLoad Menus.Init                                                                                                                  :        1 samples, Peak.   123 us (1.0x), Avg.   123 us, Total. 122.7 us (0.0%)
+[Performance] InitializeOnLoad __JobReflectionRegistrationOutput__3177545111.EarlyInit                                                                     :        1 samples, Peak.   334 us (1.0x), Avg.   334 us, Total. 334.3 us (0.0%)
+[Performance] InitializeOnLoad NDMFPreview.Init                                                                                                            :        1 samples, Peak.   223 us (1.0x), Avg.   223 us, Total. 222.7 us (0.0%)
+[Performance] InitializeOnLoad TogglablePreviewNode.Init                                                                                                   :        1 samples, Peak.  86.2 us (1.0x), Avg.  86.2 us, Total. 86.20 us (0.0%)
+[Performance] InitializeOnLoad TaskThrottle.Init                                                                                                           :        1 samples, Peak.   114 us (1.0x), Avg.   114 us, Total. 113.9 us (0.0%)
+[Performance] InitializeOnLoad TraceBuffer.Init                                                                                                            :        1 samples, Peak.   109 us (1.0x), Avg.   109 us, Total. 108.6 us (0.0%)
+[Performance] InitializeOnLoad SingleStepBuildWindow.CleanupAfterDomainReload                                                                              :        1 samples, Peak.  37.9 us (1.0x), Avg.  37.9 us, Total. 37.90 us (0.0%)
+[Performance] InitializeOnLoad ShadowBoneManager.Init                                                                                                      :        1 samples, Peak.   238 us (1.0x), Avg.   238 us, Total. 237.8 us (0.0%)
+[Performance] DidReloadScriptsEditorAssemblies.OnCompileScripts                                                                                            :        1 samples, Peak.   180 us (1.0x), Avg.   180 us, Total. 179.7 us (0.0%)
+[Performance] DidReloadScriptsEditorUtilities.OnEditorReload                                                                                               :        1 samples, Peak.  1.53 ms (1.0x), Avg.  1.53 ms, Total. 1.527 ms (0.0%)
+[Performance] DidReloadScriptsTestListCache.ScriptReloaded                                                                                                 :        1 samples, Peak.  1.07 ms (1.0x), Avg.  1.07 ms, Total. 1.071 ms (0.0%)
+[Performance] DidReloadScriptsTestRunnerWindow.CompilationCallback                                                                                         :        1 samples, Peak.   135 us (1.0x), Avg.   135 us, Total. 135.2 us (0.0%)
+[Performance] DidReloadScriptsPostProcessManager.OnEditorReload                                                                                            :        1 samples, Peak.  9.43 ms (1.0x), Avg.  9.43 ms, Total. 9.431 ms (0.1%)
+[Performance] DidReloadScriptsAdvancedDropdownWindow.OnScriptReload                                                                                        :        1 samples, Peak.   143 us (1.0x), Avg.   143 us, Total. 143.4 us (0.0%)
+[Performance] DidReloadScriptsEnvConfig.DidReloadScripts                                                                                                   :        1 samples, Peak.  16.3 us (1.0x), Avg.  16.3 us, Total. 16.30 us (0.0%)
+[Performance] DidReloadScriptsVRCSdkControlPanel.DidReloadScripts                                                                                          :        1 samples, Peak.   317 us (1.0x), Avg.   317 us, Total. 317.0 us (0.0%)
+[Performance] AssemblyReloadEvents.afterAssemblyReload: UnityEditor.XR.Management.Metadata.XRPackageMetadataStore.AssemblyReloadEvents_afterAssemblyReload :        1 samples, Peak.  1.66 ms (1.0x), Avg.  1.66 ms, Total. 1.662 ms (0.0%)
+[Performance] AssetDatabase.ImportAssets                                                                                                                   :       14 samples, Peak.  22.2 ms (14.0x), Avg.  1.59 ms, Total. 22.25 ms (0.1%)
+[Performance] VersionControl.Task.Wait                                                                                                                     :        1 samples, Peak.  10.1 us (1.0x), Avg.  10.1 us, Total. 10.10 us (0.0%)
+[Performance] UtilityWindowPostProcessor.OnPostprocessAllAssets                                                                                            :       12 samples, Peak.   585 us (6.0x), Avg.  96.8 us, Total. 1.162 ms (0.0%)
+[Performance] Processor.OnPostprocessAllAssets                                                                                                             :       12 samples, Peak.   889 us (5.8x), Avg.   153 us, Total. 1.834 ms (0.0%)
+[Performance] TMPro_TexturePostProcessor.OnPostprocessAllAssets                                                                                            :       12 samples, Peak.   275 us (5.0x), Avg.  54.9 us, Total. 658.9 us (0.0%)
+[Performance] BuilderAssetPostprocessor.OnPostprocessAllAssets                                                                                             :       12 samples, Peak.  2.24 ms (5.8x), Avg.   389 us, Total. 4.669 ms (0.0%)
+[Performance] ArtifactBrowserPostProcessor.OnPostprocessAllAssets                                                                                          :       12 samples, Peak.   205 us (5.8x), Avg.  35.5 us, Total. 425.8 us (0.0%)
+[Performance] AssetEvents.OnPostprocessAllAssets                                                                                                           :       24 samples, Peak.   135 us (9.1x), Avg.  14.9 us, Total. 358.4 us (0.0%)
+[Performance] AudioMixerPostprocessor.OnPostprocessAllAssets                                                                                               :       12 samples, Peak.   163 us (5.7x), Avg.  28.4 us, Total. 340.6 us (0.0%)
+[Performance] StyleCatalogPostProcessor.OnPostprocessAllAssets                                                                                             :       12 samples, Peak.  6.77 ms (6.0x), Avg.  1.13 ms, Total. 13.60 ms (0.1%)
+[Performance] BuildCatalog                                                                                                                                 :        1 samples, Peak.  6.17 ms (1.0x), Avg.  6.17 ms, Total. 6.170 ms (0.0%)
+[Performance] ModelImporterPostProcessor.OnPostprocessAllAssets                                                                                            :       12 samples, Peak.   704 us (5.7x), Avg.   123 us, Total. 1.481 ms (0.0%)
+[Performance] CubeLutAssetImporter.OnPostprocessAllAssets                                                                                                  :       12 samples, Peak.   290 us (5.5x), Avg.  53.1 us, Total. 637.4 us (0.0%)
+[Performance] RetainedModeAssetPostprocessor.OnPostprocessAllAssets                                                                                        :       12 samples, Peak.   963 us (5.4x), Avg.   180 us, Total. 2.158 ms (0.0%)
+[Performance] AssetChangedListener.OnPostprocessAllAssets                                                                                                  :       12 samples, Peak.   728 us (4.1x), Avg.   180 us, Total. 2.156 ms (0.0%)
+[Performance] SpeedTreePostProcessor.OnPostprocessAllAssets                                                                                                :       12 samples, Peak.   129 us (4.7x), Avg.  27.3 us, Total. 327.7 us (0.0%)
+[Performance] TextAssetPostProcessor.OnPostprocessAllAssets                                                                                                :       12 samples, Peak.   240 us (5.4x), Avg.  44.2 us, Total. 530.8 us (0.0%)
+[Performance] AssetCallbacks.OnPostprocessAllAssets                                                                                                        :       12 samples, Peak.  55.4 ms (6.0x), Avg.  9.23 ms, Total. 110.8 ms (0.6%)
+[Performance] SyncVS.PostprocessSyncProject                                                                                                                :        6 samples, Peak.   654 us (2.9x), Avg.   226 us, Total. 1.354 ms (0.0%)
+[Performance] Application.ImportPackagesAndSetTemplateWhenCreatingProject                                                                                  :        1 samples, Peak.  9.38 ms (1.0x), Avg.  9.38 ms, Total. 9.380 ms (0.1%)
+[Performance] Application.SyncCurrentColorSpace                                                                                                            :        1 samples, Peak.   378 ms (1.0x), Avg.   378 ms, Total. 377.6 ms (2.2%)
+[Performance] Application.OnUsbDevicesChanged                                                                                                              :        1 samples, Peak.  26.9 ms (1.0x), Avg.  26.9 ms, Total. 26.86 ms (0.2%)
+[Performance] Application.AssetInstanceCacheUpdate                                                                                                         :        1 samples, Peak.   300 ns (1.0x), Avg.   300 ns, Total. 300.0 ns (0.0%)
+[Performance] Application.UnityExtensions.Initialize                                                                                                       :        1 samples, Peak.  1.71 ms (1.0x), Avg.  1.71 ms, Total. 1.708 ms (0.0%)
+[Performance] CodeEditorProjectSync.SyncEditorProject                                                                                                      :        1 samples, Peak.  89.6 ms (1.0x), Avg.  89.6 ms, Total. 89.58 ms (0.5%)
+[Performance] Application.ExecuteStartups                                                                                                                  :        1 samples, Peak.  29.2 ms (1.0x), Avg.  29.2 ms, Total. 29.23 ms (0.2%)
+[Performance] Menu.RegisterMenuInterface                                                                                                                   :       26 samples, Peak.   500 ns (4.3x), Avg.   115 ns, Total. 3.000 us (0.0%)
+[Performance] Gizmo.RebuildRenderers                                                                                                                       :        1 samples, Peak.  27.9 ms (1.0x), Avg.  27.9 ms, Total. 27.89 ms (0.2%)
+[Performance] Gizmo.AddGizmoRenderers                                                                                                                      :      127 samples, Peak.  1.00 ms (71.8x), Avg.  14.0 us, Total. 1.778 ms (0.0%)
+[Performance] Application.editorInitializingProject                                                                                                        :        1 samples, Peak.  14.2 ms (1.0x), Avg.  14.2 ms, Total. 14.15 ms (0.1%)
+[Performance] Application.InitializeMenu                                                                                                                   :        1 samples, Peak.   101 ms (1.0x), Avg.   101 ms, Total. 101.2 ms (0.6%)
+[Performance] Menu.RebuildAll                                                                                                                              :        1 samples, Peak.   101 ms (1.0x), Avg.   101 ms, Total. 101.1 ms (0.6%)
+[Performance] Menu.BuildRegisteredMenuInterfaces                                                                                                           :        1 samples, Peak.  98.1 ms (1.0x), Avg.  98.1 ms, Total. 98.06 ms (0.6%)
+[Performance] Menu.FilterMenuItem                                                                                                                          :      697 samples, Peak.  14.2 ms (689.8x), Avg.  20.6 us, Total. 14.37 ms (0.1%)
+[Performance] UpdateAllMenus                                                                                                                               :        1 samples, Peak.   309 us (1.0x), Avg.   309 us, Total. 309.1 us (0.0%)
+[Performance] Menu.RebuildOSMainMenu                                                                                                                       :        2 samples, Peak.  3.74 ms (1.2x), Avg.  3.19 ms, Total. 6.390 ms (0.0%)
+[Performance] EditorSceneManager.sceneClosing: UnityEditor.SceneVisibilityManager.EditorSceneManagerOnSceneClosing                                         :        5 samples, Peak.   180 us (4.9x), Avg.  36.9 us, Total. 184.5 us (0.0%)
+[Performance] EditorSceneManager.activeSceneChangedInEditMode: callback in nadena.dev.ndmf.preview.NDMFPreviewSceneManager                                 :        3 samples, Peak.  23.4 ms (2.5x), Avg.  9.43 ms, Total. 28.28 ms (0.2%)
+[Performance] EditorSceneManager.sceneOpening: UnityEditor.SceneVisibilityManager.EditorSceneManagerOnSceneOpening                                         :        4 samples, Peak.  81.4 us (3.6x), Avg.  22.8 us, Total. 91.20 us (0.0%)
+[Performance] EditorSceneManager.sceneOpened: callback in nadena.dev.ndmf.runtime.ApplyOnPlayGlobalActivator                                               :        4 samples, Peak.   239 us (3.7x), Avg.  65.1 us, Total. 260.3 us (0.0%)
+[Performance] EditorSceneManager.sceneOpened: EditorHandling.SceneOpenedCallback                                                                           :        4 samples, Peak.   102 us (3.9x), Avg.  25.9 us, Total. 103.4 us (0.0%)
+[Performance] EditorSceneManager.sceneOpened: nadena.dev.modular_avatar.editor.version.VersionChecker.OnSceneLoad                                          :        4 samples, Peak.  72.8 us (3.7x), Avg.  19.6 us, Total. 78.50 us (0.0%)
+[Performance] EditorSceneManager.sceneOpened: UnityEditor.SceneTemplate.SceneTemplateService.OnSceneOpened                                                 :        4 samples, Peak.  91.5 us (3.9x), Avg.  23.2 us, Total. 93.00 us (0.0%)
+[Performance] EditorSceneManager.sceneOpened: UnityEditor.SceneVisibilityManager.EditorSceneManagerOnSceneOpened                                           :        4 samples, Peak.   211 us (3.2x), Avg.  66.3 us, Total. 265.4 us (0.0%)
+[Performance] EditorSceneManager.sceneOpened: UnityEditor.SceneManagement.StageNavigationManager.OnSceneOpened                                             :        4 samples, Peak.  40.5 us (3.9x), Avg.  10.4 us, Total. 41.60 us (0.0%)
+[Performance] GUIView.RepaintAll.PlayerLoopController                                                                                                      :        2 samples, Peak.   800 ns (1.1x), Avg.   700 ns, Total. 1.400 us (0.0%)
+[Performance] EditorSceneManager.newSceneCreated: callback in nadena.dev.ndmf.runtime.ApplyOnPlayGlobalActivator                                           :        2 samples, Peak.  25.7 us (1.7x), Avg.  15.5 us, Total. 31.00 us (0.0%)
+[Performance] EditorSceneManager.newSceneCreated: UnityEditor.SceneTemplate.SceneTemplateService.OnNewSceneCreated                                         :        2 samples, Peak.   147 us (2.0x), Avg.  73.6 us, Total. 147.1 us (0.0%)
+[Performance] EditorSceneManager.newSceneCreated: UnityEditor.SceneVisibilityManager.EditorSceneManagerOnNewSceneCreated                                   :        2 samples, Peak.   144 us (1.8x), Avg.  79.3 us, Total. 158.6 us (0.0%)
+[Performance] EditorSceneManager.newSceneCreated: UnityEditor.SceneManagement.StageNavigationManager.OnNewSceneCreated                                     :        2 samples, Peak.  34.8 us (2.0x), Avg.  17.8 us, Total. 35.50 us (0.0%)
+[Performance] Application.InvokeFinishedLoadingProject                                                                                                     :        1 samples, Peak.  4.02 ms (1.0x), Avg.  4.02 ms, Total. 4.016 ms (0.0%)
+[Performance] ProcessService.OnProjectLoaded                                                                                                               :        1 samples, Peak.  33.0 us (1.0x), Avg.  33.0 us, Total. 33.00 us (0.0%)
+[Performance] Inspector.InitOrRebuild                                                                                                                      :        1 samples, Peak.   293 us (1.0x), Avg.   293 us, Total. 293.4 us (0.0%)
+[Performance] AssetDatabase.DeleteAssets                                                                                                                   :        2 samples, Peak.  38.8 ms (1.3x), Avg.  30.5 ms, Total. 61.03 ms (0.4%)
+[Performance] UtilityWindowModificationProcessor.OnWillDeleteAsset                                                                                         :        2 samples, Peak.  1.27 ms (1.6x), Avg.   773 us, Total. 1.547 ms (0.0%)
+[Performance] BuilderAssetModificationProcessor.OnWillDeleteAsset                                                                                          :        2 samples, Peak.   293 us (2.0x), Avg.   149 us, Total. 297.1 us (0.0%)
+[Performance] TMP_FontAssetPostProcessor.OnWillDeleteAsset                                                                                                 :        2 samples, Peak.  92.6 us (1.7x), Avg.  53.3 us, Total. 106.6 us (0.0%)
+[Performance] CancelSplashScreenOnAssetDelete.OnWillDeleteAsset                                                                                            :        2 samples, Peak.  61.9 us (1.9x), Avg.  32.2 us, Total. 64.40 us (0.0%)
+[Performance] EditorApplication.projectChanged: UnityEditor.Audio.MixerEffectDefinitionReloader.OnProjectChanged                                           :        5 samples, Peak.   278 us (1.1x), Avg.   264 us, Total. 1.321 ms (0.0%)
+[Performance] EditorApplication.projectChanged: AutoAddSpatialAudioComponents.OnProjectWindowChanged                                                       :        5 samples, Peak.  32.7 us (4.6x), Avg.  7.08 us, Total. 35.40 us (0.0%)
+[Performance] EditorApplication.projectChanged: VRC.SDK3A.Editor.FaceTrackingEditorContext.AssetsChanged                                                   :        5 samples, Peak.  43.0 us (4.8x), Avg.  8.92 us, Total. 44.60 us (0.0%)
+[Performance] AssetDatabase.ImportAsset                                                                                                                    :        2 samples, Peak.  51.4 us (1.3x), Avg.  39.5 us, Total. 78.90 us (0.0%)
+[Performance] BuilderAssetModificationProcessor.OnWillCreateAsset                                                                                          :        8 samples, Peak.   183 us (5.3x), Avg.  34.6 us, Total. 276.5 us (0.0%)
+[Performance] SceneDataContainer.TransformHierarchyChangedSetParentCallback                                                                                :        3 samples, Peak.  11.5 us (2.4x), Avg.  4.77 us, Total. 14.30 us (0.0%)
+[Performance] SceneVisibilityState.IsFlagSetInParents                                                                                                      :       33 samples, Peak.  2.20 us (4.5x), Avg.   491 ns, Total. 16.20 us (0.0%)
+[Performance] ProtectVPMPackages.OnWillSaveAssets                                                                                                          :        4 samples, Peak.   254 us (3.7x), Avg.  68.2 us, Total. 272.8 us (0.0%)
+[Performance] PreviewSceneSaveHook.OnWillSaveAssets                                                                                                        :        8 samples, Peak.   200 us (4.4x), Avg.  45.7 us, Total. 365.3 us (0.0%)
+[Performance] BuilderAssetModificationProcessor.OnWillSaveAssets                                                                                           :        4 samples, Peak.   130 us (3.9x), Avg.  33.5 us, Total. 134.0 us (0.0%)
+[Performance] TerrainModificationProcessor.OnWillSaveAssets                                                                                                :        4 samples, Peak.   325 us (4.0x), Avg.  82.1 us, Total. 328.6 us (0.0%)
+[Performance] EditorApplication.quitting: Unity.Burst.Editor.BurstLoader.OnEditorApplicationQuitting                                                       :        1 samples, Peak.  22.9 us (1.0x), Avg.  22.9 us, Total. 22.90 us (0.0%)
+[Performance] EditorApplication.quitting: VRC.SDKBase.Editor.VRChatTestProtocolSDKServer.StopService                                                       :        1 samples, Peak.  76.6 us (1.0x), Avg.  76.6 us, Total. 76.60 us (0.0%)
+[Performance] EditorApplication.quitting: nadena.dev.ndmf.preview.TransformPositionMonitor.Dispose                                                         :        1 samples, Peak.  1.29 ms (1.0x), Avg.  1.29 ms, Total. 1.287 ms (0.0%)
+[Performance] EditorApplication.quitting: VRC.SDKBase.Editor.FixAnimatorControllers.UnregisterDelegates                                                    :        1 samples, Peak.   297 us (1.0x), Avg.   297 us, Total. 296.6 us (0.0%)
+[Performance] EditorApplication.quitting: callback in UnityEditor.TextCore.Text.EditorEventCallbacks                                                       :        1 samples, Peak.  11.9 ms (1.0x), Avg.  11.9 ms, Total. 11.92 ms (0.1%)
+[Performance] Application.Shutdown.PauseProfilerSession                                                                                                    :        1 samples, Peak.  17.5 us (1.0x), Avg.  17.5 us, Total. 17.50 us (0.0%)
+[Performance] Application.Shutdown.PauseAssetImportWorkers                                                                                                 :        1 samples, Peak.  97.2 us (1.0x), Avg.  97.2 us, Total. 97.20 us (0.0%)
+[Performance] Application.Shutdown.SaveAssets                                                                                                              :        1 samples, Peak.  2.65 ms (1.0x), Avg.  2.65 ms, Total. 2.646 ms (0.0%)
+[Performance] Application.Shutdown.CleanupRenderPipeline                                                                                                   :        1 samples, Peak.  4.40 us (1.0x), Avg.  4.40 us, Total. 4.400 us (0.0%)
+[Performance] Application.Shutdown.StopPreloadManager                                                                                                      :        1 samples, Peak.  9.88 ms (1.0x), Avg.  9.88 ms, Total. 9.878 ms (0.1%)
+[Performance] Application.Shutdown.DestroyWorld                                                                                                            :        1 samples, Peak.   347 us (1.0x), Avg.   347 us, Total. 347.1 us (0.0%)
+[Performance] Application.Shutdown.CleanupAfterLoad                                                                                                        :        1 samples, Peak.   111 ms (1.0x), Avg.   111 ms, Total. 111.0 ms (0.6%)
+[Performance] Application.Shutdown.Progress                                                                                                                :        1 samples, Peak.  6.90 us (1.0x), Avg.  6.90 us, Total. 6.900 us (0.0%)
+[Performance] Application.Shutdown.GICleanupManagers                                                                                                       :        1 samples, Peak.   619 us (1.0x), Avg.   619 us, Total. 619.0 us (0.0%)
+[Performance] Application.Shutdown.MenuCleanupClass                                                                                                        :        1 samples, Peak.   120 us (1.0x), Avg.   120 us, Total. 119.9 us (0.0%)
+[Performance] Application.Shutdown.ADBSaveStateBeforeShutdown                                                                                              :        1 samples, Peak.  6.30 us (1.0x), Avg.  6.30 us, Total. 6.300 us (0.0%)
+[Performance] Application.Shutdown.RemoteShutdown                                                                                                          :        1 samples, Peak.   700 ns (1.0x), Avg.   700 ns, Total. 700.0 ns (0.0%)
+[Performance] Application.Shutdown.CleanupVCProvider                                                                                                       :        1 samples, Peak.  8.10 us (1.0x), Avg.  8.10 us, Total. 8.100 us (0.0%)
+[Performance] Application.Shutdown.InputShutdown                                                                                                           :        1 samples, Peak.   400 ns (1.0x), Avg.   400 ns, Total. 400.0 ns (0.0%)
+[Performance] Application.Shutdown.GizmoManagerDestroy                                                                                                     :        1 samples, Peak.   456 us (1.0x), Avg.   456 us, Total. 456.3 us (0.0%)
+[Performance] Application.Shutdown.ProfilerSession                                                                                                         :        1 samples, Peak.   111 us (1.0x), Avg.   111 us, Total. 111.3 us (0.0%)
+[Performance] Application.Shutdown.ReleaseGfxWindowOnAllGUIViews                                                                                           :        1 samples, Peak.   300 ns (1.0x), Avg.   300 ns, Total. 300.0 ns (0.0%)
+[Performance] Application.Shutdown.CleanupEngine                                                                                                           :        1 samples, Peak.   136 ms (1.0x), Avg.   136 ms, Total. 136.2 ms (0.8%)
+[Performance] Application.Shutdown.CleanupAssetDatabase                                                                                                    :        1 samples, Peak.  28.1 ms (1.0x), Avg.  28.1 ms, Total. 28.06 ms (0.2%)
+[Performance] Application.Shutdown.ScriptCompilationCleanUp                                                                                                :        1 samples, Peak.  15.2 ms (1.0x), Avg.  15.2 ms, Total. 15.23 ms (0.1%)
+[Performance] Application.Shutdown.DestroyJobSystem                                                                                                        :        1 samples, Peak.  90.9 us (1.0x), Avg.  90.9 us, Total. 90.90 us (0.0%)
+[Performance] Application.Shutdown.CleanupPersistentManager                                                                                                :        1 samples, Peak.   576 us (1.0x), Avg.   576 us, Total. 575.7 us (0.0%)
+[Performance] Application.Shutdown.CleanupAsyncReadManager                                                                                                 :        1 samples, Peak.   563 us (1.0x), Avg.   563 us, Total. 562.7 us (0.0%)
+[Performance] Application.Shutdown.CleanupProgressBar                                                                                                      :        1 samples, Peak.   300 ns (1.0x), Avg.   300 ns, Total. 300.0 ns (0.0%)
+[Performance] Application.Shutdown.CleanupMono                                                                                                             :        1 samples, Peak.   102 ms (1.0x), Avg.   102 ms, Total. 101.6 ms (0.6%)
+[Performance] Application.Shutdown.CleanupStdConverters                                                                                                    :        1 samples, Peak.  6.40 us (1.0x), Avg.  6.40 us, Total. 6.400 us (0.0%)
+[Performance] Application.Shutdown.UnloadAllPlatformSupportModuleNativeDlls                                                                                :        1 samples, Peak.   600 ns (1.0x), Avg.   600 ns, Total. 600.0 ns (0.0%)
+[Performance] Application.Shutdown.UnloadAllPlatformSupportNativeLibraries                                                                                 :        1 samples, Peak.  17.8 ms (1.0x), Avg.  17.8 ms, Total. 17.82 ms (0.1%)
+[Performance] Application.Shutdown.CleanupAutoDocumentation                                                                                                :        1 samples, Peak.   220 us (1.0x), Avg.   220 us, Total. 220.4 us (0.0%)
+[Performance] Application.Shutdown.ShaderNameManagerDestroy                                                                                                :        1 samples, Peak.  33.3 us (1.0x), Avg.  33.3 us, Total. 33.30 us (0.0%)
+[Performance] Application.Shutdown.CleanupCacheServer                                                                                                      :        1 samples, Peak.   200 ns (1.0x), Avg.   200 ns, Total. 200.0 ns (0.0%)
+[Performance] Application.Shutdown.Virtualization_Shutdown                                                                                                 :        1 samples, Peak.   300 ns (1.0x), Avg.   300 ns, Total. 300.0 ns (0.0%)
+[Performance] Application.Shutdown.DevConnections                                                                                                          :        1 samples, Peak.   223 us (1.0x), Avg.   223 us, Total. 222.6 us (0.0%)
+Exiting batchmode successfully now!
+Exiting without the bug reporter. Application will terminate with return code 0

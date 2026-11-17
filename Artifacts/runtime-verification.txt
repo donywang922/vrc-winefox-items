@@ -1,0 +1,12 @@
+PASS: empty hand disables the only renderer.
+PASS: all 11 live menu selections have zero-area inactive item/stage triangles; ammo is zero-scale outside flight.
+PASS: actual menu TriggerInput -> SDK parameter driver -> mechanical arm open/close.
+PASS: real trigger/release produce intermediate blendshape weights: arm=48.8/66.1, staff=33.2/66.6; original smooth transitions preserved.
+Ray collision mode=Hit Worlds And Players
+Flight diagnostic: delta=(0.503975332, -1.73955727, 0.463469565) expectedForward=(0.269584805, -0.930516958, 0.247918695) rootUp=(0.269584477, -0.930517137, 0.247919425) rootScale=(100.000137, 100.000122, 100.000015) localPosition=(0, 0.0297441706, 0)
+PASS: real menu toggle fires a visible projectile from prefab muzzle; launch frame stays in world space after avatar movement; measured forward travel=1.869 m.
+PASS: SDK raycast/contact chain reports a hit on a 5 m test target.
+PASS: firing/impact completes and resets to following muzzle with fully hidden ammo.
+PASS: all six projectile variants render alone; switching items during each shot cancels flight, unfreezes and hides ammo completely.
+PASS: food stages and final deselection leave no hidden-item remnants; maximum inactive triangle area=0.000E+000 m².
+WINEFOX_RUNTIME_VERIFICATION_OK (real Play Mode, Gesture Manager, native SDK constraints/raycasts)

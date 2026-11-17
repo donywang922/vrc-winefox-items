@@ -1,5 +1,5 @@
 PASS: 72 exported files exactly match installed assets.
-PASS: original expression parameter policy: Item Int + TriggerInput Bool, both synced/saved, 9 bits total and 0 extra bits; no extra debug parameters/layer.
-PASS: native cannon, hidden mesh, original menus, staff reset clips and required FX-mask build plugin are included.
-PASS: no source avatar, tester, raw source mesh, old world reference or experimental variants in release.
-Package SHA256: ce96b67914614f2fea1df288304638f504e0415583e0420487f7c70884a7414a
+PASS: only the required WineFoxItemsBuildPlugin.cs is included; no extraction, repair, debug scripts or source caches.
+PASS: all 69 functional assets unchanged after cleanup.
+PASS: clean Unity compilation and MA/NDMF build; seven item FX layers; 9 item parameter bits; item bone mask; 1263 animation bindings.
+Package SHA256: f9727aff79c959b9cc685ff866f0abbd93b02f8e8c54783aee3367871e3bec63

@@ -1,5 +1,0 @@
-Restored source durations; validated source state, destination and conditions.
-伸缩机械手 transition 0: source duration 0.1 s; restored and verified
-物理手杖 transition 0: source duration 0.25 s; restored and verified
-手杖_开 transition 0: source duration 0.25 s; restored and verified
-机械手_开 transition 0: source duration 0.1 s; restored and verified

@@ -1,0 +1,8 @@
+PASS: original atlas 1024x1024 -> item-only 128x64 RGB texture.
+Crop in Unity bottom-left pixel coordinates: 128,768,128,64.
+PASS: retained only the original material's active item copy; removed all other atlas regions.
+Atlas comparison: 2/8 complete rectangles identical, variant differences at sampled item UVs=0 (non-item padding may differ).
+PASS: 68352 triangle-interior point samples match source RGB exactly.
+PASS: mesh and source-cache UVs remapped; main texture scale=1, offset=0; no item colour-offset curves.
+PASS: original skin.png and its character/colour-variant atlas removed from prefab dependencies and Resources.
+Gallery comparison: changed pixels=144/3145728, mean RGB channel error=0.00101502736409505, maximum RGB sum error=350.

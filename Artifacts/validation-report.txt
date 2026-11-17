@@ -1,3 +1,4 @@
+PASS: single item-only texture, UVs remapped to 0..1, unit material tiling/zero offset; original character atlas removed.
 PASS: prefab is independent of source avatar, standalone item FBX, tester and custom runtime scripts.
 PASS: item-layer transition durations match source, including mechanical arm 0.1 s and staff 0.25 s open/close blends.
 Animation bindings: 1262 checked; all paths, components and blendshapes resolve.

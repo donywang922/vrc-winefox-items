@@ -2265,7 +2265,7 @@ AnimatorTransition:
   m_Conditions:
   - m_ConditionMode: 6
     m_ConditionEvent: WineFoxItems/Item
-    m_EventTreshold: 0
+    m_EventTreshold: 3
   - m_ConditionMode: 1
     m_ConditionEvent: WineFoxItems/Trigger
     m_EventTreshold: 3
